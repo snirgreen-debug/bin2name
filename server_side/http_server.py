@@ -4,8 +4,8 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 import ssl
 
 url = 'www.binary2name.com'
-serverPort = 4443
-
+port = 443
+serverPort = port
 cert_path = '/etc/letsencrypt/live/www.binary2name.com/fullchain.pem'
 
 key_path = '/etc/letsencrypt/live/www.binary2name.com/privkey.pem'
