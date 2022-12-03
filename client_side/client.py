@@ -1,8 +1,8 @@
 import requests
 
-url = "localhost"
-port = 4532
-final_url = 'http://' + url + ':' + str(port) + '/'
+url = "www.binary2name.com"
+port = 4443
+final_url = 'https://' + url + ':' + str(port) + '/'
 
 
 def main():

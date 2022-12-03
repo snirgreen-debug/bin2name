@@ -1,8 +1,14 @@
 from http.server import CGIHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse
+from http.server import HTTPServer, SimpleHTTPRequestHandler
+import ssl
 
-hostName = "localhost"  # "132.68.39.159"
-serverPort = 4532
+url = 'www.binary2name.com'
+serverPort = 4443
+
+cert_path = '/etc/letsencrypt/live/www.binary2name.com/fullchain.pem'
+
+key_path = '/etc/letsencrypt/live/www.binary2name.com/privkey.pem'
 
 
 class MyServer(CGIHTTPRequestHandler):
@@ -26,8 +32,10 @@ class MyServer(CGIHTTPRequestHandler):
 
 
 def main():
-    webServer = HTTPServer((hostName, serverPort), MyServer)
-    print("Server started http://%s:%s" % (hostName, serverPort))
+    webServer = HTTPServer((url, port), MyServer)
+
+    webServer.socket = ssl.wrap_socket(webServer.socket, certfile=cert_path, keyfile=key_path, server_side=True)
+    print("Server started http://%s:%s" % (url, serverPort))
 
     try:
         webServer.serve_forever()
