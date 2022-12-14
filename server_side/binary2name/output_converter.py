@@ -77,7 +77,7 @@ def collect_to_file(file_list: List[str], filename: str, is_predict: bool) -> No
                     os.path.isfile(os.path.join('../nero_dataset_binaries/VALIDATE', b))]
     for function_file in file_list:
         binary_name = function_file.split('/')[1]
-        if binary_name in binaries or is_predict:
+        if binary_name in binaries or (is_predict and 'test.json' in filename) :
             with open(function_file, 'r') as file:
                 collective_files += file.read() + '\n'
     # --------------------- TAL'S CODE END---------------------#

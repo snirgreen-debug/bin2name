@@ -193,7 +193,7 @@ def process_file(file_path, data_file_role, dataset_name, collect_histograms=Fal
 
     print('File: ' + file_path)
     if collect_histograms:
-        print('Average nodes: ' + str(float(total_nodes) / total_examples))
+        print('Average nodes: ' + str(float(total_nodes) / (total_examples+0.1)))
         print('Standard error: ' + str(float(stats.sem(num_nodes_list))))
         print('Max nodes: ' + str(float(max_nodes)))
         print('Total examples: ' + str(total_examples))

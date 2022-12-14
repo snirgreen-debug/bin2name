@@ -1,0 +1,65 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4207724,
+                "src": 4207712
+            },
+            {
+                "dst": 4207757,
+                "src": 4207724
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4207757
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4207712,
+                "constraints": [
+                    [
+                        0,
+                        []
+                    ]
+                ],
+                "instructions": "push|reg|    |push|rbp|    |push|rbx|    |mov|rbx|rdi|    |call|0x401200|    "
+            },
+            {
+                "block_addr": 4207724,
+                "constraints": [
+                    [
+                        1,
+                        []
+                    ]
+                ],
+                "instructions": "mov|r12d|dword|ptr|rax|    |mov|rbp|rax|    |lea|rax|rip|+|0x203d87|    |test|rbx|rbx|    |mov|esi|0x38|    |cmove|rbx|rax|    |mov|rdi|rbx|    |call|0x404490|    "
+            },
+            {
+                "block_addr": 4207757,
+                "constraints": [
+                    [
+                        2,
+                        [
+                            "<Bool __eq__(fake_ret_value_23995_64, 0xfffffffffff00000)>"
+                        ]
+                    ]
+                ],
+                "instructions": "mov|dword|ptr|rbp|r12d|    |pop|rbx|    |pop|rbp|    |pop|r12|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [
+                    [
+                        3,
+                        [
+                            "<BV32 Extract(31, 0, fake_ret_value_23997_64)>"
+                        ]
+                    ]
+                ],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "4207712"
+}

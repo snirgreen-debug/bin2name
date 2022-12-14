@@ -1,0 +1,77 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4208433,
+                "src": 4208368
+            },
+            {
+                "dst": 4208473,
+                "src": 4208433
+            },
+            {
+                "dst": 4208500,
+                "src": 4208473
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4208500
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4208368,
+                "constraints": [
+                    [
+                        0,
+                        []
+                    ]
+                ],
+                "instructions": "mov|eax|dword|ptr|rip|+|0x203962|    |push|reg|    |mov|reg|qword|ptr|rip|+|0x203961|    |push|rbp|    |push|rbx|    |cmp|eax|1|    |jle|target_0|    "
+            },
+            {
+                "block_addr": 4208433,
+                "constraints": [
+                    [
+                        1,
+                        []
+                    ]
+                ],
+                "instructions": "mov|rdi|qword|ptr|r12|+|8|    |lea|rbx|rip|+|0x2039c3|    |cmp|rdi|rbx|    |je|0x403759|    "
+            },
+            {
+                "block_addr": 4208473,
+                "constraints": [
+                    [
+                        2,
+                        []
+                    ]
+                ],
+                "instructions": "lea|rbx|rip|+|0x203910|    |cmp|r12|rbx|    |je|0x403774|    "
+            },
+            {
+                "block_addr": 4208500,
+                "constraints": [
+                    [
+                        3,
+                        []
+                    ]
+                ],
+                "instructions": "pop|rbx|    |mov|dword|ptr|rip|+|0x2038d9|1|    |pop|rbp|    |pop|r12|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [
+                    [
+                        4,
+                        [
+                            "<BV32 0x1>"
+                        ]
+                    ]
+                ],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "4208368"
+}

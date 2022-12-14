@@ -1,0 +1,557 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4201652,
+                "src": 4201568
+            },
+            {
+                "dst": 4201594,
+                "src": 4201568
+            },
+            {
+                "dst": 4201689,
+                "src": 4201652
+            },
+            {
+                "dst": 4201744,
+                "src": 4201652
+            },
+            {
+                "dst": 4201725,
+                "src": 4201689
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4201725
+            },
+            {
+                "dst": 4201652,
+                "src": 4201594
+            },
+            {
+                "dst": 4201771,
+                "src": 4201744
+            },
+            {
+                "dst": 4201689,
+                "src": 4201771
+            },
+            {
+                "dst": 4201776,
+                "src": 4201771
+            },
+            {
+                "dst": 4201786,
+                "src": 4201776
+            },
+            {
+                "dst": 4201872,
+                "src": 4201776
+            },
+            {
+                "dst": 4201689,
+                "src": 4201786
+            },
+            {
+                "dst": 4201791,
+                "src": 4201786
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4201872
+            },
+            {
+                "dst": 4201856,
+                "src": 4201791
+            },
+            {
+                "dst": 4201863,
+                "src": 4201856
+            },
+            {
+                "dst": 4201872,
+                "src": 4201863
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4201568,
+                "constraints": [
+                    [
+                        0,
+                        []
+                    ]
+                ],
+                "instructions": "push|reg|    |push|reg|    |mov|reg|reg|    |push|rbp|    |push|rbx|    |mov|rbp|rdx|    |mov|reg|rcx|    |sub|rsp|0xe8|    |test|al|al|    |je|target_0|    "
+            },
+            {
+                "block_addr": 4201652,
+                "constraints": [
+                    [
+                        1,
+                        [
+                            "<Bool __eq__(reg_10_23640_8, 0)>"
+                        ]
+                    ],
+                    [
+                        2,
+                        []
+                    ],
+                    [
+                        1,
+                        [
+                            "<Bool __eq__(reg_10_23640_8, 0)>"
+                        ]
+                    ],
+                    [
+                        2,
+                        []
+                    ],
+                    [
+                        1,
+                        [
+                            "<Bool __eq__(reg_10_23640_8, 0)>"
+                        ]
+                    ],
+                    [
+                        2,
+                        []
+                    ],
+                    [
+                        1,
+                        [
+                            "<Bool __eq__(reg_10_23640_8, 0)>"
+                        ]
+                    ],
+                    [
+                        2,
+                        []
+                    ],
+                    [
+                        1,
+                        [
+                            "<Bool __eq__(reg_10_23640_8, 0)>"
+                        ]
+                    ],
+                    [
+                        2,
+                        []
+                    ]
+                ],
+                "instructions": "mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rsp|+|0x28|rax|    |xor|eax|eax|    |cmp|edi|2|    |mov|ebx|dword|ptr|rip|+|0x2053d3|    |mov|dword|ptr|rip|+|0x2053c9|0|    |je|0x401d10|    "
+            },
+            {
+                "block_addr": 4201689,
+                "constraints": [
+                    [
+                        2,
+                        [
+                            "<Bool __ne__(Extract(31, 0, reg_48_23641_64), 0x2)>"
+                        ]
+                    ],
+                    [
+                        3,
+                        [
+                            "<Bool __ne__(Extract(31, 0, reg_48_23652_64), 0x2)>"
+                        ]
+                    ],
+                    [
+                        4,
+                        [
+                            "<Bool __eq__(Extract(31, 0, fake_ret_value_23651_64), 0xffffffff)>"
+                        ]
+                    ],
+                    [
+                        5,
+                        [
+                            "<Bool __eq__(Extract(31, 0, fake_ret_value_23654_64), 0xffffffff)>"
+                        ]
+                    ],
+                    [
+                        6,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23651_64), 0x76)>"
+                        ]
+                    ],
+                    [
+                        7,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23654_64), 0x76)>"
+                        ]
+                    ]
+                ],
+                "instructions": "mov|rax|qword|ptr|rsp|+|0x28|    |xor|rax|qword|ptr|fs:0x28|    |mov|dword|ptr|rip|+|0x2053b3|ebx|    |mov|dword|ptr|rip|+|0x205399|0|    |jne|0x401d9a|    "
+            },
+            {
+                "block_addr": 4201725,
+                "constraints": [
+                    [
+                        3,
+                        []
+                    ],
+                    [
+                        4,
+                        []
+                    ],
+                    [
+                        5,
+                        []
+                    ],
+                    [
+                        6,
+                        []
+                    ],
+                    [
+                        7,
+                        []
+                    ],
+                    [
+                        8,
+                        []
+                    ]
+                ],
+                "instructions": "add|rsp|0xe8|    |pop|rbx|    |pop|rbp|    |pop|r12|    |pop|r13|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [
+                    [
+                        4,
+                        [
+                            "<BV32 0x0>"
+                        ]
+                    ],
+                    [
+                        5,
+                        [
+                            "<BV32 0x0>"
+                        ]
+                    ],
+                    [
+                        6,
+                        [
+                            "<BV32 0x0>"
+                        ]
+                    ],
+                    [
+                        7,
+                        [
+                            "<BV32 0x0>"
+                        ]
+                    ],
+                    [
+                        8,
+                        [
+                            "<BV32 0x0>"
+                        ]
+                    ],
+                    [
+                        9,
+                        [
+                            "<BV32 0x0>"
+                        ]
+                    ],
+                    [
+                        6,
+                        [
+                            "<BV32 Extract(31, 0, fake_ret_value_23655_64)>"
+                        ]
+                    ],
+                    [
+                        7,
+                        [
+                            "<BV32 Extract(31, 0, fake_ret_value_23657_64)>"
+                        ]
+                    ],
+                    [
+                        10,
+                        [
+                            "<BV32 Extract(31, 0, fake_ret_value_23661_64)>"
+                        ]
+                    ],
+                    [
+                        11,
+                        [
+                            "<BV32 Extract(31, 0, fake_ret_value_23662_64)>"
+                        ]
+                    ]
+                ],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4201594,
+                "constraints": [
+                    [
+                        1,
+                        [
+                            "<Bool __ne__(reg_10_23640_8, 0)>"
+                        ]
+                    ],
+                    [
+                        1,
+                        [
+                            "<Bool __ne__(reg_10_23640_8, 0)>"
+                        ]
+                    ],
+                    [
+                        1,
+                        [
+                            "<Bool __ne__(reg_10_23640_8, 0)>"
+                        ]
+                    ],
+                    [
+                        1,
+                        [
+                            "<Bool __ne__(reg_10_23640_8, 0)>"
+                        ]
+                    ],
+                    [
+                        1,
+                        [
+                            "<Bool __ne__(reg_10_23640_8, 0)>"
+                        ]
+                    ]
+                ],
+                "instructions": "movaps|xmmword|ptr|rsp|+|0x60|xmm0|    |movaps|xmmword|ptr|rsp|+|0x70|xmm1|    |movaps|xmmword|ptr|rsp|+|0x80|xmm2|    |movaps|xmmword|ptr|rsp|+|0x90|xmm3|    |movaps|xmmword|ptr|rsp|+|0xa0|xmm4|    |movaps|xmmword|ptr|rsp|+|0xb0|xmm5|    |movaps|xmmword|ptr|rsp|+|0xc0|xmm6|    |movaps|xmmword|ptr|rsp|+|0xd0|xmm7|    |mov|rax|qword|ptr|fs:0x28|    |mov|qword|ptr|rsp|+|0x28|rax|    |xor|eax|eax|    |cmp|edi|2|    |mov|ebx|dword|ptr|rip|+|0x2053d3|    |mov|dword|ptr|rip|+|0x2053c9|0|    |je|0x401d10|    "
+            },
+            {
+                "block_addr": 4201744,
+                "constraints": [
+                    [
+                        2,
+                        [
+                            "<Bool __eq__(Extract(31, 0, reg_48_23641_64), 0x2)>"
+                        ]
+                    ],
+                    [
+                        3,
+                        [
+                            "<Bool __eq__(Extract(31, 0, reg_48_23652_64), 0x2)>"
+                        ]
+                    ],
+                    [
+                        2,
+                        [
+                            "<Bool __eq__(Extract(31, 0, reg_48_23641_64), 0x2)>"
+                        ]
+                    ],
+                    [
+                        3,
+                        [
+                            "<Bool __eq__(Extract(31, 0, reg_48_23652_64), 0x2)>"
+                        ]
+                    ],
+                    [
+                        2,
+                        [
+                            "<Bool __eq__(Extract(31, 0, reg_48_23641_64), 0x2)>"
+                        ]
+                    ],
+                    [
+                        3,
+                        [
+                            "<Bool __eq__(Extract(31, 0, reg_48_23652_64), 0x2)>"
+                        ]
+                    ],
+                    [
+                        2,
+                        [
+                            "<Bool __eq__(Extract(31, 0, reg_48_23641_64), 0x2)>"
+                        ]
+                    ],
+                    [
+                        3,
+                        [
+                            "<Bool __eq__(Extract(31, 0, reg_48_23652_64), 0x2)>"
+                        ]
+                    ]
+                ],
+                "instructions": "lea|rcx|rip|+|0x204ea9|    |lea|rdx|rip|+|0x2e25|    |xor|r8d|r8d|    |mov|qword|ptr|rsp|+|8|r9|    |call|0x4012c0|    "
+            },
+            {
+                "block_addr": 4201771,
+                "constraints": [
+                    [
+                        3,
+                        []
+                    ],
+                    [
+                        4,
+                        []
+                    ],
+                    [
+                        3,
+                        []
+                    ],
+                    [
+                        4,
+                        []
+                    ],
+                    [
+                        3,
+                        []
+                    ],
+                    [
+                        4,
+                        []
+                    ],
+                    [
+                        3,
+                        []
+                    ],
+                    [
+                        4,
+                        []
+                    ]
+                ],
+                "instructions": "cmp|eax|-1|    |je|0x401cd9|    "
+            },
+            {
+                "block_addr": 4201776,
+                "constraints": [
+                    [
+                        4,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23651_64), 0xffffffff)>"
+                        ]
+                    ],
+                    [
+                        5,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23654_64), 0xffffffff)>"
+                        ]
+                    ],
+                    [
+                        4,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23651_64), 0xffffffff)>"
+                        ]
+                    ],
+                    [
+                        5,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23654_64), 0xffffffff)>"
+                        ]
+                    ],
+                    [
+                        4,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23651_64), 0xffffffff)>"
+                        ]
+                    ],
+                    [
+                        5,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23654_64), 0xffffffff)>"
+                        ]
+                    ]
+                ],
+                "instructions": "cmp|eax|0x68|    |mov|r9|qword|ptr|rsp|+|8|    |je|0x401d90|    "
+            },
+            {
+                "block_addr": 4201786,
+                "constraints": [
+                    [
+                        5,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23651_64), 0x68)>"
+                        ]
+                    ],
+                    [
+                        6,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23654_64), 0x68)>"
+                        ]
+                    ],
+                    [
+                        5,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23651_64), 0x68)>"
+                        ]
+                    ],
+                    [
+                        6,
+                        [
+                            "<Bool __ne__(Extract(31, 0, fake_ret_value_23654_64), 0x68)>"
+                        ]
+                    ]
+                ],
+                "instructions": "cmp|eax|0x76|    |jne|0x401cd9|    "
+            },
+            {
+                "block_addr": 4201872,
+                "constraints": [
+                    [
+                        5,
+                        [
+                            "<Bool __eq__(Extract(31, 0, fake_ret_value_23651_64), 0x68)>"
+                        ]
+                    ],
+                    [
+                        6,
+                        [
+                            "<Bool __eq__(Extract(31, 0, fake_ret_value_23654_64), 0x68)>"
+                        ]
+                    ],
+                    [
+                        9,
+                        []
+                    ],
+                    [
+                        10,
+                        []
+                    ]
+                ],
+                "instructions": "xor|edi|edi|    |call|r9|    "
+            },
+            {
+                "block_addr": 4201791,
+                "constraints": [
+                    [
+                        6,
+                        [
+                            "<Bool __eq__(Extract(31, 0, fake_ret_value_23651_64), 0x76)>"
+                        ]
+                    ],
+                    [
+                        7,
+                        [
+                            "<Bool __eq__(Extract(31, 0, fake_ret_value_23654_64), 0x76)>"
+                        ]
+                    ]
+                ],
+                "instructions": "lea|rax|rsp|+|0x110|    |mov|rdi|qword|ptr|rip|+|0x20533a|    |lea|r8|rsp|+|0x10|    |mov|rcx|r13|    |mov|rdx|r12|    |mov|rsi|rbp|    |mov|qword|ptr|rsp|+|0x18|rax|    |lea|rax|rsp|+|0x30|    |mov|dword|ptr|rsp|+|0x10|0x30|    |mov|dword|ptr|rsp|+|0x14|0x30|    |mov|qword|ptr|rsp|+|0x20|rax|    |call|0x4040b0|    "
+            },
+            {
+                "block_addr": 4201856,
+                "constraints": [
+                    [
+                        7,
+                        []
+                    ],
+                    [
+                        8,
+                        []
+                    ]
+                ],
+                "instructions": "xor|edi|edi|    |call|0x401400|    "
+            },
+            {
+                "block_addr": 4201863,
+                "constraints": [
+                    [
+                        8,
+                        []
+                    ],
+                    [
+                        9,
+                        []
+                    ]
+                ],
+                "instructions": "nop|word|ptr|rax|+|rax|    |xor|edi|edi|    |call|r9|    "
+            }
+        ]
+    },
+    "func_name": "4201568"
+}

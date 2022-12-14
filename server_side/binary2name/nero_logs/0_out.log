@@ -1,0 +1,133 @@
+our_dataset/nero_ds/yes
+yes have 70 funcs
+analyzing yes/deregister_tm_clones
+started running deregister_tm_clones
+finished deregister_tm_clones
+removing targets
+analyzing yes/register_tm_clones
+started running register_tm_clones
+finished register_tm_clones
+removing targets
+analyzing yes/frame_dummy
+started running frame_dummy
+finished frame_dummy
+removing targets
+analyzing yes/close_stdout_set_file_name
+started running close_stdout_set_file_name
+finished close_stdout_set_file_name
+analyzing yes/close_stdout_set_ignore_EPIPE
+started running close_stdout_set_ignore_EPIPE
+finished close_stdout_set_ignore_EPIPE
+analyzing yes/close_stdout
+started running close_stdout
+stopped exploration
+finished close_stdout
+analyzing yes/full_write
+started running full_write
+finished full_write
+removing targets
+analyzing yes/parse_long_options
+started running parse_long_options
+finished parse_long_options
+removing targets
+analyzing yes/parse_gnu_standard_options_only
+started running parse_gnu_standard_options_only
+finished parse_gnu_standard_options_only
+removing targets
+analyzing yes/set_program_name
+started running set_program_name
+finished set_program_name
+removing targets
+analyzing yes/gettext_quote.part.1
+started running gettext_quote.part.1
+finished gettext_quote.part.1
+analyzing yes/quotearg_buffer_restyled
+started running quotearg_buffer_restyled
+finished quotearg_buffer_restyled
+analyzing yes/quotearg_n_options
+started running quotearg_n_options
+finished quotearg_n_options
+analyzing yes/clone_quoting_options
+started running clone_quoting_options
+finished clone_quoting_options
+analyzing yes/get_quoting_style
+started running get_quoting_style
+finished get_quoting_style
+analyzing yes/set_quoting_style
+started running set_quoting_style
+finished set_quoting_style
+analyzing yes/set_char_quoting
+started running set_char_quoting
+finished set_char_quoting
+analyzing yes/set_quoting_flags
+started running set_quoting_flags
+finished set_quoting_flags
+analyzing yes/set_custom_quoting
+started running set_custom_quoting
+finished set_custom_quoting
+removing targets
+analyzing yes/quotearg_buffer
+started running quotearg_buffer
+finished quotearg_buffer
+analyzing yes/quotearg_alloc_mem
+started running quotearg_alloc_mem
+finished quotearg_alloc_mem
+analyzing yes/quotearg_alloc
+started running quotearg_alloc
+finished quotearg_alloc
+removing targets
+analyzing yes/quotearg_free
+started running quotearg_free
+finished quotearg_free
+removing targets
+analyzing yes/quotearg_n
+started running quotearg_n
+finished quotearg_n
+removing targets
+analyzing yes/quotearg_n_mem
+started running quotearg_n_mem
+finished quotearg_n_mem
+removing targets
+analyzing yes/quotearg
+started running quotearg
+finished quotearg
+removing targets
+analyzing yes/quotearg_mem
+started running quotearg_mem
+finished quotearg_mem
+removing targets
+analyzing yes/quotearg_n_style
+started running quotearg_n_style
+finished quotearg_n_style
+removing targets
+analyzing yes/quotearg_n_style_mem
+started running quotearg_n_style_mem
+finished quotearg_n_style_mem
+removing targets
+analyzing yes/quotearg_style
+started running quotearg_style
+finished quotearg_style
+removing targets
+analyzing yes/quotearg_style_mem
+started running quotearg_style_mem
+finished quotearg_style_mem
+removing targets
+analyzing yes/quotearg_char_mem
+started running quotearg_char_mem
+finished quotearg_char_mem
+analyzing yes/quotearg_char
+started running quotearg_char
+finished quotearg_char
+removing targets
+analyzing yes/quotearg_colon
+started running quotearg_colon
+finished quotearg_colon
+removing targets
+analyzing yes/quotearg_colon_mem
+started running quotearg_colon_mem
+finished quotearg_colon_mem
+removing targets
+analyzing yes/quotearg_n_style_colon
+started running quotearg_n_style_colon
+finished quotearg_n_style_colon
+removing targets

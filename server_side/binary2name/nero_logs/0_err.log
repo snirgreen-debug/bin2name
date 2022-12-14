@@ -1,0 +1,161 @@
+WARNING | 2022-12-14 10:15:44,507 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:15:44,509 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:15:44,509 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:15:55,678 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:15:55,680 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:15:55,681 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:15:56,661 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:15:56,663 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:15:56,663 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:15:57,626 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:15:57,627 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:15:57,628 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:15:59,033 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:15:59,034 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:15:59,035 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:15:59,985 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:15:59,986 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:15:59,987 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:16:00,947 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:16:00,948 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:16:00,949 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2022-12-14 10:18:03,603 | root     | 
+ERROR   | 2022-12-14 10:18:03,603 | root     | got an error while analyzing close_stdout
+WARNING | 2022-12-14 10:18:03,655 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:03,656 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:03,657 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:05,568 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:05,570 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:05,570 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:08,021 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:08,022 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:08,023 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:10,809 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:10,810 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:10,811 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:18,213 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:18,215 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:18,215 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:21,377 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:21,378 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:21,379 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:28,626 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:28,627 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:28,628 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:33,938 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:33,940 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:33,940 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:35,337 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:35,339 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:35,339 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:37,231 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:37,232 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:37,233 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:38,470 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:38,471 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:38,472 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:40,082 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:40,084 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:40,084 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:42,006 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:42,007 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:42,008 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:45,840 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:45,841 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:45,842 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:47,805 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:47,806 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:47,807 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:50,583 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:50,584 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:50,585 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:52,598 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:52,599 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:52,600 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:53,572 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:53,574 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:53,574 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:18:58,236 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:18:58,237 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:18:58,238 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:02,463 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:02,465 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:02,465 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:03,982 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:03,983 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:03,984 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:05,985 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:05,986 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:05,987 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:07,596 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:07,598 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:07,598 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:09,167 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:09,168 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:09,169 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:10,935 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:10,936 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:10,937 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:12,199 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:12,200 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:12,201 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:13,526 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:13,527 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:13,528 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:15,298 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:15,299 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:15,300 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:16,292 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:16,294 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:16,294 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:17,286 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:17,287 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:17,288 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:18,810 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:18,812 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:18,812 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:19,950 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:19,952 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:19,952 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:21,058 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:21,060 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:21,060 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:22,621 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:22,622 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:22,623 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:23,722 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:23,724 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:23,724 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:27,880 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:27,881 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:27,882 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:29,850 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:29,851 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:29,851 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:34,019 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:34,021 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:34,021 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:35,535 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:35,536 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:35,536 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:38,808 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:38,809 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:38,810 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:42,011 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:42,012 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:42,013 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:44,009 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:44,011 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:44,011 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:47,886 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:47,887 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:47,888 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+WARNING | 2022-12-14 10:19:49,000 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:49,001 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:49,002 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+ERROR   | 2022-12-14 10:19:50,437 | root     | 
+ERROR   | 2022-12-14 10:19:50,437 | root     | got an error while analyzing emit_bug_reporting_address
+WARNING | 2022-12-14 10:19:50,486 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2022-12-14 10:19:50,488 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2022-12-14 10:19:50,488 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Killed

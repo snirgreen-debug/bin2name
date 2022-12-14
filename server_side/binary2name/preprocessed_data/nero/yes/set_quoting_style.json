@@ -1,0 +1,36 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": "loopSeerDum",
+                "src": 4207808
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4207808,
+                "constraints": [
+                    [
+                        0,
+                        []
+                    ]
+                ],
+                "instructions": "lea|rax|rip|+|0x203d39|    |test|rdi|rdi|    |cmove|rdi|rax|    |mov|dword|ptr|rdi|esi|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [
+                    [
+                        1,
+                        [
+                            "<Bool __eq__(If(__eq__(reg_48_24054_64, 0x0), 0x607200, reg_48_24054_64), 0xffffffffffffffff)>",
+                            "<BV32 0x607200>"
+                        ]
+                    ]
+                ],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "4207808"
+}

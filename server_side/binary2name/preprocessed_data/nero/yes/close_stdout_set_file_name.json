@@ -1,0 +1,35 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": "loopSeerDum",
+                "src": 4201232
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4201232,
+                "constraints": [
+                    [
+                        0,
+                        []
+                    ]
+                ],
+                "instructions": "mov|qword|ptr|rip|+|0x2055c1|rdi|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [
+                    [
+                        1,
+                        [
+                            "<BV32 reg_10_140_32>"
+                        ]
+                    ]
+                ],
+                "instructions": "no_instructions"
+            }
+        ]
+    },
+    "func_name": "4201232"
+}

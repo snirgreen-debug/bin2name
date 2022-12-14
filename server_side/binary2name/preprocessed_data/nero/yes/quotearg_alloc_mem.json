@@ -1,0 +1,161 @@
+{
+    "GNN_DATA": {
+        "edges": [
+            {
+                "dst": 4208159,
+                "src": 4208112
+            },
+            {
+                "dst": 4208220,
+                "src": 4208159
+            },
+            {
+                "dst": 4208246,
+                "src": 4208220
+            },
+            {
+                "dst": 4208293,
+                "src": 4208246
+            },
+            {
+                "dst": 4208319,
+                "src": 4208293
+            },
+            {
+                "dst": 4208310,
+                "src": 4208293
+            },
+            {
+                "dst": "loopSeerDum",
+                "src": 4208319
+            },
+            {
+                "dst": 4208319,
+                "src": 4208310
+            }
+        ],
+        "nodes": [
+            {
+                "block_addr": 4208112,
+                "constraints": [
+                    [
+                        0,
+                        []
+                    ]
+                ],
+                "instructions": "push|reg|    |push|reg|    |lea|rax|rip|+|0x203c05|    |push|reg|    |push|reg|    |mov|reg|rdx|    |push|rbp|    |push|rbx|    |mov|rbx|rcx|    |mov|reg|rdi|    |mov|reg|rsi|    |sub|rsp|0x38|    |test|rcx|rcx|    |cmove|rbx|rax|    |xor|ebp|ebp|    |call|0x401200|    "
+            },
+            {
+                "block_addr": 4208159,
+                "constraints": [
+                    [
+                        1,
+                        []
+                    ],
+                    [
+                        1,
+                        []
+                    ]
+                ],
+                "instructions": "test|r12|r12|    |mov|r13|rax|    |mov|eax|dword|ptr|rax|    |sete|bpl|    |or|ebp|dword|ptr|rbx|+|4|    |lea|r10|rbx|+|8|    |sub|rsp|8|    |mov|r8d|dword|ptr|rbx|    |mov|rcx|r15|    |mov|dword|ptr|rsp|+|0x14|eax|    |push|qword|ptr|rbx|+|0x30|    |mov|rdx|r14|    |push|qword|ptr|rbx|+|0x28|    |push|r10|    |xor|esi|esi|    |mov|r9d|ebp|    |xor|edi|edi|    |mov|qword|ptr|rsp|+|0x40|r10|    |call|0x402070|    "
+            },
+            {
+                "block_addr": 4208220,
+                "constraints": [
+                    [
+                        2,
+                        [
+                            "<Bool __eq__(fake_ret_value_24261_64, 0xffffffffffffff80)>",
+                            "<Bool __eq__(__add__(If(__eq__(reg_18_24258_64, 0x0), 0x607200, reg_18_24258_64), 0x4), 0xfffffffffffffffe)>"
+                        ]
+                    ],
+                    [
+                        2,
+                        [
+                            "<Bool __eq__(fake_ret_value_24261_64, 0xffffffffffffff80)>",
+                            "<Bool __eq__(__add__(If(__eq__(reg_18_24258_64, 0x0), 0x607200, reg_18_24258_64), 0x4), 0xfffffffffffffffe)>"
+                        ]
+                    ]
+                ],
+                "instructions": "lea|rsi|rax|+|1|    |mov|qword|ptr|rsp|+|0x48|rax|    |add|rsp|0x20|    |mov|rdi|rsi|    |mov|qword|ptr|rsp|+|0x18|rsi|    |call|0x404290|    "
+            },
+            {
+                "block_addr": 4208246,
+                "constraints": [
+                    [
+                        3,
+                        []
+                    ],
+                    [
+                        3,
+                        []
+                    ]
+                ],
+                "instructions": "mov|qword|ptr|rsp|+|0x10|rax|    |sub|rsp|8|    |push|qword|ptr|rbx|+|0x30|    |push|qword|ptr|rbx|+|0x28|    |mov|r10|qword|ptr|rsp|+|0x38|    |mov|r9d|ebp|    |mov|r8d|dword|ptr|rbx|    |mov|rcx|r15|    |mov|rdx|r14|    |mov|rdi|rax|    |push|r10|    |mov|rsi|qword|ptr|rsp|+|0x38|    |call|0x402070|    "
+            },
+            {
+                "block_addr": 4208293,
+                "constraints": [
+                    [
+                        4,
+                        []
+                    ],
+                    [
+                        4,
+                        []
+                    ]
+                ],
+                "instructions": "mov|eax|dword|ptr|rsp|+|0x2c|    |add|rsp|0x20|    |test|r12|r12|    |mov|dword|ptr|r13|eax|    |je|0x4036bf|    "
+            },
+            {
+                "block_addr": 4208319,
+                "constraints": [
+                    [
+                        5,
+                        [
+                            "<Bool __eq__(reg_20_24255_64, 0x0)>"
+                        ]
+                    ],
+                    [
+                        6,
+                        [
+                            "<Bool __eq__(reg_20_24255_64, 0xffffffffffffffff)>"
+                        ]
+                    ]
+                ],
+                "instructions": "mov|rax|qword|ptr|rsp|+|0x10|    |add|rsp|0x38|    |pop|rbx|    |pop|rbp|    |pop|r12|    |pop|r13|    |pop|r14|    |pop|r15|    |ret|    "
+            },
+            {
+                "block_addr": "loopSeerDum",
+                "constraints": [
+                    [
+                        6,
+                        [
+                            "<BV32 Extract(31, 0, fake_ret_value_24269_64)>"
+                        ]
+                    ],
+                    [
+                        7,
+                        [
+                            "<BV32 Extract(31, 0, fake_ret_value_24269_64)>"
+                        ]
+                    ]
+                ],
+                "instructions": "no_instructions"
+            },
+            {
+                "block_addr": 4208310,
+                "constraints": [
+                    [
+                        5,
+                        [
+                            "<Bool __ne__(reg_20_24255_64, 0x0)>"
+                        ]
+                    ]
+                ],
+                "instructions": "mov|r11|qword|ptr|rsp|+|0x28|    |mov|qword|ptr|r12|r11|    |mov|rax|qword|ptr|rsp|+|0x10|    |add|rsp|0x38|    |pop|rbx|    |pop|rbp|    |pop|r12|    |pop|r13|    |pop|r14|    |pop|r15|    |ret|    "
+            }
+        ]
+    },
+    "func_name": "4208112"
+}

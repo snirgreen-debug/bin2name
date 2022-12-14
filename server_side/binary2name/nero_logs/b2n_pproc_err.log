@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "run_pproc.py", line 121, in <module>
+    main()
+  File "run_pproc.py", line 113, in main
+    run_preprocess(args)
+  File "run_pproc.py", line 89, in run_preprocess
+    collect_process(processes)
+  File "run_pproc.py", line 43, in collect_process
+    finished_procs, _, _ = select(processes.keys(), [], [])
+KeyboardInterrupt
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/amit.zr/miniconda3/envs/tf1/lib/python3.7/multiprocessing/popen_fork.py", line 28, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
