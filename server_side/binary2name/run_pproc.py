@@ -19,6 +19,8 @@ def run_single_bin(args: argparse.Namespace, bin_idx: int):
     """Run an instance of the preprocessing script on a single binary."""
 
     usables_flag = "--no_usables_file " if args.no_usables_file else ""
+    if(args.predict):
+        usables_flag += "--predict"
     out_log = os.path.join(args.log_dir, f"{bin_idx}_out.log")
     err_log = os.path.join(args.log_dir, f"{bin_idx}_err.log")
     cmd_line = f"timeout {args.bin_timeout} python3 paths_constraints_main.py --binary_idx={bin_idx} --output={args.output_dir} " + \
@@ -97,6 +99,7 @@ def main():
     parser.add_argument("--mem_limit", type=int, default=20)
     parser.add_argument('--bin_timeout', type=str, default='1000m')
     parser.add_argument("--no_usables_file", dest="no_usables_file", action="store_true")
+    parser.add_argument("--predict", action="store_true")
     parser.add_argument("--reverse", dest="reverse_order", action="store_true") # process the files from the last to the first
     args = parser.parse_args()
 

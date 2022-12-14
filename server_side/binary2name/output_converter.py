@@ -40,7 +40,7 @@ def is_retval(val: str) -> bool:
     return 'fake_ret_value' in val
 
 
-def collect_to_file(file_list: List[str], filename: str) -> None:
+def collect_to_file(file_list: List[str], filename: str, is_predict: bool) -> None:
     '''
     concating the file list to a single file
     @param file_list: List of binary source files
@@ -77,7 +77,7 @@ def collect_to_file(file_list: List[str], filename: str) -> None:
                     os.path.isfile(os.path.join('../nero_dataset_binaries/VALIDATE', b))]
     for function_file in file_list:
         binary_name = function_file.split('/')[1]
-        if binary_name in binaries:
+        if binary_name in binaries or is_predict:
             with open(function_file, 'r') as file:
                 collective_files += file.read() + '\n'
     # --------------------- TAL'S CODE END---------------------#
@@ -669,12 +669,13 @@ class OutputConvertor:
 
 
 class OrganizeOutput:
-    def __init__(self, dataset_name, file_locations, train_percentage, test_percentage, validate_percentage):
+    def __init__(self, dataset_name, file_locations, train_percentage, test_percentage, validate_percentage, predict):
         self.dataset_name = dataset_name
         self.train_percentage = train_percentage
         self.validate_percentage = validate_percentage
         self.test_percentage = test_percentage
         self.file_locations = file_locations
+        self.predict = predict
 
     def print_information_and_fix(self):
         if self.train_percentage + self.test_percentage + self.validate_percentage != 100:
@@ -711,9 +712,9 @@ class OrganizeOutput:
             os.mkdir(os.path.join('../ready_data', ready_dir))
 
         # --------------------- TAL'S CODE START---------------------#
-        collect_to_file(self.file_locations, os.path.join(ready_dir, 'train.json'))
-        collect_to_file(self.file_locations, os.path.join(ready_dir, 'test.json'))
-        collect_to_file(self.file_locations, os.path.join(ready_dir, 'validation.json'))
+        collect_to_file(self.file_locations, os.path.join(ready_dir, 'train.json'), self.predict)
+        collect_to_file(self.file_locations, os.path.join(ready_dir, 'test.json'), self.predict)
+        collect_to_file(self.file_locations, os.path.join(ready_dir, 'validation.json'), self.predict)
         # --------------------- TAL'S CODE END---------------------#
 
         # collect_to_file(training_files, os.path.join(ready_dir, 'train.json'))
@@ -734,6 +735,7 @@ def main():
                         help='select sample_constraint constraints from each path constraints of each block')
     parser.add_argument('--only_collect', dest='only_collect', action='store_true')
     parser.add_argument('--only_style', dest='only_style', action='store_true')
+    parser.add_argument('--predict', action='store_true')
     args = parser.parse_args()
 
     print(f"Convert with sample_path={args.sample_path}, sample_constraint={args.sample_constraint}.")
@@ -747,7 +749,7 @@ def main():
         out_convertor.load_all_files()
         out_convertor.get_stats()
 
-    collector = OrganizeOutput(args.dataset_name, out_convertor.converted_filenames, args.train, args.test, args.val)
+    collector = OrganizeOutput(args.dataset_name, out_convertor.converted_filenames, args.train, args.test, args.val, args.predict)
     collector.print_information_and_fix()
     buff = input('collect converted files into train/val/test? [y/n]\n')
     if 'y' in buff or 'Y' in buff:

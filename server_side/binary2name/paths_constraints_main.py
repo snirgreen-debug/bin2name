@@ -215,7 +215,7 @@ def analyze_binary(analyzed_funcs: Set[str], binary_name: str, output_dir: str,
     print(f"{binary_name_base} have {len(funcs)} funcs")
     time.sleep(10)
     with Pool(1, maxtasksperchild=2) as p:
-        args = zip(funcs, repeat(binary_name), repeat(output_dir), is_predict)
+        args = zip(funcs, repeat(binary_name), repeat(output_dir), repeat(is_predict))
         p.map(analyze_binary_func, args)
     # for test_func_name, test_func_addr in funcs:
     return True
