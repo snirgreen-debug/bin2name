@@ -137,7 +137,7 @@ def make_example(obj):
     return ex.SerializeToString()
 
 
-def process_file(file_path, data_file_role, dataset_name, collect_histograms=False):
+def process_file(file_path, data_file_role, dataset_name, is_predict, collect_histograms=False):
     # Currently we take max contexts both from this script and from the json. 
     # When moving to joint paths, we should pad here and take max_contexts from the arguments and not the json
     total_nodes = 0
@@ -192,7 +192,7 @@ def process_file(file_path, data_file_role, dataset_name, collect_histograms=Fal
     writer.close()
 
     print('File: ' + file_path)
-    if collect_histograms:
+    if collect_histograms and not is_predict:
         print('Average nodes: ' + str(float(total_nodes) / total_examples))
         print('Standard error: ' + str(float(stats.sem(num_nodes_list))))
         print('Max nodes: ' + str(float(max_nodes)))
@@ -217,6 +217,7 @@ if __name__ == '__main__':
     parser.add_argument("-o", "--output_name", dest="output_name",
                         help="output name - the base name for the created dataset", metavar="FILE", required=True,
                         default='data')
+    parser.add_argument("--predict", action="store_true")
     args = parser.parse_args()
 
     train_data_path = args.train_data_path
@@ -226,10 +227,11 @@ if __name__ == '__main__':
     num_examples, target_to_count, api_to_count, arg_to_count = process_file(file_path=train_data_path,
                                                                              data_file_role='train',
                                                                              dataset_name=args.output_name,
+                                                                             is_predict=args.predict,
                                                                              collect_histograms=True)
     for data_file_path, data_role in zip([train_data_path, test_data_path, val_data_path], ['train', 'test', 'val']):
         process_file(file_path=data_file_path, data_file_role=data_role, dataset_name=args.output_name,
-                     collect_histograms=False)
+                     is_predict=args.predict, collect_histograms=False)
 
     save_dictionaries(dataset_name=args.output_name, target_to_count=target_to_count,
                       api_to_count=api_to_count, arg_to_count=arg_to_count, num_training_examples=num_examples)
