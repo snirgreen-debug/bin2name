@@ -51,7 +51,7 @@ mv data.test procedure_representations/preprocessed/bin2name
 
 date +%H:%M:%S
 echo "Running Nero"
-python3 -u ../gnn.py  --data procedure_representations/preprocessed/bin2name/data --test procedure_representations/preprocessed/bin2name/data.test --save new_model/model --gnn_layers 4 > nero_out_log.txt 2> nero_error_log.txt
+python3 -u gnn.py --test nero/procedure_representations/preprocessed/bin2name/data.test --load /home/amit.zr/infoSecurityProj/bin2name/server_side/binary2name/nero/nero/new_model/model_iter_last --gnn_layers 4
 
 date +%H:%M:%S
 echo "That's All, Folks!"
