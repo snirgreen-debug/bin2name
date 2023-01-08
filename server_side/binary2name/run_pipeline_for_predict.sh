@@ -39,7 +39,7 @@ cp ready_data/ready_nero/test.json nero/nero/procedure_representations/raw/bin2n
 date +%H:%M:%S
 echo "Running Nero's preprocessing"
 cd nero/nero
-python3 preprocess.py -trd procedure_representations/raw/bin2name/train.json -ted procedure_representations/raw/bin2name/test.json -vd procedure_representations/raw/bin2name/validation.json -o data --predict
+python3 ../preprocess.py -trd procedure_representations/raw/bin2name/train.json -ted procedure_representations/raw/bin2name/test.json -vd procedure_representations/raw/bin2name/validation.json -o data --predict
 
 date +%H:%M:%S
 echo "Copying to nero's internal preprocessed directory"
