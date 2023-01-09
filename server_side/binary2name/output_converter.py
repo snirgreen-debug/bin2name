@@ -65,11 +65,14 @@ def collect_to_file(file_list: List[str], filename: str, is_predict: bool) -> No
     # for function_file in file_list:
     # with open(function_file, 'r') as file:
     # collective_files += file.read() + '\n'
-
+    
+    is_test = False
+    
     if 'train.json' in filename:
         binaries = [b for b in os.listdir('../nero_dataset_binaries/TRAIN') if
                     os.path.isfile(os.path.join('../nero_dataset_binaries/TRAIN', b))]
     if 'test.json' in filename:
+        is_test = True
         binaries = [b for b in os.listdir('../nero_dataset_binaries/TEST') if
                     os.path.isfile(os.path.join('../nero_dataset_binaries/TEST', b))]
     if 'validation.json' in filename:
@@ -77,7 +80,7 @@ def collect_to_file(file_list: List[str], filename: str, is_predict: bool) -> No
                     os.path.isfile(os.path.join('../nero_dataset_binaries/VALIDATE', b))]
     for function_file in file_list:
         binary_name = function_file.split('/')[1]
-        if binary_name in binaries or is_predict:
+        if binary_name in binaries or (is_predict and is_test):
             with open(function_file, 'r') as file:
                 collective_files += file.read() + '\n'
     # --------------------- TAL'S CODE END---------------------#
@@ -582,7 +585,7 @@ class OutputConvertor:
         # convert operation - according to the Nero format
         exe_name = filename.split(os.sep)[-2]
         package_name = 'unknown'
-        function_name = filename.split(os.sep)[-1][:-5]
+        function_name = initial_data['func_name']
         exe_name_split = list(filter(None, exe_name.split('_')))
         if len(exe_name_split) > 1:
             exe_name = exe_name_split[-1]
