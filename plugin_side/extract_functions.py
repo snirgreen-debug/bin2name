@@ -1,6 +1,8 @@
 import idaapi
 import ida_nalt
 import ida_funcs
+import idautils
+import idc
 import requests
 import json
 import re
@@ -30,20 +32,12 @@ class FuncExtract(idaapi.plugin_t):
         pass
 
     def run(self, _):
-        addr_name_map = self._parse_client_response()
-        for addr, name in addr_name_map.items():
-            addr = int(addr)
-            func_name = ida_funcs.get_func_name(addr)
-            if func_name and re.match(self.pattern, func_name):
-                func_ptr = ida_funcs.get_func(addr)
-                current_cmt = ida_funcs.get_func_cmt(func_ptr, False)
-                current_cmt = current_cmt + '\n' if current_cmt else ''
-                ida_funcs.set_func_cmt(func_ptr, current_cmt+f"{name}", False)
-                print(f"{addr}: {name} - Name already exists. Added as a comment.")
-            else:
-                idaapi.set_name(addr, name)
-                print(f"{addr}: {name} - Name changed.")
-
+        for segea in idautils.Segments():
+            for funcea in idautils.Functions(segea, idc.SegEnd(segea)):
+                functionName = idc.GetFunctionName(funcea)
+                for (startea, endea) in idautils.Chunks(funcea):
+                    for head in idautils.Heads(startea, endea):
+                        print(functionName, ":", "0x%08x" % (head), ":", idautils.GetDisasm(head))
         print("done!")
 
 
