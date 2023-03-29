@@ -1,0 +1,49 @@
+PUSH BX
+PUSH CX
+PUSH DX
+PUSH SI
+PUSH DI
+MOV DX,BX
+DEC DX
+MOV BX,0
+label1:
+    CMP BX,DX
+    JG label2
+    MOV AX,BX
+    ADD AX,DX
+    SHR AX,1
+    MOV DI,SI
+    ADD DI,AX
+    ADD DI,AX
+    CMP CX,[DI]
+    JE label3
+    JG label4H
+    JMP label5
+    label4H:
+            INC AX
+            MOV BX,AX
+            JMP label1
+
+        label5:
+            DEC AX
+            MOV DX,AX
+            JMP label1
+
+
+    label2:
+        MOV AX,-1
+        JMP label6
+
+    label3:
+        
+        JMP label6
+
+
+    label6:
+        POP DI
+        POP SI
+        POP DX
+        POP CX
+        POP BX
+    RET
+ENDP
