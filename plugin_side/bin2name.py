@@ -1,22 +1,15 @@
 import idaapi
 import ida_nalt
+import ida_funcs
 import requests
 import json
-
-
-# import idautils
-# import ida_bytes
-# import ida_diskio
-# import idc
-# import operator
-# import os
-# import glob
+import re
 
 
 class Bin2NameClient:
-    url = "www.binary2name.com"
-    port = 443
-    final_url = 'https://' + url + ':' + str(port) + '/'
+    url = 'localhost'#"www.binary2name.com"
+    port = 8000#443
+    final_url = 'http://' + url + ':' + str(port) + '/'
 
     def __init__(self, bin_file_path):
         self.bin_file_path = bin_file_path
@@ -45,6 +38,7 @@ class bin2name(idaapi.plugin_t):
 
         self.bin_file_path = ida_nalt.get_input_file_path()
         self.client = Bin2NameClient(self.bin_file_path)
+        self.pattern = re.compile("sub_[0123456789ABCDEFabcdef]+")
 
         return idaapi.PLUGIN_KEEP
 
@@ -55,7 +49,17 @@ class bin2name(idaapi.plugin_t):
         self.client.send_request()
         addr_name_map = self._parse_client_response()
         for addr, name in addr_name_map.items():
-            idaapi.set_name(int(addr, 16), name)
+            addr = int(addr)
+            func_name = ida_funcs.get_func_name(addr)
+            if func_name and not re.match(self.pattern, func_name):
+                func_ptr = ida_funcs.get_func(addr)
+                current_cmt = ida_funcs.get_func_cmt(func_ptr, False)
+                current_cmt = current_cmt + '\n' if current_cmt else ''
+                ida_funcs.set_func_cmt(func_ptr, current_cmt+f"{name}", False)
+                print(f"{hex(addr)}: {name} - Name already exists. Added as a comment.")
+            else:
+                idaapi.set_name(addr, name)
+                print(f"{hex(addr)}: {name} - Name changed.")
 
         print("done!")
 
