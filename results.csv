@@ -1,0 +1,2642 @@
+
+400820,sub_400820,Todo,"""Function to Push and Jump to Addresses"""
+400970,deregister_tm_clones,Todo,"""Compare and Jump Function"""
+4009F0,__do_global_dtors_aux,Todo,"""Check and call function"""
+400A10,frame_dummy,Todo,"""Memory allocation function"""
+400A36,init_string_with_size,Todo,"""Memory Allocation Function"" or ""Dynamic Memory Allocation"""
+400A74,init_string,Todo,Function with Stack Allocation
+400A94,find,Todo,"""Stack Frame Comparison"""
+400B0B,write_buffer,Todo,"""Stack allocation and file output"""
+400B5E,delete_string,Todo,Function: Free Memory.
+400B7C,addr,Todo,"""Addition function"""
+400B96,at,Todo,"""Function to Compare Two Values"""
+400BCA,catchar,Todo,Function Name: dynamic_array_resize
+400C4C,overwrite_string,Todo,Free Memory Function
+400C9C,catbuf,Todo,"""Function to Reallocate and Copy Memory"""
+400D5C,cattext,Todo,Function prologue.
+400D90,catstr,Todo,"""Function with parameter and subroutine call"""
+400DC3,skip_white_and_stars,Todo,"""Function for checking input validity"""
+400E5F,skip_past_newline_1,Todo,"""Function with Local Variables"""
+400EC0,.strlen,Todo,Function to Print Error Message and Exit
+400EF3,check_range,Todo,"""Check and Call Function"""
+400F2E,icheck_range,Todo,Check for and call subroutines based on memory values.
+400F69,exec,Todo,"""Function with stack and call"""
+400FA9,call,Todo,"""Function with local variable initialization"""
+400FE9,remchar,Todo,"""Stack Frame Setup and Variable Modification"""
+401025,strip_trailing_newlines,Todo,"""Function Prologue"""
+4010D3,push_number,Todo,"""Memory Manipulation Function"""
+40112E,push_text,Todo,"""Function with stack manipulation"""
+4011A0,.getenv,Todo,"""String parsing"" or ""Input validation"""
+40135F,print_stack_level,Todo,Function Initialization.
+4013F3,paramstuff,Todo,Function Prologue
+40146B,translatecomments,Todo,"""Function Prologue"" or ""Stack Setup"""
+4015B2,outputdots,Todo,Function Prologue
+401747,courierize,Todo,"""Function Prologue"""
+401B32,bulletize,Todo,Function prologue.
+401D7F,do_fancy_stuff,Todo,Function Prologue.
+401F4C,iscommand,Todo,Function for checking input
+402022,copy_past_newline,Todo,"""Function with Local Variables"""
+4020F7,icopy_past_newline,Todo,Function prologue.
+40215F,kill_bogus_lines,Todo,Function prologue or stack setup.
+4023ED,indent,Todo,Function Entry Setup
+4025A6,get_stuff_in_command,Todo,"""Function prologue"" or ""Function setup"""
+402649,swap,Todo,"""Memory Copy and Address Update"""
+4026C7,rsync_roll,Todo,"""Stack Manipulation and Function Calls"""
+402728,drop,Todo,Function prologue/entry.
+40275D,idrop,Todo,Stack cleanup function.
+402792,icatstr,Todo,Function to Modify Memory Address.
+4027F7,skip_past_newline,Todo,"""Function initialization"" or ""Stack frame setup"""
+402832,internalmode,Todo,"""Copy and Modify Stack Variable"""
+402877,maybecatstr,Todo,"""Function for Comparing and Manipulating Memory"""
+4028E8,nextword,Todo,Function Prologue
+402B00,.strncpy,Todo,Stack Frame Initialization and Comparison
+402B7A,perform,Todo,"""Function setup"""
+402C83,newentry,Todo,"""Memory Allocation Function"""
+402CF3,add_to_definition,Todo,Memory reallocation function.
+402D87,add_intrinsic,Todo,Function Initialization
+402DCE,add_var,Todo,Function Setup.
+402E29,compile,Todo,"""Function Prologue"""
+403057,bang,Todo,"""Move and Update Pointer Function"""
+4030A7,atsign,Todo,"""Copy Pointer and Increment"""
+4030D7,hello,Todo,"""Print and Increment Counter"""
+4030FA,stdout_,Todo,"""Memory Allocation and Initialization"""
+40313D,stderr_,Todo,"""Memory Allocation and Initialization"""
+403180,.memrchr,Todo,"""Function with Output Handling"""
+40324A,read_in,Todo,File Input Function.
+4032FF,usage,Todo,"""Write to stderr and Exit"" or ""Log and Exit"""
+40332B,chew_exit,Todo,"""Exit function with stack setup."""
+401F70,.free,Todo,"""Jump to Memory Location"""
+4026F0,deregister_tm_clones,Todo,"""Check and Jump Function"""
+402770,__do_global_dtors_aux,Todo,Set flag and call sub.
+402790,frame_dummy,Todo,"""Memory Operation and Function Call"""
+4027B6,severity,Todo,Function Setup or Comparison Check
+40280F,vdiag,Todo,Function with error logging and stack preparation.
+402A42,diag,Todo,Set up function frame.
+402B11,debugprt,Todo,Function Prologue.
+402BDE,emalloc,Todo,Allocate Memory and Exit Function
+402C2D,ecalloc,Todo,Function Name: allocate_mem
+402C7F,erealloc,Todo,Function to allocate and initialize memory.
+402CD9,estrdup,Todo,Function for String Copy and Length Calculation.
+402D34,mkfilename,Todo,Function Name: setPath
+402E37,trans_strtotok,Todo,"""Function with Local Variables"""
+402E93,trans_toktostr,Todo,Function name: var_compare_or_increment
+402ECD,trans_toknext,Todo,Function with variable initialization and comparison.
+402F57,trans_tokfirst,Todo,Function for Initializing Variables
+402F8B,set_program_name,Todo,"""Push and String Manipulation"""
+402FD2,signal_setup,Todo,Function with memory allocation and call
+402FFC,storepid,Todo,open file function or fopen function.
+403090,.__fxstat,Todo,Function with Local Variables and Loop Counter Initialization.
+4030E0,.fchdir,Todo,Initiate User Data Retrieval Function.
+403277,setuser,Todo,set user and group ID function
+403413,ev_log,Todo,Function Prologue
+4034B1,genev_init,Todo,"""Function Entry/Initialization"""
+403518,sigmain,Todo,"""Set Variable and Check Value"""
+403548,self_test,Todo,Function with Fork & Execv
+403655,print_dir,Todo,"""Function Initialize Variables and Print"""
+403691,help_hook,Todo,Print Stream Function
+403766,parse_options,Todo,"""arg parsing function"""
+403D47,get_facility,Todo,Function: ____________
+403E05,get_priority,Todo,Function name: parse_input_numbers.
+403EC3,assert_grecs_value_type,Todo,Function Prologue
+403F97,cb_syslog_facility,Todo,Stack setup function.
+4040AA,envfree,Todo,Function name: free_multiple_ptrs.
+404116,eventconf_init,Todo,Function that sets memory to 0.
+40413B,eventconf_free,Todo,Free allocated memory and return.
+40418D,eventconf_flush,Todo,Function prologue
+404365,cb_watcher,Todo,Function name: var_check_and_update
+404485,pathent_alloc,Todo,Function with string parameter and return value.
+4044ED,cb_path,Todo,Function Prologue.
+4047CE,cb_eventlist,Todo,Function name: Initialize Stack Frame.
+404ADA,membergid_0,Todo,"""Variable Initialization and Comparison"""
+404B2A,get_user_groups_0,Todo,"""Function with stack variables"""
+404C71,cb_user,Todo,"""Function Setup"""
+404F61,cb_option,Todo,"Function Name: ""various possibilities depending on the purpose and context of the code"""
+405153,cb_environ,Todo,Initial Function Setup
+40540C,file_name_pattern,Todo,"""Function Initialization"""
+405715,cb_file_pattern,Todo,Function Name: Unknown
+405879,config_help,Todo,Function Prologue and Epilogue
+4058B7,config_init,Todo,"""Function with Memory Initialization"""
+4058D7,config_parse,Todo,Function Prologue.
+405926,find_env,Todo,"""Function Name"""
+405A36,locate_unset,Todo,"""String Comparison"""
+405B9A,env_concat,Todo,"""Copy string with format specifier"""
+405D7B,environ_setup,Todo,Function prologue or function setup.
+4064E8,hash_string,Todo,Assembly function with variable manipulation.
+40652E,symevt_hash,Todo,Function entry or Function prologue
+40655F,symevt_cmp,Todo,Function: string comparison.
+40659C,symevt_copy,Todo,Function setup or variable initialization.
+4065E8,symevt_free,Todo,Function Prologue with Freeing Memory
+40661B,defevt,Todo,Function Prologue
+406710,getevt,Todo,Function Setup or Initial Setup Function.
+4067C8,evtnullp,Todo,"""Variable Initialization and Check"""
+4067F3,event_mask_init,Todo,"""Variable Assignment and Comparison"""
+406894,evtsetall,Todo,"""Function to set variable to 0"""
+406908,filename_pattern_free,Todo,"""Stack Setup and Memory Management"""
+40695E,filename_pattern_match,Todo,Function for matching file name pattern.
+406A37,hashent_free,Todo,Function Entry / Memory Allocation
+406A76,hashent_alloc,Todo,Function Prologue
+406B31,hashtab_insert_pos,Todo,"""Function with Push and Memory Operations"""
+406BBE,hashtab_replace,Todo,Function Name: Recursive Function to Allocate Memory and Assign Values
+406CA3,hashtab_rehash,Todo,Function Setup/Initialization.
+406DB2,hashtab_strerror,Todo,Function with error handling.
+406DFF,hashtab_remove,Todo,"""Function with stack allocation"""
+406FCB,hashtab_get_index,Todo,Function with Variable Initialization
+407141,hashtab_lookup_or_install,Todo,Function with memory allocation and error handling.
+407229,hashtab_clear,Todo,"""Function Setup"""
+4072C6,hashtab_create,Todo,Function Prologue.
+4073AE,hashtab_free,Todo,Function for freeing memory.
+4073EC,hashtab_count_entries,Todo,"""Function setup and loop"""
+407443,hashtab_foreach,Todo,Function with Local Variables
+4074D0,hashtab_count,Todo,Push-RBP-Init-Loop-Exit Function
+407535,dirwatcher_unref,Todo,"""Memory Allocation and Freeing Function"""
+40757B,dwname_hash,Todo,Function Setup or Memory Initialization.
+4075B0,inflate_codes,Todo,"""Function with variable comparisons"""
+4075F5,dwname_copy,Todo,Function prologue with parameter initialization.
+407632,dwref_free,Todo,Function prologue
+407665,dirwatcher_install,Todo,"""Function Setup"""
+4077AC,dirwatcher_lookup,Todo,"""Function Prologue"" or ""Stack Setup"""
+407836,dirwatcher_remove,Todo,Function Prologue.
+40789C,dw_hash,Todo,Function Prologue.
+4078CB,dw_cmp,Todo,"""Memory Compare"""
+407907,dw_copy,Todo,"""Variable Assignment and Increment"""
+407953,dirwatcher_register,Todo,Function Prologue.
+407A5F,dirwatcher_lookup_wd,Todo,Function Prologue.
+407AE6,dirwatcher_remove_wd,Todo,Function Prologue.
+407B49,dirwatcher_init,Todo,"""Function name: Push and Initialization"""
+407C52,subwatcher_create,Todo,"""Function Initialization"""
+407D4F,deliver_ev_create,Todo,Function Prologue
+407DF8,check_new_watcher,Todo,Function Prologue or Stack Setup
+407FBA,watch_subdirs,Todo,Function Prologue
+40829D,setwatcher,Todo,Function Initialization.
+4082F5,setup_watchers,Todo,"""Function with Push and Pop"""
+40838E,dirwatcher_destroy,Todo,Function Entry/Initialization.
+4083F9,split_pathname,Todo,"""String Manipulation Function"""
+408472,unsplit_pathname,Todo,Set file path or Replace file path with forward slash
+4084A1,proc_unlink,Todo,"""Function Name: Copy and Clear"""
+40851C,proc_pop,Todo,Function prologue.
+408553,proc_push,Todo,Function to Copy Pointers and Values.
+4085A2,register_process,Todo,Stack Setup Function
+408638,deregister_process,Todo,"""Function for Memory Management"""
+4086CE,process_lookup,Todo,Function Entry or Compare and Return.
+40870D,print_status,Todo,Function name: set_name_localization
+408942,process_cleanup,Todo,Function prologue.
+408BB7,process_timeouts,Todo,set_time_seconds
+408D09,switchpriv,Todo,setuid function
+408E65,close_fds,Todo,"""File Operations"""
+408F26,redir_exit,Todo,"""Function Initialization"""
+408F3B,open_redirector,Todo,initialize pipe and fork process.
+4092CF,runcmd,Todo,Function prologue.
+4097AE,run_handler,Todo,Function preamble.
+409C87,sigv_set_action,Todo,"""Function with stack allocation"""
+409D0C,sigv_restore_tab,Todo,"""Function setup or signal handling setup"""
+409D90,sigv_set_all,Todo,Function name: sigaction_init
+409EE8,sigv_set_tab,Todo,"Function with Push, Mov, Sub operations."
+40A04E,sysev_filemask,Todo,"""Function with Variable Initialization"""
+40A05D,sysev_init,Todo,inotify_init_error_exit
+40A0A9,sysev_add_watch,Todo,"""Watch Adder"""
+40A0D8,sysev_rm_watch,Todo,Function for Removing Inotify Watch.
+40A0FD,remove_watcher,Todo,Function Prologue.
+40A172,process_event,Todo,Function Prologue
+40A417,sysev_select,Todo,Function with File I/O Operations
+40A567,detach,Todo,Initialize Process/Setup Environment.
+40A6CF,default_print_diag,Todo,Error Handling Function.
+40A930,grecs_warning,Todo,Function prologue.
+40AA55,grecs_error,Todo,Function Initialization.
+40AB89,grecs_asprint_locus,Todo,"""Function Set Variables and Compare Strings"""
+40AD0E,grecs_data_type_string,Todo,"""Function Prologue"""
+40AD7C,format_level,Todo,"""Function with File Output Handling"""
+40ADB8,grecs_print_docstring,Todo,"""Stream Input Function"" or ""Read Stream Function"""
+40AF87,grecs_print_simple_statement,Todo,"""Function with register manipulation"""
+40B18E,grecs_print_block_statement,Todo,"""Stream Output Function"""
+40B2C5,grecs_print_statement_array,Todo,"""Function Prologue"""
+40B35E,grecs_format_locus,Todo,Function Prologue
+40B585,grecs_format_node_path,Todo,Function Prologue.
+40B6D7,grecs_format_value,Todo,"""Function setup"" or ""Function initialization"""
+40B956,grecs_format_node,Todo,Function prologue.
+40BB60,txtacc_fmt,Todo,Function with string manipulation
+40BBA1,grecs_txtacc_format_value,Todo,"""Function Initialization"""
+40BBFF,file_fmt,Todo,Function to Print to Stream.
+40BC29,grecs_print_locus,Todo,Initialize stack frame or Stack initialization.
+40BC82,grecs_print_node_path,Todo,Function prologue.
+40BCE0,grecs_print_value,Todo,"""Function prologue"" or ""Stack setup"""
+40BD3E,grecs_print_node,Todo,"""Function Prologue"""
+40BD9B,grecs_list_create,Todo,Function prologue.
+40BDCD,grecs_list_size,Todo,Function Initialization.
+40BDED,grecs_list_insert_entry,Todo,"""Function Setup"""
+40BEFB,grecs_list_remove_entry,Todo,"""Function for Moving and Comparing Pointers"""
+40BF93,grecs_list_append,Todo,"""Initialize Local Variables"""
+40BFDD,grecs_list_add,Todo,"""Function Prologue"""
+40C092,grecs_list_push,Todo,Function setup or Variable initialization.
+40C0D9,grecs_list_pop,Todo,"""Function for assigning and calling pointer"""
+40C126,grecs_list_remove_tail,Todo,Function prologue
+40C17B,grecs_list_clear,Todo,Function with Variable Assignment
+40C206,grecs_list_free,Todo,Function prologue.
+40C234,_ptrcmp,Todo,Compare Two Values Function
+40C250,grecs_list_locate,Todo,Function Setup or Variable Initialization.
+40C2CC,grecs_list_index,Todo,"""Function with Stack Variables"""
+40C31B,grecs_list_compare,Todo,Function prologue.
+40C425,def_malloc_fun,Todo,Allocate Memory Function
+40C43F,def_realloc_fun,Todo,Function with realloc operation.
+40C464,def_free_fun,Todo,Function to Free Memory Block.
+40C47F,grecs_free,Todo,Function prologue.
+40C49E,grecs_malloc,Todo,"""Function prologue"""
+40C4D0,grecs_zalloc,Todo,"""Function Prologue"""
+40C507,grecs_calloc,Todo,"""Multiplication Function"""
+40C52A,grecs_realloc,Todo,Function prologue.
+40C567,grecs_strdup,Todo,"""String Copy Function"""
+40C5A4,grecs_alloc_die,Todo,Function entry and exit with system call.
+40C5E0,indent,Todo,Function setup or Variable initialization.
+40C60E,print_option_descr,Todo,Function prologue.
+40C7B2,sort_options,Todo,qsort function
+40C7F3,sort_group,Todo,"""Function with variable assignments"""
+40C859,sort_opthelp,Todo,Function Prologue.
+40C8D2,grecs_print_help,Todo,Function Prologue
+40CDF9,cmpidx_short,Todo,"""various variable assignments and comparisons"""
+40CE43,cmpidx_long,Todo,"Function Name: ""String Comparison and Search"""
+40DEFB,grecs_print_version_only,Todo,"""print function"""
+40E044,grecs_print_version,Todo,Function to Print Text with Formatting
+40E251,grecs_gram_trace,Todo,"""Set Flag Based on Input"""
+40E281,update_timespec,Todo,"""Set Variable to Non-Zero and Update Flag"""
+40E2B1,grecs_parse,Todo,Function with Environmental Variable Check
+40E384,grecs_getline,Todo,"""Initialize Stream Function"""
+40E4BA,putback,Todo,Function name: strcpy_dest_length_check
+40E547,pp_line_stmt,Todo,"""String Copy Function"""
+40E64B,next_line,Todo,"""Function Prologue"""
+40E727,grecs_preproc_fill_buffer,Todo,Function with Local Variables
+40E9F2,utimens,Todo,"""Function Setup"" or ""Variable Initialization"""
+40EA61,grecs_include_path_count,Todo,Function name: sub_40EA70
+40EAB4,foreach_dir,Todo,"""Function Setup and Execution"""
+40EB16,grecs_foreach_include_dir,Todo,"""Function with Variable Declarations and Calls"""
+40EB8D,pp_list_find,Todo,Function setup.
+40ECDC,incl_free,Todo,"""Function with Memory Allocation"" or ""Memory Allocating Function"""
+40ECF7,grecs_include_path_clear,Todo,"""Function Prologue and Epilogue"""
+40ED34,grecs_include_path_setup_v,Todo,"""Function Prologue"" or ""Stack Setup"""
+40EDE9,grecs_include_path_setup,Todo,Function prologue.
+40EFC7,grecs_preproc_add_include_dir,Todo,Function setup or Function initialization.
+40F01E,incl_hasher,Todo,"""Variable Initialization and Calculation"" or ""Integer Division"""
+40F052,incl_compare,Todo,"""Stack Comparison Function"""
+40F0A4,incl_copy,Todo,Function Setup
+40F0CD,source_lookup,Todo,Function Setup or Stack Setup.
+40F194,push_source,Todo,Function Initialization or File Open Function
+40F5B3,pop_source,Todo,"""Stack setup and file operations"""
+40F721,grecs_find_include_file,Todo,Function Prologue.
+40F82A,isglob,Todo,"""Function with Stack Manipulation"""
+40F871,parse_include,Todo,Function prologue
+40FB9D,grecs_preproc_init,Todo,Function Setup or Stack Setup.
+40FBBC,grecs_preproc_done,Todo,Function to free memory and reset variables.
+40FC5A,grecs_preproc_run,Todo,Function name: execute_command_via_popen
+40FE92,grecs_preproc_extrn_start,Todo,Function Name: pipe and fork implementation.
+4101CA,grecs_preproc_extrn_shutdown,Todo,Function Prologue
+410211,syment_free,Todo,Function Prologue
+410250,syment_alloc,Todo,Function setup or Memory allocation function.
+41030B,grecs_hash_string,Todo,"""Push and XOR Function"" or ""Variable Shifting Function"""
+410351,grecs_hash_string_ci,Todo,"""Lowercase conversion function"""
+4103A2,def_hash,Todo,Function prologue.
+4103D2,def_cmp,Todo,Function to compare two strings.
+41040D,def_copy,Todo,Function for String Duplication and Null Check
+410458,def_free_fun_0,Todo,Function prologue and memory deallocation.
+41048A,symtab_insert_pos,Todo,Function Name: Process Data or Array Processing.
+410517,grecs_symtab_replace,Todo,"""Function initialization"""
+4105FC,symtab_rehash,Todo,Function with Memory Allocation
+41070D,grecs_symtab_strerror,Todo,"""error handling"" or ""error message function"""
+41075A,grecs_symtab_remove,Todo,Function Name: Subroutine Name
+410937,grecs_symtab_get_index,Todo,"""Function Setup"" or ""Function Initialization"""
+410AAD,grecs_symtab_lookup_or_install,Todo,Function name: sub_410937.
+410B95,grecs_symtab_clear,Todo,Function Prologue
+410C32,grecs_symtab_create,Todo,Function Prologue
+410D6E,grecs_symtab_create_default,Todo,"""Function Setup"""
+410DA3,grecs_symtab_free,Todo,Save and free memory function.
+410DE1,grecs_symtab_count_entries,Todo,"""Push and Compare Function"""
+410E38,grecs_symtab_enumerate,Todo,Function setup or Variable initialization.
+410EC5,grecs_install_text,Todo,Function prologue or setup.
+410F64,grecs_destroy_text,Todo,"""Function name not provided"" or ""Unnamed function"""
+410F7A,grecs_text_table,Todo,"""Set cs:qword_62D710 to 0"""
+410F9A,grecs_value_free_content,Todo,Function prologue
+41103E,grecs_value_free,Todo,Function Prologue.
+411065,grecs_node_create,Todo,"""Function Setup"""
+4110BF,grecs_node_create_points,Todo,Function Prologue.
+411142,grecs_node_bind,Todo,Function prologue.
+41126A,grecs_node_unlink,Todo,"""Modify Object Properties"""
+4112E7,listel_dispose,Todo,Function Setup or Function Entry Prologue.
+411302,_grecs_simple_list_create,Todo,Function Prologue.
+41132E,_tree_recurse,Todo,"""Function with Variable Assignment and Conditions"""
+411447,grecs_tree_recurse,Todo,Function or Procedure Setup
+41148A,grecs_node_free,Todo,"""Function with local variables and calls"" or ""Local variable and call function"""
+4114EA,freeproc,Todo,Function Prologue.
+411531,grecs_tree_free,Todo,Function initialization or Error Handling function.
+411584,fake_callback,Todo,Function prologue.
+41159E,find_keyword,Todo,"Function Name: ""Compare String to Constant Value"""
+41161B,target_ptr,Todo,"""Function prologue"""
+411666,string_to_bool,Todo,Function with string comparison statements.
+411778,string_to_host,Todo,"""Resolve Hostname and IP Address"""
+4117DB,string_to_sockaddr,Todo,Function Initialization or Stack Setup.
+4130A4,short_cmp,Todo,Function with Memory Comparison
+4130CE,int_cmp,Todo,Function with Memory Comparison.
+4130F8,long_cmp,Todo,Memory Comparison Function.
+413122,size_t_cmp,Todo,Memory comparison function.
+41314C,time_t_cmp,Todo,"""Memory Comparison Function"""
+413176,in_addr_cmp,Todo,"""CompareTwoStrings"""
+4131A0,grecs_sockaddr_cmp,Todo,Memory comparison function.
+4131CA,cidr_cmp,Todo,"""Compare strings function"""
+41326A,grecs_process_ident,Todo,Function Prologue.
+4138B0,stmt_begin,Todo,Function prologue.
+41397E,stmt_end,Todo,Function prologue
+413A82,nodeproc,Todo,Function prologue
+413BD8,grecs_tree_process,Todo,Function prologue.
+413C91,grecs_node_eq,Todo,"""String Comparison Function"""
+413D27,free_value_entry,Todo,Function Prologue.
+413D4A,grecs_value_list_create,Todo,"""Set Value in Memory Function"""
+413D6D,value_to_list,Todo,"""Function with stack allocation"""
+413E24,value_to_array,Todo,"""Push, Move, Sub, Compare, Call."""
+413E8B,array_add,Todo,Push and Store Function
+413F53,node_aggregate_stmt,Todo,Function prologue.
+414027,node_merge_stmt,Todo,Function with Variable Allocation.
+4140B1,node_merge_block,Todo,"""Function Set Variables and Pointers"""
+414133,node_reduce,Todo,Function to handle data storage and retrieval.
+4141FD,reduceproc,Todo,Function name: var_24_comparison
+414371,grecs_tree_reduce,Todo,stack setup
+41443A,grecs_tree_first_node,Todo,Function Prologue With Condition Check.
+41445C,grecs_next_node,Todo,"""Function Setup"""
+4144C4,grecs_txtacc_alloc_entry,Todo,Function Prologue
+414529,grecs_txtacc_cur_entry,Todo,"Function Name: ""sub_414540"""
+4145A5,grecs_txtacc_entry_append,Todo,"""Copy String Function"""
+4145F9,grecs_txtacc_entry_tailor,Todo,Function Setup or Variable Initialization.
+41465F,grecs_txtacc_entry_free,Todo,Function name: free_double_pointer
+414698,grecs_txtacc_create,Todo,"""Modify Data in Memory"""
+4146F2,grecs_txtacc_free,Todo,"""Function with Dynamic Memory Allocation"""
+414733,grecs_txtacc_grow,Todo,"Function name: ""Variable Initialization and Manipulation"""
+4147B6,grecs_txtacc_grow_string,Todo,"""String Input Processing"""
+4147EB,grecs_txtacc_grow_string_escape,Todo,"""Function Initialization"""
+41488C,grecs_txtacc_finish,Todo,Function Prologue or Stack Setup
+4149F8,grecs_txtacc_free_string,Todo,"""Function_Startup"" or ""Process_Input"""
+414A6B,grecs_txtacc_clear,Todo,Function Prologue.
+414A89,_wsplt_alloc_die,Todo,"""Translate and Execute C Function"""
+414AB7,_wsplt_error,Todo,Function with Exception Handling
+414B9D,_wsplt_seterr,Todo,Function prologue.
+414BD8,_wsplt_nomem,Todo,Function with Error Handling.
+414C6A,_wsplt_subsplit,Todo,"""Set Variables and Pointers"""
+414DA8,_wsplt_seterr_sub,Todo,"""Variable Swap and Free"""
+414E33,wordsplit_init0,Todo,Function prologue.
+414ECE,wordsplit_init,Todo,Stack Frame Initialization
+41518E,alloc_space,Todo,"""Function Setup"""
+4152AE,wsnode_flagstr,Todo,"""Variable Initialization"""
+4153E2,wsnode_ptr,Todo,"""Function with Push and Move operations"""
+415433,wsnode_len,Todo,"""Process Input String Length"" or ""String Length Calculation"""
+41548C,wsnode_new,Todo,Allocate and copy function.
+4154D6,wsnode_free,Todo,"""Allocate and Free Memory"""
+41550F,wsnode_append,Todo,Stack Frame Setup and Variable Assignment
+41557F,wsnode_remove,Todo,"""Function for Variable Assignment"""
+415634,wsnode_insert,Todo,"""Function Initialization"""
+41575A,wordsplit_add_segm,Todo,Function Prologue.
+415814,wordsplit_free_nodes,Todo,"""Function Entry and Initialization"""
+415880,wordsplit_dump_nodes,Todo,"""Function Prologue"""
+4159BE,coalesce_segment,Todo,Function Prologue
+415B90,wsnode_quoteremoval,Todo,"Function name: ""mem_copy_with_flags"""
+415CD6,wsnode_coalesce,Todo,Initialize and check variable.
+415D39,wordsplit_finish,Todo,"""Function Setup"""
+415EA4,node_split_prefix,Todo,Function Prologue.
+416021,find_closing_paren,Todo,Function name: variable initialization and comparison.
+41616A,wordsplit_find_env,Todo,"""Memory Check and Comparison Function"""
+416369,wsplt_assign_var,Todo,Function with input validation and string manipulation.
+4177C0,begin_var_p,Todo,"""Variable range checker"""
+417801,node_expand,Todo,"""Stack Setup Function"""
+417A67,wsnode_nullelim,Todo,"Function name: ""Set Flag and Call Subroutines"""
+417B00,wordsplit_varexp,Todo,"""Function with stack manipulation"""
+417B7E,begin_cmd_p,Todo,Set Flag for Value Comparison.
+417B91,expcmd,Todo,Function with Stack Allocation.
+418157,wordsplit_cmdexp,Todo,Function with Variable Initialization
+4181D5,wordsplit_trimws,Todo,"""Function Name: input handling"""
+418393,wordsplit_tildexpand,Todo,Function Initialization
+41862C,isglob_0,Todo,"""Stack Frame Initialization and String Check"""
+41867B,wordsplit_pathexpand,Todo,Function prologue.
+418B45,skip_sed_expr,Todo,"""Function to Parse Input"""
+418CF0,skip_delim,Todo,Function name: Process String Input
+418E16,scan_qstring,Todo,"""Function Setup"""
+418F34,scan_word,Todo,Function Prologue
+419412,xtonum,Todo,Function initialization or Stack allocation.
+4194C6,wordsplit_c_quoted_length,Todo,"""Variable Initialization Function"""
+4195B4,wsplt_unquote_char,Todo,"""Push and Compare Function"""
+41960A,wsplt_quote_char,Todo,Function for comparing and manipulating bytes.
+41965C,wordsplit_c_unquote_char,Todo,Function to call sub_4195B4
+419694,wordsplit_string_unquote_copy,Todo,Function Prologue.
+419A38,wordsplit_c_quote_copy,Todo,"""Copy String with Escape Characters"""
+419BD3,wordsplit_process_list,Todo,"Function Name: ""rbp_setup"""
+419E36,wordsplit_run,Todo,"""Function setup"""
+41A10D,wordsplit_len,Todo,Function Setup or Stack Setup.
+41A143,wordsplit,Todo,Function to Check String Length and Return Result
+41A188,wordsplit_free_words,Todo,"""Function name not specified."""
+41A21B,wordsplit_free_envbuf,Todo,"""Function with Memory Allocation"""
+41A2CF,wordsplit_clearerr,Todo,Function name: free_null_pointer_check
+41A31D,wordsplit_free,Todo,Function to Free Memory Block.
+41A360,wordsplit_getwords,Todo,Function Setup/Initialization
+41A3EE,wordsplit_strerror,Todo,"""Function with ISRs"""
+41A443,wordsplit_perror,Todo,Function Prologue
+41A4DC,grecs_vasprintf,Todo,Function with Dynamic Memory Allocation.
+41A681,grecs_asprintf,Todo,Function Prologue.
+41A762,uint32_to_bytes,Todo,"""Copy Input to Memory"""
+41A799,grecs_inaddr_to_bytes,Todo,Function Prologue.
+41A823,grecs_sockaddr_to_bytes,Todo,"Function Name: ""Push and Store Arguments"""
+41A88D,grecs_sockaddr_to_cidr,Todo,Function Setup or Function Initialization
+41A93C,masklen_to_netmask,Todo,Function: Store and Manipulate Data.
+41A9E0,grecs_str_to_cidr,Todo,Function Prologue
+41AE06,grecs_cidr_match,Todo,"""Comparison function"""
+41AE80,grecs_sockadd_cidr_match,Todo,Function Initialization.
+41AEE6,grecs_grecs__symbol_value_print,Todo,Function with Stack Variables and Argument Saving
+41AF09,grecs_grecs__symbol_print,Todo,"""Stream and variable initialization"""
+41B12A,grecs_grecs__stack_print,Todo,Function to Write Error Messages
+41B1A7,grecs_grecs__reduce_print,Todo,Function for Printing Error Messages.
+41B2C3,grecs_grecs_stpcpy,Todo,"""Stack Frame Initialization and String Copy"""
+41B310,grecs_grecs_tnamerr,Todo,"""String Comparison Function"""
+41B3F3,grecs_grecs_syntax_error,Todo,Function with Variable Initialization.
+41B703,grecs_grecs_destruct,Todo,"Function with Push, Move, Compare, and Jump Instructions."
+41D04E,grecs_grecs_error,Todo,"""Function with memory allocation and API call"""
+41D081,grecs_grecs_parser,Todo,Assembly function for memory space allocation and function call.
+41EE15,grecs_grecs__get_next_buffer,Todo,Function Prologue
+41F334,grecs_grecs__get_previous_state,Todo,"""Push and Move Function"""
+41F436,grecs_grecs__try_NUL_trans,Todo,"""Function Prologue"""
+41F500,grecs_grecs_restart,Todo,Function to Write Data to Stream
+41F5AF,grecs_grecs__switch_to_buffer,Todo,Function name: sub_41F5E6
+41F6A2,grecs_grecs__load_buffer_state,Todo,"""Get Stream Information Function"""
+41F72D,grecs_grecs__create_buffer,Todo,Function with Local Variables.
+41F7C3,grecs_grecs__delete_buffer,Todo,Function Prologue.
+41F84F,grecs_grecs__init_buffer,Todo,Function prologue.
+41F913,grecs_grecs__flush_buffer,Todo,Function initialization or Struct initialization.
+41F9B0,grecs_grecs_push_buffer_state,Todo,"""Function Setup"""
+41FAB4,grecs_grecs_pop_buffer_state,Todo,Function Initialization
+41FB93,grecs_grecs_ensure_buffer_stack,Todo,"""Initialize Memory Block"""
+41FCC5,grecs_grecs__scan_buffer,Todo,FunctionInitializeArray
+41FDC2,grecs_grecs__scan_string,Todo,Function to calculate string length and manipulate it.
+41FDEC,grecs_grecs__scan_bytes,Todo,Function with Local Variable Initialization.
+41FEBA,grecs_grecs__fatal_error,Todo,Function that prints error message and exits.
+41FEF9,grecs_grecs_get_in,Todo,"""StreamGetter"""
+41FF06,grecs_grecs_get_out,Todo,"""Get Address Function"""
+41FF13,grecs_grecs_get_leng,Todo,"""Get Memory Address and Return"""
+41FF1F,grecs_grecs_get_text,Todo,"""Function Setup"" or ""Prologue Setup"""
+41FF2C,grecs_grecs_set_lineno,Todo,Function Entry/Prologue
+41FF3F,grecs_grecs_set_in,Todo,"""Stream Injection"""
+41FF55,grecs_grecs_set_out,Todo,Function prologue with variable initialization.
+41FF6B,grecs_grecs_get_debug,Todo,"""Get Address from Constant"""
+41FF77,grecs_grecs_set_debug,Todo,Function with parameter saving and returning value.
+41FF8A,grecs_grecs__init_globals,Todo,Initialization function.
+41FFEB,grecs_grecs_lex_destroy,Todo,"""Function with Memory Manipulation"""
+420094,grecs_grecs_alloc,Todo,"""Function allocates memory on stack"""
+4200AE,grecs_grecs_realloc,Todo,Function for reallocating memory with parameters
+4200D3,grecs_grecs_free,Todo,"""Memory Allocation and Freeing Function"""
+4200EE,grecs_grecs_wrap,Todo,Function Close Stream
+420133,grecs_lex_begin,Todo,Function for file opening and error handling.
+42023B,grecs_lex_end,Todo,Function Prologue
+42024E,isemptystr,Todo,"""Function Setup and Processing"""
+4203A3,multiline_strip_tabs,Todo,Function Prologue
+4203EC,multiline_add,Todo,"""Function Name: Substring Check"""
+42046F,is_tab,Todo,"""Check for Single Digit"""
+420484,is_ws,Todo,Check if char is a digit or hex.
+4204A7,multiline_begin,Todo,Function Prologue.
+42063D,ident,Todo,"""Function prologue with string manipulation"""
+4206D3,qstring_locus_fixup,Todo,"""Increment/Decrement Counter"""
+420702,grecs_value_ptr_from_static,Todo,"""Memory Copy Function"" or ""Copy Structure Function"""
+420760,assign_locus,Todo,Function Name: Unknown (requires more context)
+420844,grecs_parse_line_directive,Todo,Function Setup or Function Initialization.
+420AB7,grecs_parse_line_directive_cpp,Todo,Function prologue.
+420C0E,grecs_str_is_ipv4,Todo,"""Function Setup"""
+420CB2,grecs_str_is_ipv6,Todo,"""Function with Stack Manipulation"""
+420D9E,grecs_str_is_num,Todo,"""ctype character check"""
+420DF2,grecs_str_is_ipaddr,Todo,"""Substring search function"""
+420E4D,grecs_line_acc_create,Todo,Save and call subroutine function.
+420E60,grecs_line_acc_free,Todo,"""Function prologue and epilogue"""
+420E81,grecs_line_acc_grow_char,Todo,"""Function Setup"" or ""Stack Setup"""
+420ED3,grecs_line_acc_grow_char_unescape,Todo,"""Function with Conditional Branching"""
+420F19,grecs_line_acc_grow,Todo,"""Function Setup and Call"""
+420F46,grecs_line_acc_grow_unescape_last,Todo,"Function name: ""GetStringAndPrint"""
+420FE2,grecs_line_begin,Todo,Function prologue.
+420FFA,grecs_line_finish,Todo,"""Function with initialization and cleanup"""
+42101E,_grecs_list_eq,Todo,Check if two variables are equal.
+4210E3,_grecs_array_eq,Todo,Function Name: Compare Pointers
+421175,grecs_value_eq,Todo,Function with Local Variable Comparison
+42124A,_grecs_list_match,Todo,Function with Variable Comparison
+421318,_grecs_array_match,Todo,"""Comparison and Loop Function"""
+4213B0,grecs_value_match,Todo,"""Function Setup"""
+4214D7,grecs_match_buf_create,Todo,Function Prologue.
+4216FE,grecs_match_buf_get_args,Todo,"""Push and Retrieve Pointers"""
+42172A,grecs_match_buf_get_node,Todo,Function prologue
+42173C,grecs_match_buf_get_root,Todo,Function Prologue.
+42174E,grecs_match_buf_set_root,Todo,Function prologue.
+421769,grecs_match_buf_free_contents,Todo,"""Memory Allocation/Deallocation"""
+4217F1,grecs_match_buf_free,Todo,Function with stack and memory allocation.
+42181F,parse_label,Todo,Function Prologue.
+421B43,split_cfg_path,Todo,Function Initialization
+421E1F,grecs_node_exact_match,Todo,Function setup or Function initialization.
+421F99,grecs_find_node,Todo,Function Initialization
+422054,fixup_loci,Todo,Function Name: push_rbp_mov_vars
+422105,grecs_node_from_path_locus,Todo,Function Prologue
+42237A,grecs_node_from_path,Todo,Function with variable initialization.
+4223A6,is_root,Todo,"""Function with variable comparison"""
+4223D8,grecs_match,Todo,Function name: varComparison
+422632,grecs_match_next,Todo,"""Function prologue"" or ""Stack frame setup"""
+422691,grecs_match_buf_first,Todo,Function initialization.
+422717,grecs_match_first,Todo,"""Function with Memory Allocation"""
+422870,stat,Todo,"""File Statistic Jump Function"""
+400DF0,sub_400DF0,Todo,"""Jump to Memory Address"""
+401280,deregister_tm_clones,Todo,Function to check and jump based on a value.
+401300,__do_global_dtors_aux,Todo,Function to set byte to 1 if 0.
+401320,frame_dummy,Todo,"""Memory Address Comparison and Branching"""
+401350,exchange,Todo,Memory Allocation Function.
+4020F0,.bindtextdomain,Todo,option parsing function
+402510,.access,Todo,"""Function to check and modify strings"""
+402640,.strptime,Todo,"""Push and comparison function"""
+402830,FillBuffer_0,Todo,Function to read file and check for errors.
+4028D0,CountChars,Todo,"""Input Counter Function"""
+402910,EvalAtom,Todo,"""Push-RBX-Mov-Sub-Cmp-Jz-Jnz"""
+4029C0,EvalSum,Todo,"""Function with multiple push and mov instructions"""
+402FA0,EvalProd,Todo,Function with Push and Mov Instructions
+4033D0,EvaluateExpression,Todo,Function initialization or Initialization function.
+4035E0,FillBuffer,Todo,"""File read function"""
+4036A0,InitBuffer,Todo,File open and read function
+403870,MakeStringBuffer,Todo,"""Test and Copy Function"""
+4038C0,FlushBuffer,Todo,putchar with byte input
+4038F0,GetaString,Todo,"""String Copy"" or ""String Check and Copy"""
+4039B0,GetIdentifier,Todo,Function for Testing Input Parameters
+403B90,GetNumber,Todo,"""Check and Jump Function"""
+403BC0,PreventLexSplit,Todo,"""Function with Push and Mov Instructions"""
+403C50,SkipComment,Todo,Test and Modify String
+403E30,SkipWhitespace,Todo,Function to Check and Manipulate String
+403F80,NextLex,Todo,parse_string function
+4042B0,ENextLex,Todo,"""Push and Initialization Function"""
+404330,GetPunct,Todo,"""Function Prologue"""
+404390,EGetPunct,Todo,Stack Check Fail Prevention Function.
+404410,GetArrayBounds,Todo,Function with Push and Mov Instructions
+404660,GetOptPunct,Todo,"""Read file function"""
+404770,GetStatement,Todo,Check and Process Input Arguments.
+404B00,GetFuncArgs,Todo,"""Function with Push and Mov Instructions"""
+404DC0,UnrollEquation,Todo,"""Function with Push and Mov Instructions"""
+405040,ReportError,Todo,"""Function with Pushes and Moves"""
+405640,GetFnType,Todo,"""Push-RBP-RBX-Mov-Sub-Mov-Cmp-Jmp/Conditional-Jump-Add-Mov-Cmp-Call-Test-Ret"""
+405790,GetInputArgs,Todo,Push and Setup Function
+405B30,GetNDoses,Todo,"""Push and Memory Manipulation Function"""
+405E20,GetInputFn,Todo,Function prologue.
+406050,AnnounceProgram,Todo,"""Print Three Strings Function"""
+406080,PromptFilenames,Todo,"""String Parsing Function"""
+406260,ShowHelp,Todo,"""Print String Block"" or ""String Printing Routine"""
+4062D0,GetCmdLineArgs,Todo,"""Function for Pushing Registers and Calling Operations"""
+406560,Cleanup,Todo,"""Free Memory Block"""
+4067B0,IsMathFunc,Todo,"""String comparison function"""
+406840,VerifyEqn,Todo,Push and Initialization Function.
+406B10,AddEquation,Todo,"""allocate and copy strings"""
+406D60,GetVarPTR,Todo,"""Compare Strings"""
+406DA0,GetVarType,Todo,test and compare function.
+406DF0,CalculateVarHandle,Todo,"""Compare and Jump Function"""
+406E80,DefineGlobalVar,Todo,"""Function with Push and Comparisons"""
+406FB0,DefineDynamicsEqn,Todo,Function to push and compare values.
+407210,DefineScaleEqn,Todo,"""Push and move registers function"""
+407780,DefineEventEqn,Todo,Function for Pushing and Moving Data
+407910,DefineRootEqn,Todo,Function to Compare Strings
+407AA0,DefineVariable,Todo,"""Function with Push and Comparison Instructions"""
+408040,DeclareModelVar,Todo,Function with multiple push and comparisons
+408330,GetKeywordCode,Todo,"""Copy String and Compare"""
+408380,GetVarList,Todo,"""Function for Pushing and Comparing Values"""
+4084E0,ProcessDTStatement,Todo,Function with Multiple Pushes and Memory Operations.
+408730,ProcessIdentifier,Todo,"Function with push, mov, sub, call instructions."
+408A00,ProcessWord_0,Todo,Function Prologue
+408EB0,ProcessWord,Todo,Input validation check.
+408EE0,FindEnd,Todo,"""find valid input"""
+408F90,ReadModel,Todo,"""Function with Push Instructions"""
+4091C0,Transcribe1AlgEqn,Todo,Function name: initialize_buffer
+409430,Transcribe1DiffEqn,Todo,"""Function with Push and Mov Instructions"""
+409670,AugmentEquation_0,Todo,Function with Push and String Operations
+409A40,CountLines,Todo,"""Push and Scan Function"""
+409AE0,GetSBMLKeywordCode,Todo,"""Push and compare function"" or ""Strcmp and return function"""
+409B30,GetSBMLLex,Todo,Push and Compare Function.
+409CE0,SetVar,Todo,Function with Push and Pop Instructions
+409EA0,Create1Var,Todo,"""Function with Multiple Push Instructions"""
+40A130,ReadCpt,Todo,Push and move function.
+40A290,ReadCpts,Todo,"""Set Null in Struct Function"""
+40A2E0,ReadDifferentials,Todo,Function to push and manipulate registers
+40A780,ReadParameter,Todo,Function name not provided.
+40A8E0,ReadParameters,Todo,"""Function with RBX manipulation"""
+40A910,ReadReaction_L1,Todo,Stack setup and value manipulation.
+40AA20,TranscribeOpSymbol,Todo,"""Function to Compare Strings"""
+40AAE0,ReadApply,Todo,"""Function with Push and Mov Instructions"""
+40AE90,ReadReaction_L2,Todo,"""Prints string with format specifier"""
+40AFF0,ReadRule,Todo,print statement function
+40B190,ReadSBMLLevel,Todo,"""Copy String"""
+40B2C0,Read1Species,Todo,Function Setup or Function Initialization.
+40B710,ReadSpecies,Todo,"Function ""Push and call with error check""."
+40B750,ReadFileNames,Todo,Push and Memory Allocation Function.
+40B930,ReadSBMLModels,Todo,Function to print formatted output.
+40BEA0,ReadPKTemplate,Todo,"""Stack setup"" or ""Function prologue"""
+40C130,WriteOne_R_ParmInit,Todo,Function prologue.
+40C2B0,WriteOne_R_PSDecl,Todo,Function Name: Unknown (no context provided)
+40C490,ForAllVar,Todo,"""Push and Test Function"""
+40C5C0,WriteOneName,Todo,Comparison and Jump with Printing of Error Messages.
+40C770,WriteHeader,Todo,Print current time function.
+40CAE0,WriteIncludes,Todo,"""Fwrite with multiple string outputs"""
+40CBA0,WriteOneDecl,Todo,"""Function Prologue"""
+40CD10,WriteDecls,Todo,Function for Writing File Contents
+40D280,GetName,Todo,Function Name: Check Arguments and Format
+40D3E0,WriteOneVMEntry,Todo,Function to check and manipulate values in registers.
+40D5E0,WriteVarMap,Todo,Function with File Writing and Pointer Manipulation
+40D740,WriteOneInit,Todo,"""Memory Corruption Detection"""
+40DFB0,TranslateID,Todo,"""Stack setup function"""
+40E1C0,TranslateEquation,Todo,Function name not provided in code snippet.
+40E470,WriteOneEquation_0,Todo,"""Function with Push and Mov instructions"""
+40E8F0,WriteCalcDeriv,Todo,"""Test and fwrite"""
+40EE60,WriteCalcJacob,Todo,Function to Write to File
+40EFD0,WriteCalcOutputs,Todo,function_test
+40F1E0,IndexVariables,Todo,Memory usage check function.
+40F670,AdjustVarHandles,Todo,"""Add and Test Function"""
+40F710,ReversePointers,Todo,"""Check and Update Pointer"""
+40F750,AssertExistsEqn,Todo,"""Push RBP and RBX"""
+40F7E0,VerifyEqns,Todo,"""Push and Test Function"""
+40F970,VerifyOutputEqns,Todo,"""Push and Check Function"""
+40FA50,WriteModel,Todo,Function Name: sub_40F1E0
+410070,Write_R_Scale,Todo,"""File Output Function with Registers"""
+410240,Write_R_CalcDeriv,Todo,Check and print function
+4104F0,Write_R_InitModel,Todo,Output File Function.
+4106B0,Write_R_CalcJacob,Todo,Function for writing data to file.
+410840,Write_R_Events,Todo,Function: Print Data and Check for Null Pointers.
+410980,Write_R_Roots,Todo,Assembly code for fwrite function with some conditionals.
+410AE0,WriteOne_R_PIDefine,Todo,Prints debug information
+410CF0,Is_numeric,Todo,Convert String to Double
+410ED0,Write_R_InitPOS,Todo,Print Stack Trace Function.
+4116A0,Write_R_Decls,Todo,"""File Write Function"""
+411C30,Write_R_Includes,Todo,"""Print with Push and Pop"""
+411CB0,Write_R_Model,Todo,"""Function to Copy and Print Data"""
+412180,MyStrcmp,Todo,String Compare Helper Function
+401C10,sub_401C10,Todo,Jump Function
+402120,.__stack_chk_fail,Todo,Function to compare and jump based on a value
+4021A0,.printf,Todo,Function to initialize BSS segment.
+4021C0,._IO_putc,Todo,"""Memory Access and Function Call"""
+4021E6,save_history,Todo,"""Append History Function"""
+4022CE,growbuffer,Todo,Memory Allocation Function
+40239A,logprintf,Todo,"""Function with Stack and Formatting"""
+4024C4,logputchar,Todo,"""Function to Print Character(s)"""
+402506,logputs,Todo,"""Print String Function"""
+402556,hassubscript,Todo,"""String length and comparison function"""
+4025D1,replace_minus,Todo,"""Function Setup"""
+402716,replacectrlchars,Todo,Function name: ctype_b_check_and_replace_spaces
+402764,fgetscont,Todo,process_input.
+4028E1,fgetslong,Todo,Function prologue or stack setup
+402A3E,mymalloc,Todo,Memory Allocation Function
+402AA1,dupstr,Todo,"""String Duplication Function"""
+402AE7,dupnstr,Todo,"""String Copy Function"""
+402B3D,strwidth,Todo,Function Prologue or Set Up Stack Frame.
+402BF1,uhash,Todo,"""Variable manipulation function"""
+402C4B,ulookup,Todo,Function initialization.
+402CB2,plookup,Todo,Function with Stack Allocation
+402D49,fnlookup,Todo,Function with Memory Comparison
+402DB5,aliaslookup,Todo,Function Prologue
+402E0B,addfunction,Todo,Function to Copy Data and Store in Array.
+402E5A,freefunction,Todo,"""Free Memory Function"""
+402FA3,removespaces,Todo,"""String Manipulation Function"""
+403048,invfnlookup,Todo,Check Bit in Byte Function
+403088,strip_comment,Todo,"""String Manipulation"" or ""String Search"""
+4030D1,tightprint,Todo,Function with stream manipulation.
+40312B,splitline,Todo,"""String Parsing Function"""
+4031C5,isdecimal,Todo,"""Stack Allocation and String Search"""
+4031F5,checkunitname,Todo,Function with Stack Operations.
+403415,newunit,Todo,Function for Creating Units in Game
+403693,newprefix,Todo,Function_initializePrefix
+403858,parsepair,Todo,"""Function Setup"""
+403AEC,extract_interval,Todo,Function with Variable Assignments
+403C29,copyfunctype,Todo,"""Copy Function"""
+403D96,copyfunction,Todo,"""Function Setup"" or ""Setup Function"""
+405149,newtable,Todo,"""Initialize Variable"""
+405720,newalias,Todo,Function Name: create_new_alias
+4058A8,checkvar,Todo,"""Name retrieval and comparison function."""
+405930,pathend,Todo,"""String Length Calculation"""
+40597F,isfullpath,Todo,"""Check For Slash"""
+4069E0,initializeunit,Todo,Store Double Precision Float in Array.
+406A20,freeunit,Todo,Function Prologue
+406ACF,showunit,Todo,"""Function Setup"""
+406D31,sortunit,Todo,Function with qsort sorting algorithm.
+406DDA,cancelunit,Todo,Function Name: String Comparison and Memory Management
+406ED2,lookupunit,Todo,Function name: sub_407000
+4072B0,moveproduct,Todo,"""Function Prologue"""
+40738A,copyproduct,Todo,Function Prologue or Stack Frame Setup.
+407402,unitcopy,Todo,"Function name: ""CopyDataToBuffer"""
+407460,multunit,Todo,Calculate Two Numbers with SSE Multiplication
+4074DC,divunit,Todo,"""Divide and Conquer"""
+407559,reduceproduct,Todo,Function with Variable Initialization
+40776F,reduceunit,Todo,"""Function to Allocate Memory and Check Status"""
+40781D,ignore_dimless,Todo,"""Function with Stack Allocation and Comparison"""
+407877,ignore_nothing,Todo,Function prologue or stack setup
+407886,ignore_primitive,Todo,"""Function Setup"" or ""Argument Handling"""
+4078DF,compareproducts,Todo,"""Function for String Comparison"""
+407A0E,compareunits,Todo,Function with stack manipulation and sub-calls.
+407A74,completereduce,Todo,"""Function Setup"""
+407AB9,expunit,Todo,"""Function Setup"" or ""Stack Frame Setup"""
+407CE0,unit2num,Todo,"""Function Prologue"""
+407D8B,unitdimless,Todo,Function Setup or Stack Setup.
+407E10,subunitroot,Todo,"""Function Setup"""
+407F26,rootunit,Todo,"""Function prologue"""
+4080B8,invertunit,Todo,"""Stack Variable Manipulation Function"""
+4081A3,float2rat,Todo,Function with XMM0 and stack manipulation.
+408364,unitpower,Todo,Function Prologue.
+40853F,addunit,Todo,Function name: add_two_numbers_and_process_results.
+4085E3,linearinterp,Todo,"""Calculate Division and Addition"""
+408E8C,showdefinition,Todo,func_push_rbp_rbx_sub_rsp_mov_var
+408F7F,showfunction,Todo,"""Initialize Stack Frame Function"""
+4093E6,showtable,Todo,"""Interpolation Function"""
+4096AE,showfuncdefinition,Todo,"""Function Prologue"""
+409746,showunitlistdef,Todo,"""SunitList function"""
+4097C6,showfunc,Todo,Function initialization or Function setup.
+409AD1,showconformabilityerr,Todo,Function with Local Variables
+409BAC,isfract,Todo,"""Function Setup/Initialization"" or ""Variable Initialization"""
+409C73,checksigdigits,Todo,Initialize Function
+409DCA,setnumformat,Todo,"""Set Number Format Function"""
+40A6D9,round_to_displayed,Todo,"""Calculate Floating Point Number Display"""
+40A8DC,showunitname,Todo,"""Function with Memory Manipulation"""
+40AACE,showanswer,Todo,"""Function with stack allocation"""
+40BADE,addtolist,Todo,"""Memory Allocation"""
+40BDC7,compnd,Todo,String comparison function.
+40BDF2,screensize,Todo,"""Function14h"""
+40BDFD,tryallunits,Todo,"The best name for this ASM function would be ""initialize_variables."""
+40C1FA,getuser_noreadline,Todo,Function with Input Validation and Error Handling.
+40C2D3,getuser_readline,Todo,"""Input Processing"""
+40C3E9,getuser,Todo,Function Entry or Stack Setup
+40C43E,completeunits,Todo,"""Function setup or initialization"""
+40CA17,checkcwd,Todo,Open file and check for errors.
+40CA5B,getprogramname,Todo,"""Function with Push and String Manipulation"""
+40CB1E,getprogdir,Todo,Function to Initialize Variables and Open File
+40CD40,getdatadir,Todo,"""Get Data Dir Function"""
+40CEB3,findlocalemap,Todo,Function for Opening a File.
+40D265,findunitsfile,Todo,open_units_file
+40D73B,personalfile,Todo,initialize file stream and variables
+40D97A,usage,Todo,"""Usage and Help Function"""
+40DA33,helpmsg,Todo,Print Error and Exit Function.
+40DA69,printversion,Todo,Function Setup or Setup Function
+40DDF3,showunitsfile,Todo,Function to Call Units Data File Name.
+40DE2D,processargs,Todo,"""Function with Stack and Argument Handling"""
+40E3EF,showpointer,Todo,"""Function to Print a Number"""
+40E428,processunit,Todo,Function Initialization or Stack Setup.
+40E633,checkunitlist,Todo,Function with Push and Sub Instructions
+40EA8F,processwant,Todo,Function with local variable and string processing.
+40EAF0,checkallaliases,Todo,"""Initiate Unit List Print Function"""
+40EBDB,checkunits,Todo,Function Setup.
+40F128,showunitlist,Todo,Function with Stack Allocation and String Manipulation
+40F849,ishelpquery,Todo,Function name: initialize variables and check input.
+40FCA1,checklocale,Todo,"""Function to Set Locale and Language"""
+40FD47,replacealias,Todo,Function Name: unclear/unknown (due to lack of context)
+40FE82,remaplocale,Todo,"""File Input Function"""
+41000A,close_logfile,Todo,"""Push, Open and Close File"""
+410049,open_logfile,Todo,Function to write log file.
+410F88,getnewunit,Todo,"""NewUnit"""
+410FEF,destroyunit,Todo,"""Function with Memory Allocation and Freeing"""
+41102B,makenumunit,Todo,Function with Memory Assignment.
+411083,logunit,Todo,"""Function with Local Variables"""
+411114,funcunit,Todo,Function initialization or Stack setup.
+4112FB,yydestruct,Todo,Function Prologue.
+4131DA,unitserror,Todo,"""Function to save two parameters"""
+4131E9,parseunit,Todo,Initialize Function.
+413430,atexit,Todo,"""__cxa_atexit implementation"""
+1,not found in dict,Todo,"""Fast Return"""
+401F40,sub_401F40,Todo,Jump to address with push
+4026E0,deregister_tm_clones,Todo,"""Check Value and Jump Function"""
+402760,__do_global_dtors_aux,Todo,Check and Execute Function.
+402780,frame_dummy,Todo,"""Memory access and function calls"""
+4027A6,resolve_bind_address,Todo,"""Function Name"""
+402846,connect_with_timeout_callback,Todo,"""Connect Function"""
+402885,connect_with_timeout,Todo,Function Prologue.
+40292B,set_connection_host_name,Todo,"""Function Setup and Assertion Check"""
+402996,connect_to_one,Todo,Function prologue.
+402C7C,connect_to_many,Todo,"push, move, subtract, load, call, compare, return."
+402D2F,test_socket_open,Todo,"""Select Polling Function"""
+402E2C,bindport,Todo,Initialize Socket Function.
+4030C7,select_fd,Todo,"""Function with stack setup and select"""
+40326E,acceptport,Todo,"""Function Start"" or ""Function Initialization"""
+40334F,closeport,Todo,Function for Closing a File.
+4033CE,conaddr,Todo,socket initialization function
+403458,iread,Todo,Function prologue.
+4034E3,iwrite,Todo,Function Setup
+40359C,convert_all_links,Todo,"""Function Setup"""
+40381A,convert_links,Todo,Function for Saving File
+403D7D,construct_relative,Todo,"""String Processing"""
+403F6A,write_backup_file,Todo,"""Function"" or ""Function name"" would be appropriate names."
+404171,replace_attr,Todo,Function Prologue
+404281,replace_attr_refresh_hack,Todo,Function name: generate_string_hex_checksum.
+404357,find_fragment,Todo,"""Function with Push and Move Instructions"""
+4043E1,local_quote_string,Todo,"""Function Setup"" or ""Stack Frame Initialization"""
+404566,match_except_index,Todo,"""Function"""
+40466B,dissociate_urls_from_file_mapper,Todo,Function name not provided.
+4046E3,dissociate_urls_from_file,Todo,Function prologue.
+40470A,register_download,Todo,Function prologue.
+4048E1,register_redirection,Todo,Function with Memory Allocation and Assert Failure Handling.
+4049BB,register_delete_file,Todo,Function prologue.
+404A82,register_html,Todo,"""Function Prologue"""
+404B03,convert_cleanup,Todo,Set and Clear Global Variables.
+404BA9,downloaded_mode_to_ptr,Todo,"""Select Value Function"" or ""Integer Switch Function"""
+404BEC,downloaded_file,Todo,Function with Push and Sub Instructions.
+404CF4,df_free_mapper,Todo,"""Free Memory Function"""
+404D1B,downloaded_files_free,Todo,"""Initialize function"""
+404D61,cookie_jar_new,Todo,"""Function Setup"""
+404D9C,cookie_new,Todo,"""Function Initialization"""
+404DD9,delete_cookie,Todo,Function for freeing memory allocations.
+404E66,find_matching_cookie,Todo,Function with Local Variable Initialization
+404F3D,store_cookie,Todo,Function Prologue.
+40514D,discard_matching_cookie,Todo,Function prologue
+4052A0,update_cookie_field,Todo,Stack setup function.
+4057D4,parse_set_cookies,Todo,Initialize function
+405D3E,numeric_address_p,Todo,"""Check for Decimal Point"""
+405F18,check_domain_match,Todo,RBPSUB function.
+4061D4,check_path_match,Todo,"""Function Setup and Call"""
+4061F9,cookie_jar_process_set_cookie,Todo,Function Setup or Memory Allocation Function.
+406381,find_chains_of_host,Todo,"""Function with Stack Frame Setup"" or ""Function Prologue"""
+40645C,path_matches,Todo,"""String Comparison Function"""
+4064BE,cookie_matches_url,Todo,Function Prologue.
+4065AC,equality_comparator,Todo,"""Function with String Comparison"""
+406624,eliminate_dups,Todo,"""Function Setup"""
+40673A,goodness_comparator,Todo,"""Function with local variable operations"" or ""Local variable setup and calculation"""
+406790,cookie_jar_generate_cookie_header,Todo,"""Initialize Stack Frame Function"""
+406C8E,domain_port,Todo,"""Function Setup"""
+406D5C,cookie_jar_load,Todo,Stack Frame Setup and File Reading
+4073F0,save_cookies_mapper,Todo,Function prologue or parameter initialization.
+407567,cookie_jar_save,Todo,Function opening and writing to a file.
+407720,nuke_cookie_chain,Todo,Function Setup
+40779E,cookie_jar_delete,Todo,Function Prologue
+4077E0,ftp_expected_bytes,Todo,"""Function Setup"" or ""Function Initialization"""
+40ABE4,ftp_get_listing,Todo,"""Function Name Unknown"""
+40B794,ftp_retrieve_dirs,Todo,Function Prologue
+40BA3E,has_insecure_name_p,Todo,"""Check for '/' or strstr"""
+40BA80,ftp_retrieve_glob,Todo,Function prologue.
+40BDAE,ftp_loop,Todo,Function Prologue
+40C176,delelement,Todo,Function for Freeing Memory and Moving Pointers
+40C210,freefileinfo,Todo,Function setup and cleanup.
+40C275,ftp_response,Todo,Function Prologue or Stack Setup.
+40C564,ftp_request,Todo,String Comparison Function.
+40C677,ftp_login,Todo,Function prologue.
+40C9BD,ftp_port,Todo,"""Function Setup"" or ""Prologue Setup"""
+40CB92,ftp_pasv,Todo,Function prologue.
+40CE76,ftp_type,Todo,Function prologue.
+40CF6F,ftp_cwd,Todo,Function with memory allocation and string manipulation.
+40D080,ftp_rest,Todo,Function with stack manipulation and string operations.
+40D17F,ftp_retr,Todo,"""Function with Memory Management"""
+40D290,ftp_list,Todo,Function Name: Substring_Validation
+40D3A1,ftp_syst,Todo,Function initialization.
+40D586,ftp_pwd,Todo,"""Function Prologue"""
+40D6CF,ftp_size,Todo,"""Function Setup/Initialization"""
+40D842,ftp_process_type,Todo,Function name: str_contains_letter
+40D8A1,symperms,Todo,Function for string comparison.
+40E68E,ftp_parse_winnt_ls,Todo,file open and read function
+40EB86,vmsperms,Todo,"""Function Entry Setup"""
+40F50F,ftp_parse_ls,Todo,"""Function Entry"""
+40F645,ftp_index,Todo,Function Prologue.
+40FC7A,extract,Todo,"""Variable Initialization and Conversion"""
+40FD4E,btoe,Todo,"""Function Setup"" or ""Stack Setup"""
+410134,calculate_skey_response,Todo,"""Function Setup"""
+410312,prime_size,Todo,"""Function to Push and Allocate Space"""
+410371,hash_table_new,Todo,Function Prologue
+410490,hash_table_destroy,Todo,"""Free Memory Allocation Function"""
+4104BB,find_mapping,Todo,Function with multiple instructions.
+410588,hash_table_get,Todo,Function with local variable and function call.
+4105CC,hash_table_get_pair,Todo,Function with Memory Allocation and Variable Initialization
+410640,hash_table_contains,Todo,"""Function Setup and Call"""
+410679,grow_hash_table,Todo,"""Stack allocation and variable initialization."""
+41080A,hash_table_put,Todo,Function Name: Var_Initialization
+4108B9,hash_table_remove,Todo,"""Function with Stack Operations"""
+410A4F,hash_table_clear,Todo,"""Initialize buffer function"""
+410A8E,hash_table_map,Todo,Function Setup or Variable Initialization.
+410B2F,hash_table_count,Todo,Extract 14th Item from Structure
+410B40,string_hash,Todo,"""Function with no name"" or ""Unnamed function"""
+410B99,string_cmp,Todo,Function to Compare Strings.
+410BC6,make_string_hash_table,Todo,Function setup and call.
+410BE7,string_hash_nocase,Todo,"""Stack frame initialization and processing"""
+410C5E,string_cmp_nocase,Todo,String comparison function.
+410C8B,make_nocase_string_hash_table,Todo,"""Function with Memory Allocation and Call"""
+410CAC,ptrhash,Todo,"""Bit Manipulation Function"""
+410D82,ptrcmp,Todo,Comparison function or Compare integers function.
+410D9E,header_get,Todo,Function start prologue or Function initialization prologue.
+41104B,header_process,Todo,Function Prologue
+4110F7,header_extract_number,Todo,"""Function Setup"" or ""Stack Setup"""
+4111B0,header_strdup,Todo,"""Function with argument passing and return value"""
+4111DD,header_exists,Todo,"""Set var to 1"""
+4111FA,skip_lws,Todo,Function Name: process_input
+41124D,address_list_get_bounds,Todo,"""Parameter Copy and Exchange Function"""
+411279,address_list_copy_one,Todo,Variable Initialization and Comparison
+4112DC,address_list_match_all,Todo,"""Compare Memory Function"""
+411349,address_list_set_faulty,Todo,"""Function to modify variable value"""
+4113AD,address_list_from_vector,Todo,Function Name: sub_4113D0
+41149C,address_list_from_single,Todo,"""Function with Variable Initialization"""
+411501,address_list_delete,Todo,Function for freeing memory.
+41152C,address_list_release,Todo,Function push-rbp-sub-rsp-mov-mov-lea-mov-mov-mov-test-jz-mov-mov-mov-call-mov-test-jg-jz-mov-mov-edi-call-leave-retn
+4115AA,wget_sockaddr_set_address,Todo,"""Function Initialization"""
+411662,wget_sockaddr_set_port,Todo,Function Name: htons_or_abort
+41169F,wget_sockaddr_get_addr,Todo,Function name: check_argument_value.
+4116C9,wget_sockaddr_get_port,Todo,"""Convert to Network Order"""
+4116FD,sockaddr_len,Todo,"""Check Domain and Abort"""
+41171A,map_ipv4_to_ip,Todo,Function prologue with variable assignment.
+41173F,map_ip_to_ipv4,Todo,Function or Procedure: Store and Return Value.
+411765,gethostbyname_with_timeout_callback,Todo,"""Host Lookup Function"""
+411796,gethostbyname_with_timeout,Todo,"""Function Setup"""
+41182B,pretty_print_address,Todo,"""Convert to IP Address"""
+411844,cache_host_lookup,Todo,Function Name: Init Variables and Memory Allocation.
+411920,lookup_host,Todo,Function Setup or Function Initialization.
+411B9F,accept_domain,Todo,"""Function with assert and return value"""
+411C3A,sufmatch,Todo,Function name: string comparison and manipulation.
+411D32,herrmsg,Todo,Input validation function.
+411D73,host_cleanup_mapper,Todo,Function that frees memory and asserts.
+411DD3,host_cleanup,Todo,"""Initialize and Clear Memory Function"""
+4129A4,advance_declaration,Todo,"""Stack frame initialization"""
+412CEB,find_comment_end,Todo,"""Argument Parsing Function"""
+412DF6,name_allowed,Todo,Function with stack allocation and string manipulation
+413CA0,init_interesting,Todo,"""Function Setup"""
+413E7E,find_attr,Todo,"""Function with Local Variables"""
+413F1C,append_url,Todo,Function Setup/Initialization
+414223,tag_find_urls,Todo,Function Initialize or InitRBPSpace.
+4143E2,tag_handle_base,Todo,Function Prologue.
+4144EB,tag_handle_form,Todo,"""Function Prologue"" or ""Stack Frame Setup"""
+414574,tag_handle_link,Todo,Function Prologue
+414648,tag_handle_meta,Todo,"""Function prologue"" or ""Stack frame setup"""
+41498B,collect_tags_mapper,Todo,"""Function Setup"""
+4149FD,get_urls_html,Todo,Function with Local Variables and Error Handling
+414BBF,get_urls_file,Todo,Function prologue
+414E9C,cleanup_html_url,Todo,"""Free Memory Function"""
+414ED9,parse_http_status_line,Todo,"""Setup Function"" or ""Function Setup"""
+41511E,post_file,Todo,"""Function with Stack Allocation"""
+4152D7,http_process_range,Todo,"""Function Name: Push RBP"""
+415523,http_process_none,Todo,"""String Search Function"""
+41556E,http_process_type,Todo,Stack Frame Initialization.
+415616,http_process_connection,Todo,Function name: strcasecmp_and_set_flag
+415654,http_process_set_cookie,Todo,Function entry or Stack setup function.
+4156C5,invalidate_persistent,Todo,"""Init Memory and Clean-up Function"""
+41571D,register_persistent,Todo,"""Function Setup"""
+415821,persistent_available_p,Todo,"""Function Prologue"""
+415908,free_hstat,Todo,Function_cleanUpMemory
+4191FD,mktime_from_utc,Todo,"""Setup function"""
+41930D,check_end,Todo,"""Check for Valid Input"""
+4193C9,http_atotm,Todo,Function setup or DateTime parser.
+419457,base64_encode,Todo,"""Function with memory manipulation"""
+4195A2,basic_authentication_encode,Todo,"""Function Name"""
+419718,extract_header_attr,Todo,Function setup.
+419896,dump_hash,Todo,"""Save to buffer"""
+41A0CA,known_authentication_scheme_p,Todo,"""String Comparison and Validation"""
+41A1D6,create_authorization_line,Todo,Function entry or Stack setup.
+41A2AB,http_cleanup,Todo,Function prologue with call.
+41A2CD,findcmd,Todo,Function Entry or Compare and Return
+41A35A,defaults,Todo,Function Setup.
+41A492,home_dir,Todo,"""getenv and getpwuid function"""
+41A503,wgetrc_file_name,Todo,"""Function with Environmental Variable Check"""
+41A626,run_wgetrc,Todo,Function Prologue
+41A7E9,initialize,Todo,Function Push and Error Handling.
+41A88B,dehyphen,Todo,"""Function for String Manipulation"""
+41A8F4,parse_line,Todo,Function with Memory Copy
+41ABD2,setval_internal,Todo,Function with Variable Initialization.
+41AC53,setoptval,Todo,"""Function with stack allocation and function calls"""
+41AC94,run_command,Todo,Function Name: Subroutine with Error Handling.
+41AD6C,cmd_boolean,Todo,Function Entry or Setup Function
+41AF99,cmd_lockable_boolean,Todo,"""Function with Push, Mov and Strcmp"""
+41B297,cmd_number,Todo,Function to Print Error Message.
+41B326,cmd_number_inf,Todo,Compare two strings.
+41B379,cmd_string,Todo,Function to Allocate and Assign Memory Block.
+41B3CD,cmd_file,Todo,"""Function to Modify String URL Path"""
+41B537,cmd_directory,Todo,Stack frame initialization.
+41B5BC,cmd_vector,Todo,"""Function to Initialize Variables"""
+41B631,cmd_directory_vector,Todo,"""Function with Stack Operations"""
+41B71B,parse_bytes_helper,Todo,Function with string comparison and multiplication.
+41B926,cmd_bytes,Todo,"""Function Prologue"""
+41B9D2,cmd_bytes_large,Todo,"""Function Entry"" or ""Function Prologue"""
+41BA7E,cmd_time,Todo,"""Function Initialization"" or ""Function Setup"""
+41BCAE,cmd_spec_dirstruct,Todo,"""Function Setup"""
+41BD0C,cmd_spec_header,Todo,"""Function Prologue"""
+41BE83,cmd_spec_htmlify,Todo,Function with local variable initialization.
+41BED1,cmd_spec_mirror,Todo,Function Setup or Stack Setup.
+41BF74,cmd_spec_progress,Todo,Function Prologue
+41C013,cmd_spec_recursive,Todo,Function_Setup
+41C06F,cmd_spec_restrict_file_names,Todo,"""String comparison and variable assignment"""
+41C1FE,cmd_spec_timeout,Todo,Function prologue.
+41C285,cmd_spec_useragent,Todo,Function prologue with error handling.
+41C31A,simple_atoi,Todo,"""Function with Local Variable Initialization"""
+41C3BD,simple_atof,Todo,Function Prologue.
+41C4EC,check_user_specified_header,Todo,Function to check input validity
+41C57E,cleanup,Todo,"""Close stream"""
+41C5A0,free_log_line,Todo,Memory Allocation and Deallocation Function.
+41C613,saved_append_1,Todo,Function with Stack Allocation
+41C945,saved_append,Todo,"""Function Prologue"""
+41C9B9,get_log_fp,Todo,"""CS Access and Return Function"""
+41C9EC,logputs,Todo,Function prologue
+41CAA9,logvprintf,Todo,Function Prologue
+41CCC0,logflush,Todo,Function Setup/Call.
+41CCF1,log_set_flush,Todo,"""Function Setup and Control Flow"""
+41CD37,log_set_save_context,Todo,"""Function with Local Variable Assignment"""
+41CD55,logprintf,Todo,"""Function Initialization"""
+41CEC0,debug_logprintf,Todo,Function Prologue
+41CFD9,log_init,Todo,"""Function for file I/O setup"""
+41D071,log_close,Todo,"""Initialize and Close File Function"""
+41D0E7,log_dump_context,Todo,"""Function with push, mov, sub, movsxd"""
+41D219,redirect_output,Todo,Function Setup
+41D2F3,check_redirect_output,Todo,SetFlagIfNeeded.
+41D314,log_request_redirect_output,Todo,"""Function Initialization"""
+41D348,i18n_initialize,Todo,"""Language Localization Setup"""
+41D386,print_usage,Todo,Gettext and printf function call.
+41D3B8,print_help,Todo,print function
+41E706,redirect_output_signal,Todo,Function to Check Signal Code
+41E757,gen_md5_context_size,Todo,"""Allocate Memory and Return"""
+41E762,gen_md5_init,Todo,Function Prologue or Stack Frame Setup.
+41E785,gen_md5_update,Todo,"""Function with stack allocation"""
+41E7BC,gen_md5_finish,Todo,Function prologue.
+41E7EA,md5_init_ctx,Todo,Initialize MD5 hash state
+41E844,md5_read_ctx,Todo,"""Copy and Swap Function"""
+41E895,md5_finish_ctx,Todo,"""Memory Copy and Modification"""
+41E9BD,md5_process_bytes,Todo,Memory Copy Function.
+41FE97,search_netrc,Todo,Function Prologue
+4201EA,maybe_add_to_list,Todo,Function Initialize Memory Block.
+4202AD,shift_left,Todo,"""Function Entry/Initialization"""
+4202E0,parse_netrc,Todo,Function prologue
+4207FE,free_netrc,Todo,Function Prolog
+42088B,valid_progress_implementation_p,Todo,Function with variable initialization.
+420929,set_progress_implementation,Todo,Function Prologue.
+420A0A,progress_schedule_redirect,Todo,"""Set Value and Return"""
+420A1B,progress_create,Todo,Function Setup.
+420A70,progress_update,Todo,"""Function prologue and call"""
+420AB0,progress_finish,Todo,Function Prologue.
+420AE5,dot_create,Todo,"""Function Start"""
+420CCB,print_percentage,Todo,"""Divide and Round Integer Function"""
+420D22,print_download_speed,Todo,"""Function to Perform Calculation"""
+420D82,dot_update,Todo,Function prologue.
+420F55,dot_finish,Todo,Function prologue.
+42110A,dot_set_params,Todo,"""Variable Initialization"""
+421249,bar_create,Todo,Initialize Function
+42130A,bar_update,Todo,Function Setup or Function Initialization.
+421463,bar_finish,Todo,Function Prologue
+421519,update_speed_ring,Todo,Function Prologue
+421FA7,display_image,Todo,"""Function Initialization"""
+421FED,bar_set_params,Todo,"""Environment variable processing"""
+4220A4,progress_handle_sigwinch,Todo,"""Function with signal and comparison"""
+4220DE,rbuf_initialize,Todo,"""Copy values to array with offset"""
+422117,rbuf_initialized_p,Todo,"""Check for non-zero value"""
+422130,rbuf_uninitialize,Todo,Function with local variable initialization.
+422145,rbuf_read_bufferful,Todo,Function prologue with memory allocation.
+422170,rbuf_peek,Todo,"""Function with Memory Assignments"""
+422209,rbuf_flush,Todo,"""Function Name: Memcpy and Variable Assignment"""
+4222B9,rbuf_discard,Todo,Function with memory allocation and initialization.
+4222E6,url_queue_new,Todo,Function Setup or Memory Allocation Function.
+422318,url_queue_delete,Todo,"""Free Memory Function"""
+422333,url_enqueue,Todo,Function Prologue
+42246A,url_dequeue,Todo,Function prologue.
+422C96,download_child_p,Todo,Function name not provided.
+423173,descend_redirect_p,Todo,Function name not provided
+423297,match_user_agent,Todo,Function Setup.
+423322,add_path,Todo,"""Function to Store Args in Memory"""
+42341F,prune_non_exact,Todo,"""Function with Memory Allocation"""
+42354A,res_parse,Todo,Stack frame setup.
+423A2C,res_parse_from_file,Todo,"""Function Setup"""
+423AB6,free_specs,Todo,Function Prologue
+423B26,matches,Todo,"""Check for Hexadecimal Input"""
+423D89,res_match_path,Todo,Function prologue or Stack setup function.
+423E68,res_register_specs,Todo,"""String to Hex Conversion"""
+423FF0,res_get_specs,Todo,Function prologue.
+4240FC,res_retrieve_file,Todo,"""Function Setup and Memory Management"""
+4241AA,cleanup_hash_table_mapper,Todo,"""Memory deallocation and function return"""
+4241DD,res_cleanup,Todo,Function Name: Reset Memory Block
+424223,limit_bandwidth_reset,Todo,Function Prologue.
+424241,limit_bandwidth,Todo,"""Calculate X Function"""
+424425,get_contents,Todo,Function Start/Automated Prologue
+424753,retr_rate,Todo,Function Prologue
+4247FF,calc_rate,Todo,Floating point comparison and division function
+42505F,retrieve_from_file,Todo,"""Function Setup"""
+425297,printwhat,Todo,Compare and Call function.
+4252D3,sleep_between_retrievals,Todo,"""Sleep Function"""
+42542E,free_urlpos,Todo,Function Prologue.
+42549E,rotate_backups,Todo,"""Function Setup"""
+425684,getproxy,Todo,"""Function Setup"""
+42578E,no_proxy_match,Todo,"""Function: Parameter Check"""
+4257C9,url_unescape,Todo,"""Copy and transform characters"""
+425923,url_escape_1,Todo,Function Setup or Setup Function.
+425AC2,url_escape,Todo,Function with Local Variable Initialization.
+425AE6,url_escape_allow_passthrough,Todo,Function prologue.
+425B0A,decide_copy_method,Todo,"""Function with Comparison and Logical Operations"""
+425C8F,reencode_escapes,Todo,Function Prologue.
+425ED8,url_scheme_0,Todo,"""Check String Equality Function"""
+425F72,url_has_scheme,Todo,"""parse_integer"""
+42602E,scheme_default_port,Todo,"""Get Variable Value and Return"""
+426046,scheme_disable,Todo,Function with Memory Write
+426063,url_skip_credentials,Todo,Function: str_search_or_skip_char
+4260B4,parse_credentials,Todo,Function with Push and Memory Operations
+4261A1,rewrite_shorthand_url,Todo,Function Setup or Stack Setup Function.
+42630C,lowercase_str,Todo,"""Function Name: Push and Assignment"""
+426B6E,url_error,Todo,"Function Name: ""compare_and_gettext"""
+426BB7,split_path,Todo,mov_strrchr
+426C6B,full_path_length,Todo,Function prologue or Stack setup
+426D01,full_path_write,Todo,string builder function
+426E0D,url_full_path,Todo,"""Stack Manipulation Function"""
+426E65,url_escape_dir,Todo,Function with variable assignments and comparisons.
+426F13,sync_path,Todo,Memory Allocation and String Manipulation.
+427092,url_set_dir,Todo,"""Memory Deallocation and Modification"""
+4270D8,url_set_file,Todo,"""Free and Modify Function"""
+42711E,url_free,Todo,"""Free Memory Function"""
+427219,mkalldirs,Todo,Stack Setup and String Comparison.
+4273C2,append_string,Todo,Function name: str_copy
+4274A4,append_char,Todo,Function Prologue.
+427565,append_uri_pathel,Todo,"""Function Setup"" or ""Function Initialization"""
+4278E7,append_dir_structure,Todo,Function for Moving and Initializing Variables.
+42798E,url_file_name,Todo,Function prologue
+427C4E,path_length,Todo,"""String Search Function"""
+427CA8,find_last_char,Todo,"""Function with Parameter Comparison"""
+427CE3,path_simplify,Todo,"""Path Parsing Function"""
+427EB0,uri_merge,Todo,Function name: push_rbp_mov_rbp_rsp_add_rsp_var_mov_var_mov_rax_mov_rdi_call_test_jz_mov_jmp_mov_movsxd_add_call_mov_movzx_test_jnz_mov_mov_strchr_cmp_jnz_mov_call_jmp_cmp_jz_jnz_mov_add_mov_movsxd_call_cmp_jnz_mov_cmp_jz_jnz_mov_call_cmp_jnz_jz_mov_call_mov_leave_retn.
+4283F7,url_string,Todo,"""Function setup"""
+4287B7,schemes_are_similar_p,Todo,Comparison function.
+4287D7,memfatal,Todo,"""Enter Text Function"""
+428825,xmalloc_real,Todo,"""allocate_memory"""
+428858,xrealloc_real,Todo,Stack allocation and memory management function.
+4288AF,xstrdup_real,Todo,Function name: strdup_check_or_error
+4288E2,xstrdup_lower,Todo,"""Function with Stack Allocation"""
+42893C,count_char,Todo,Push-and-Compare or Incremental Letter Search.
+42897F,strdupdelim,Todo,Copy and null-terminate string.
+4289F2,sepstring,Todo,"""Function with Push, Mov, Sub"""
+428B76,time_str,Todo,"""Stack Setup and Time Retrieval"""
+428C13,datetime_str,Todo,Function Prologue.
+428CD3,fork_to_background,Todo,Function Prologue
+428DDC,touch,Todo,"""Set File Timestamps"""
+428E69,remove_link,Todo,Function Setup
+428F67,file_exists_p,Todo,AccessCheck function.
+428F8E,file_non_directory_p,Todo,"""Function Prologue"""
+428FFF,file_size,Todo,FILE_OPEN_FUNCTION
+429068,unique_name_1,Todo,init_stackframe
+42915E,unique_name,Todo,Function Name: subroutine with parameter and conditional statements.
+4291A5,make_directory,Todo,"""_mkdir"" or ""Create Directory"""
+4292F9,file_merge,Todo,"""String Manipulation"""
+4293D9,acceptable,Todo,"""Stack Allocation and String Processing"""
+4294EE,frontcmp,Todo,"""Byte Comparison"""
+42953F,proclist,Todo,"""Function with Stack Operations"""
+4295FF,accdir,Todo,"""Check if slash character in string"""
+429691,match_tail,Todo,String comparison function.
+42979C,in_acclist,Todo,"""Function with Stack Variables"""
+429856,suffix,Todo,"""String Length Comparison"""
+4298D5,has_wildcards_p,Todo,"""Check for Special Characters"""
+429929,has_html_suffix_p,Todo,Function to Compare Strings.
+4299BD,read_whole_line,Todo,"""Initialize String Input Function"""
+429AC3,read_file,Todo,"""Function Setup"" or ""Stack Setup"""
+429E0C,read_file_free,Todo,"""Memory Deallocation Function"""
+429E60,free_vec,Todo,"""Function Prologue"""
+429EAF,merge_vecs,Todo,"""Copy and free function"""
+429FBF,slist_append,Todo,Function Prologue
+42A03F,slist_prepend,Todo,Function Prologue with Variable Initialization.
+42A085,slist_nreverse,Todo,"""Function Setup and Return"""
+42A0CC,slist_contains,Todo,"""String Comparison Function"" or ""strcmp Function"""
+42A119,slist_free,Todo,Function Prologue and Epilogue
+42A160,string_set_add,Todo,"""Function with Stack and Calls"""
+42A1AF,string_set_contains,Todo,Function Prologue.
+42A1D4,string_set_free_mapper,Todo,"""Memory Allocation Cleanup"""
+42A1FB,string_set_free,Todo,"Function name: ""Call and save result"""
+42A22C,free_keys_and_values_mapper,Todo,"""Dynamic Memory Deallocation"""
+42A25F,free_keys_and_values,Todo,"""Function prologue with call"""
+42A284,legible_1,Todo,"""Setup Function"""
+42A3B8,legible,Todo,"""Function Prologue"""
+42A408,large_int_to_string,Todo,"""Buffer Format Function"" or ""snprintf Call"""
+42A43D,legible_large_int,Todo,Function prologue.
+42A48D,numdigit,Todo,"""Integer Division Function"""
+42F41E,wtimer_allocate,Todo,Function setup and call.
+42F43A,wtimer_new,Todo,Function Prologue
+42F45D,wtimer_delete,Todo,"""Memory Allocation and Release"""
+42F478,wtimer_sys_set,Todo,"""Get Time Function"""
+42F498,wtimer_reset,Todo,"""Function Prologue and Epilogue"""
+42F4CD,wtimer_sys_diff,Todo,"""Calculate Difference and Ratio"""
+42F533,wtimer_elapsed,Todo,Function prologue.
+42F5F1,wtimer_granularity,Todo,"""Load Constant from Memory Function"""
+42F5FF,html_quote_string,Todo,"""Push and variable assignment function"""
+42F84F,determine_screen_width,Todo,Function Prologue.
+42F8CB,random_number,Todo,"""Calculation with random number generation"""
+42F935,random_float,Todo,"""Calculate Average"""
+42F9B1,abort_run_with_timeout,Todo,"""Stack allocation and error handling"""
+42F9EA,alarm_set,Todo,"""Memory Allocation and Timer Initialization"""
+42FAA6,alarm_cancel,Todo,"""Function Prologue"""
+42FB00,run_with_timeout,Todo,Function Name: xmm0_comparison
+42FBD0,__libc_csu_init,Todo,"""Initiate Process"""
+42FC50,stat_0,Todo,"""Copy and Jump"""
+42FC60,fstat,Todo,"""File Stat Request Setup"""
+42FC70,lstat,Todo,"""File Stat Request Function"""
+400F10,.__assert_fail,Todo,Jump to and Push Memory Addresses.
+401200,.strcpy,Todo,"""Function with Memory Address Comparison"""
+401280,deregister_tm_clones,Todo,Set flag and call function.
+4012A0,.gettext,Todo,Memory Comparison and Function Call
+4012C6,prefix_length,Todo,"""Compare and Subtract Bytes"""
+40150C,close_stdout_set_file_name,Todo,Function with local variable storage.
+401522,close_stdout_set_ignore_EPIPE,Todo,"""Function with Variable Assignment"""
+401538,close_stdout,Todo,Function Prologue.
+401624,set_program_name,Todo,"Function Name: ""string_manipulation"""
+40170C,clone_quoting_options,Todo,"""errno_location"""
+401758,usage,Todo,Function Prologue.
+401776,set_quoting_style,Todo,"""Function with local variable initialization"""
+40179B,set_char_quoting,Todo,"""Push and manipulate variables"""
+401823,set_quoting_flags,Todo,"""Function to Set Variable Value and Return"""
+401856,set_custom_quoting,Todo,"""Function Initialization"""
+4018B1,quoting_options_from_style,Todo,Function Prologue.
+401949,gettext_quote,Todo,"""msg translation function"""
+40277E,quotearg_buffer,Todo,"""Function Setup"""
+402820,quotearg_alloc,Todo,Function Setup or Parameter Initialization
+402852,quotearg_alloc_mem,Todo,"Function name: ""Save Variables and Call Function"""
+40297E,quotearg_free,Todo,"""Allocate and free memory function"""
+402A2A,quotearg_n_options,Todo,"""Function with Stack Operations"""
+402CD5,quotearg_n,Todo,Function prologue.
+402D00,.__stack_chk_fail,Todo,"""Function Prologue"" or ""Stack Frame Setup"""
+402D2C,quotearg,Todo,Function prologue.
+402D4B,quotearg_mem,Todo,"""Function Setup"""
+402D72,quotearg_n_style,Todo,"""Function Prologue"""
+402DD6,quotearg_n_style_mem,Todo,Function prologue or Stack setup.
+402E38,quotearg_style,Todo,"""Function prologue with call"""
+402E5C,quotearg_style_mem,Todo,"""Function setup"""
+402E88,quotearg_char_mem,Todo,Function Prologue.
+402F3F,quotearg_char,Todo,Function prologue.
+402F69,quotearg_colon,Todo,Function with Local Variable and Calling Subroutine.
+402F88,quotearg_colon_mem,Todo,"""Function with Memory Allocation"""
+402FB2,quotearg_n_style_colon,Todo,Function Name: Unknown (not enough context provided)
+403070,.nl_langinfo,Todo,Function prologue.
+4030A6,quotearg_n_custom_mem,Todo,Function prologue.
+403160,.memmove,Todo,Function Prologue.
+40318F,quotearg_custom_mem,Todo,"""Function Setup"" or ""Function Prologue"""
+4031C9,quote_n_mem,Todo,"""Function Setup and Call"""
+4031F5,checkunitname,Todo,Function prologue or Stack setup.
+40321C,quote_n,Todo,Function Prologue.
+403245,quote,Todo,Function setup or Stack setup.
+403264,xnmalloc,Todo,"""Stack overflow protection function."""
+4032D1,xnrealloc,Todo,Stack allocation and multiplication function.
+40334C,x2nrealloc,Todo,Set or Check Stack Size Function.
+4033FB,xcharalloc,Todo,Function Prologue.
+403415,newunit,Todo,Allocating Function.
+40344A,xrealloc,Todo,"""Memory Allocation Function"""
+4034AB,x2realloc,Todo,Function prologue.
+4034D5,xzalloc,Todo,Function Prologue
+403506,xcalloc,Todo,Function with Dynamic Memory Allocation
+40353F,xmemdup,Todo,Function with Local Variables and Memory Copy
+403573,xstrdup,Todo,String Length Function.
+4035A0,xalloc_die,Todo,"""Gettext Error and Abort Function"""
+4035D5,c_strcasecmp,Todo,"""Function Prologue"""
+40364D,close_stream,Todo,"""Filing error checker"""
+4036D8,get_charset_aliases,Todo,Function Prologue.
+403BB2,locale_charset,Todo,initialize language information or set default value
+403C80,c_isalnum,Todo,"""Alphanumeric Validation Function"""
+403CB4,c_isalpha,Todo,Range Check Function.
+403CDE,c_isascii,Todo,"""Check number range validity"""
+403CFE,c_isblank,Todo,Function with integer comparison and branching.
+403D22,c_iscntrl,Todo,"""Check validity of input value"""
+403D48,c_isdigit,Todo,"""CheckInputValidity"""
+403D68,c_isgraph,Todo,CheckValue.
+403D88,c_islower,Todo,"""Check Hex Value Range Function"""
+403DA8,c_isprint,Todo,Function that Compares Two Values.
+403DC8,c_ispunct,Todo,"""Check Valid Input Range"""
+403E06,c_isspace,Todo,Validation of input character.
+403E2D,c_isupper,Todo,Function to Compare Two Values.
+403E4D,c_isxdigit,Todo,"""Check and Run Function"""
+403E79,c_tolower,Todo,Function with variable subtraction and comparison.
+403E98,c_toupper,Todo,Function prologue and input validation.
+403F40,atexit,Todo,"""Exit Function"" or ""Atexit Handler"""
+4011F0,._exit,Todo,Push and Jump Instruction
+4015B0,frame_dummy,Todo,Comparison and Jump Function.
+401630,.init_proc,Todo,Check if byte is zero and call function if not.
+401650,sub_401650,Todo,"""Check and Call Function"""
+401676,strindex,Todo,Function for string comparison.
+401711,prefix_length,Todo,"""Comparison function with push/pop"""
+401758,usage,Todo,print error message function
+4017BF,inerr,Todo,"""Error Handling Function"""
+4017F4,outerr,Todo,"""Error handling function"""
+401C79,__bswap_32,Todo,ByteSwapInt32
+401C87,decode_value,Todo,Function prologue.
+401D7B,getword,Todo,"""File input function"""
+401E9C,putword,Todo,"""Function with Push and Assert"""
+401F16,display_findutils_version,Todo,Print Error Message Function.
+401F99,close_stdout_set_file_name,Todo,Function Prologue
+401FAF,close_stdout_set_ignore_EPIPE,Todo,"Function name: ""Copy Parameter and Store in Memory"""
+401FC5,close_stdout,Todo,"""Function Prologue and Epilogue"""
+4020B1,set_program_name,Todo,"Function Name: ""str_func"""
+402199,clone_quoting_options,Todo,errno_location function.
+4021E5,get_quoting_style,Todo,Function prologue with if statement.
+402203,set_quoting_style,Todo,"""Variable Assignment and Return"""
+402228,set_char_quoting,Todo,"""Variable Assignment Function"""
+4022B0,.setsid,Todo,Function Set Variable and Return
+4022E3,set_custom_quoting,Todo,Function with Local Variables Initialization.
+40233E,quoting_options_from_style,Todo,"""Function Setup"""
+4023D6,gettext_quote,Todo,"""Msgid Translation Function"""
+40320B,quotearg_buffer,Todo,Stack frame setup.
+4032AD,quotearg_alloc,Todo,"""Function with variable initialization and call"""
+4032DF,quotearg_alloc_mem,Todo,Function name: var_setup
+40340B,quotearg_free,Todo,"""Memory Allocation and Freeing"" or ""Dynamic Memory Handling"""
+4034B7,quotearg_n_options,Todo,"""Function Prologue"" or ""Stack Init"""
+403762,quotearg_n,Todo,Function prologue with arguments initialization.
+40378D,quotearg_n_mem,Todo,Function Prologue.
+4037B9,quotearg,Todo,Function name: subroutine or method.
+4037D8,quotearg_mem,Todo,Function Prologue.
+4037FF,quotearg_n_style,Todo,Initial Setup Function
+403863,quotearg_n_style_mem,Todo,Function Entry Setup
+4038C5,quotearg_style,Todo,Function prologue and call
+4038E9,quotearg_style_mem,Todo,"""Function Entry/Setup"""
+403915,quotearg_char_mem,Todo,Function Start.
+4039CC,quotearg_char,Todo,Function Prologue
+4039F6,quotearg_colon,Todo,"""Function with Memory Allocation"""
+403A15,quotearg_colon_mem,Todo,Function setup or variable initialization.
+403A3F,quotearg_n_style_colon,Todo,Function with Local Variables
+403AFD,quotearg_n_custom,Todo,"""Function Setup"""
+403B33,quotearg_n_custom_mem,Todo,Function Prologue
+403BED,quotearg_custom,Todo,"""Function Prologue"""
+403C1C,quotearg_custom_mem,Todo,Function Prologue.
+403C56,quote_n_mem,Todo,Function setup or Stack setup.
+403C82,quote_mem,Todo,Function with Variable Initialization.
+403CA9,quote_n,Todo,"""Function Prologue"""
+403CD2,quote,Todo,Function Prologue.
+403CF1,version_etc_arn,Todo,"""Function Prologue"" or ""Stack Setup"""
+404260,version_etc_ar,Todo,Function Name: Push and Save Data to Stack Frame.
+4042CF,version_etc_va,Todo,Function with stack allocation and input parameter saving.
+4043D1,version_etc,Todo,Function Prologue.
+4044B1,emit_bug_reporting_address,Todo,print function
+40451B,xnmalloc,Todo,"""Function Prologue"""
+404588,xnrealloc,Todo,"""Function Prologue"""
+404603,x2nrealloc,Todo,"""Function Name: Memory Allocation"""
+4046B2,xcharalloc,Todo,Function prologue.
+4046CC,xmalloc,Todo,"""Function for Dynamic Memory Allocation"""
+404701,xrealloc,Todo,"""Memory Allocation Function"""
+404762,x2realloc,Todo,"""Function Setup and Call"""
+40478C,xzalloc,Todo,"""Memory Allocation and Initialization"""
+4047BD,xcalloc,Todo,"""Allocate Memory Function"""
+4047F6,xmemdup,Todo,"""Memory copy function"" or ""memcpy subroutine"""
+40482A,xstrdup,Todo,String Length Calculation Function.
+404857,xalloc_die,Todo,"""Language error abort function"""
+40488C,clear_ungetc_buffer_preserving_position,Todo,"""Function with stack manipulation and conditional jumps"""
+4048C0,rpl_fflush,Todo,"""Function Name: flush_or_write"""
+40490B,rpl_fseeko,Todo,file_seek
+4049C5,c_strcasecmp,Todo,Function name: Compare Strings
+404A3D,close_stream,Todo,Function for File ErrorChecking
+404AC8,get_charset_aliases,Todo,"""The initialization function"""
+404FA2,locale_charset,Todo,Set Lang Info and String Manipulation
+405070,c_isalnum,Todo,"""Hexadecimal Digit Checker"""
+4050A4,c_isalpha,Todo,"""Alphabet_Check"""
+4050CE,c_isascii,Todo,CheckIfGreaterThan127.
+4050EE,c_isblank,Todo,Function to Check Integer Value
+405112,c_iscntrl,Todo,"""Check Input Range Function"""
+405138,c_isdigit,Todo,Compare and branch function.
+405158,c_isgraph,Todo,"""Check Range Function"""
+405178,c_islower,Todo,"""Check Input Range Function"""
+405198,c_isprint,Todo,Function name: checkValueInRange
+4051B8,c_ispunct,Todo,"""Check Character Validity"""
+4051F6,c_isspace,Todo,"""Input Validation Check"""
+40521D,c_isupper,Todo,"""Check Input Range Function"""
+40523D,c_isxdigit,Todo,"""Function with Memory Check"""
+405269,c_tolower,Todo,"Function Name: ""subtract_check_add"""
+405288,c_toupper,Todo,"""Subtract and Compare Function"""
+405330,atexit,Todo,Load and Jump to Exit.
+402A50,sub_402A50,Todo,"""Jump to CS memory address"""
+4033D0,EvaluateExpression,Todo,Function for Checking Memory Address.
+403450,__do_global_dtors_aux,Todo,Set flag if not zero
+403470,frame_dummy,Todo,"""Function mov and cmp with jumps"""
+403496,left_dir,Todo,"""Close file function"""
+4034CD,inside_dir,Todo,Function prologue.
+403579,get_fts_info_name,Todo,"""Function with Jump Table"""
+403619,visit,Todo,Assembly function to set up stack and call other functions
+4036C4,partial_quotearg_n,Todo,Stack Frame Initialization
+403744,issue_loop_warning,Todo,Function name: error_check
+40381C,symlink_loop,Todo,"""Setup function"""
+40389A,show_outstanding_execdirs,Todo,"""Function Setup"""
+403A34,consider_visiting,Todo,Function Prologue
+4040FB,find,Todo,Function prologue.
+4043A5,process_all_startpoints,Todo,"""Function Prologue"""
+40463A,clear_ungetc_buffer_preserving_position,Todo,"""Function with Push/Pop and Memory Operations"""
+404655,ts_difference,Todo,"""Time Difference Calculation"" or ""Time Delta Function"""
+4046C6,compare_ts,Todo,"""Function Setup and Comparison"""
+40474C,pred_timewindow,Todo,"""Function setup and validation"""
+40484D,pred_amin,Todo,Function Setup or Function Initialization.
+404895,pred_and,Todo,Function with Local Variable Initialization.
+404902,pred_anewer,Todo,"""Function with Memory Allocation and Assert Check"""
+404979,pred_atime,Todo,"""Function with Push and Pop"""
+4049C1,pred_closeparen,Todo,Function prologue.
+4049D8,do_query_simple,Todo,Function Prologue or Function Setup.
+404A20,pred_cnewer,Todo,Function for Asserting and Returning Value.
+404A97,pred_comma,Todo,Function Setup or Function Init.
+404AF9,pred_ctime,Todo,Function name: Process Data.
+404B41,perform_delete,Todo,"""Unlinkat function with flag manipulation"""
+404B6D,pred_delete,Todo,Function with Push and Mov instructions.
+404C76,pred_empty,Todo,Function initialization or File handling function.
+404E69,pred_exec,Todo,Function preamble/prologue.
+404E96,pred_execdir,Todo,Function setup or Function prologue.
+404EC6,pred_false,Todo,Function prologue with arguments saving.
+404EDD,pred_fls,Todo,Function Initialization
+404F42,pred_fprint,Todo,Function startup or Initialization.
+404F8C,pred_fprint0,Todo,"""Stream output function"""
+404FD7,pred_fstype,Todo,"""Function with String Comparison and Cleanup"""
+405029,pred_gid,Todo,"""Function for Comparing Variables"""
+4050B6,pred_group,Todo,Function with Parameter Comparison
+4050E6,pred_ilname,Todo,"""Function Prologue"""
+405115,pred_name_common,Todo,"""Pattern Matching Function"""
+405174,pred_iname,Todo,"""Function with stack allocation and call"""
+4051A6,pred_inum,Todo,Function with error checking and assertion
+40525A,pred_ipath,Todo,"""Function to check file name using fnmatch"""
+40529C,pred_links,Todo,Function with Push and Comparison Instructions.
+405326,pred_lname,Todo,"""Function Setup"""
+405355,match_lname,Todo,Function with file matching and error handling.
+40540F,pred_ls,Todo,Function prologue with argument initialization.
+40543C,pred_mmin,Todo,"""Function with Variable Initialization"""
+405484,pred_mtime,Todo,Function for Initializing Variables and Calling Subroutine.
+4054CC,pred_name,Todo,Function Prologue.
+4054FE,pred_negate,Todo,Function prologue with call
+405543,pred_newer,Todo,"Function: ""Assert and memory operation"""
+4055BA,pred_newerXY,Todo,stack setup and parameter handling
+40573E,pred_nogroup,Todo,"""get_group_status"""
+405768,pred_nouser,Todo,Get Password User ID Function.
+405792,is_ok,Todo,"""Push and Print Function"""
+405822,pred_ok,Todo,Function Prologue
+405877,pred_okdir,Todo,Function name: process data and return
+4058CF,pred_openparen,Todo,Function Setup or Parameter Initialization
+4058E6,pred_or,Todo,Function Name: Process Input and Return Result.
+405956,pred_path,Todo,"""Function for Filename Matching"""
+405998,readunits,Todo,Function Initialization
+405A32,pred_executable,Todo,"""File Access Function"""
+405A6B,pred_readable,Todo,Function Setup for File Access Check
+405AA4,pred_writable,Todo,"""File Access Function"""
+405ADD,pred_print,Todo,"""Function with memory manipulation and subroutine call"""
+405B27,pred_print0,Todo,Function prologue.
+405B54,pred_prune,Todo,Function with Local Variable Initialization
+405BBF,pred_quit,Todo,Function prologue.
+405BE5,pred_regex,Todo,"""String Matching Function"""
+405C3D,pred_size,Todo,"""Integer Division and Comparison"""
+405CF6,pred_samefile,Todo,Function prologue.
+405D92,pred_true,Todo,"""Function Start"""
+405DA9,pred_type,Todo,"""Function Setup and Assertion Check"""
+405E37,pred_uid,Todo,Function to Compare Memory Values
+405EC4,pred_used,Todo,"""Function with Stack Allocation"""
+405F65,pred_user,Todo,"""Compare Arguments and Return Boolean"""
+405F95,pred_xtype,Todo,Function Name: init_exception_handler
+4060D3,pred_context,Todo,Function Name: PushRBPandSetupLocals
+4061BB,blank_rtrim,Todo,"""Copy string with spaces removed"""
+40624C,print_list,Todo,Function prologue.
+406307,print_parenthesised,Todo,Function Name: sub_4062F0
+4063F2,print_optlist,Todo,"""Print stream function"""
+4065DF,show_success_rates,Todo,"""Stack Frame Setup and Output Handling Function"""
+406645,pred_sanity_check,Todo,Stack frame initialization function.
+40684F,initialize_wd_for_exec,Todo,"""File Open Function"""
+4068F3,record_exec_dir,Todo,"""Function Initialization"""
+4069B3,impl_pred_exec,Todo,Function prologue or stack setup.
+406CAE,prep_child_for_exec,Todo,Function: Open File or Handle Error.
+406E2F,launch,Todo,Function Prologue or Stack Frame Setup
+40710F,matches_start_point,Todo,"""Pattern matching function"""
+4071AD,get_expr,Todo,"""Function with Push and Mov Instructions"""
+40754C,scan_rest,Todo,"""Function Prologue"""
+4076A8,predicate_is_cost_free,Todo,"""Check for Specific Values Function"""
+407757,print_predicate,Todo,"""Function name"" (as the code itself does not provide any indication of its purpose or functionality)"
+4077B6,predlist_init,Todo,"""Function to Clear Memory"""
+4077DC,predlist_insert,Todo,Function with Stack Frame Initialization
+407842,pred_cost_compare,Todo,"""Comparison and Checking Function"""
+4078F9,predlist_merge_sort,Todo,Function prologue.
+407B2C,merge_lists,Todo,Function to Push and Call with Arguments.
+407BBF,subtree_has_side_effects,Todo,Function Entry with Variable Comparison
+407C24,worst_cost,Todo,Function prologue.
+407C92,perform_arm_swap,Todo,"""Copy and Modify Stack Variables"""
+407CDF,consider_arm_swap,Todo,"Function name: ""checkValueAndPrintMessage"""
+407F90,do_arm_swaps,Todo,"""Function with stack allocation and comparisons"""
+407FFC,opt_expr,Todo,Function prologue.
+408652,constrain_rate,Todo,"""Stack Frame Comparison Function"""
+40868E,set_new_parent,Todo,Function Set Up
+4087FC,merge_pred,Todo,Function to Save Registers and Update Values.
+40882C,check_sorted,Todo,Function Prologue.
+408986,get_pred_cost,Todo,Function setup or Stack frame setup.
+408B5D,estimate_costs,Todo,Save and process parameters.
+408BAE,get_eval_tree,Todo,Function prologue.
+408BBB,getrate,Todo,Function prologue.
+408BDF,calculate_derived_rates,Todo,"""Function with Assert Failure and Floating Point Operations"""
+408F1B,check_normalization,Todo,"""Function Prologue"""
+4097F5,init_pred_perf,Todo,function start or stack frame setup
+409829,get_new_pred_noarg,Todo,"""Function to set qword to zero"""
+40985E,get_new_pred,Todo,Function_Prologue
+409A41,get_new_pred_chk_op,Todo,"""Function Initialization"""
+409B99,cost_name,Todo,"""Function with Push and Compare Instructions"""
+409BE9,type_name,Todo,"""Memory Access and Comparison Function"""
+409C47,prec_name,Todo,"""Memory Access and Comparison Function"""
+409CA5,print_tree,Todo,Function for Writing and Formatting Output.
+40A02A,insert_primary_withpred,Todo,"""Function Entry/Initialization"""
+40A098,insert_primary,Todo,Function prologue with assertions.
+40A0EB,insert_primary_noarg,Todo,Function Prologue.
+40A10A,show_valid_debug_options,Todo,"""Stack frame initialization and print"""
+40A1FE,usage,Todo,"""Print Status Function"""
+40A2AF,set_stat_placeholders,Todo,"""Function setup and return"""
+40A2BA,get_statinfo,Todo,Function with Push and Mov Instructions.
+40A3B9,get_info,Todo,"""Function Setup"""
+40A4EB,check_nofollow,Todo,Function with Stack Manipulation
+40A5C2,exec_cb,Todo,Function Setup or Function Initialization.
+40A5F8,do_exec,Todo,Function Prologue
+40A66F,do_complete_pending_execdirs,Todo,Function prologue.
+40A725,complete_pending_execdirs,Todo,Function with Call and Test Instruction
+40A74B,complete_pending_execs,Todo,Function prologue.
+40A7D9,record_initial_cwd,Todo,Function prologue.
+40A8A2,cleanup_initial_cwd,Todo,"""Function Prologue"""
+40A98D,traverse_tree,Todo,"""Function with Memory Allocation and Calls"""
+40AA01,undangle_file_pointers,Todo,Function name: check_and_clear_token
+40AA54,fd_leak_check_is_enabled,Todo,"""Get Environment Variable Check"""
+40AA75,cleanup,Todo,Function Prologue or Stack Setup
+40AB0C,fallback_stat,Todo,File error handling function.
+40AB7D,optionh_stat,Todo,Function to Open File and Check Error Codes.
+40AC2F,optionl_stat,Todo,Function to Open File and Check for Errors.
+40ACBB,optionp_stat,Todo,File open function.
+40AD21,debug_stat,Todo,"""Function with Push and Variable Declarations"""
+40ADD1,following_links,Todo,"""Check for Value and Return"""
+40AE02,digest_mode,Todo,Function prologue.
+40AF1E,c_strcasecmp,Todo,"""Variable Check Function"""
+40AF58,looks_like_expression,Todo,"""Function with Push and Mov Instructions"""
+40AFEE,process_debug_options,Todo,Function to tokenize a string
+40B18B,process_optimisation_option,Todo,"""Parameter Parsing Function"""
+40B372,process_leading_options,Todo,"""Function with Memory Access and String Comparison"""
+40B52E,now,Todo,"""Function prologue"" or ""Stack setup and timestamp retrieval"""
+40B5D7,set_option_defaults,Todo,Function Setup or Initialize Function
+40B769,apply_predicate,Todo,Function with Variable Initialization
+40B821,is_exec_in_local_dir,Todo,"""Compare Value Function"""
+40B84E,safely_quote_err_filename,Todo,Function prologue.
+40B875,error_severity,Todo,Function prologue and epilogue.
+40B893,report_file_err,Todo,Function Initialization or Error Handling Function.
+40B90B,nonfatal_target_file_error,Todo,Function setup and call.
+40B938,fatal_target_file_error,Todo,Function with Stack Allocation and Abort Call.
+40B967,nonfatal_nontarget_file_error,Todo,"""Function Setup and Call"""
+40B994,fatal_nontarget_file_error,Todo,"Function with Push, Move, Sub and Abort Instructions."
+40B9CA,entry_comparator,Todo,Function to Compare Two Pointers.
+40BA1F,entry_free,Todo,"""Function with File I/O Operations"""
+40BA92,entry_hashfunc,Todo,Function prologue with division
+40BAC6,c_isspace,Todo,"""Allocation and Freeing Function"""
+40BB7A,sharefile_destroy,Todo,"""Memory deallocation function"""
+40BBB0,sharefile_fopen,Todo,Function for Allocating Memory and Reading a File.
+40BE08,make_segment,Todo,"The function could be named ""string assignment and manipulation""."
+40C17F,is_octal_char,Todo,Input validation function.
+40C1A5,parse_octal_escape,Todo,"""Function Prologue"""
+40C22D,parse_escape_char,Todo,"""Variable Assignment and Comparison"""
+40C287,get_format_flags_length,Todo,"""Function with Variable Manipulation"""
+40C35B,get_format_specifer_length,Todo,"""Set character index function"""
+40C3A7,insert_fprintf,Todo,Function prologue or stack setup.
+40C913,scan_for_digit_differences,Todo,Function prologue.
+40CA81,do_time_format,Todo,"""Set Date and Time Function"""
+40CDD9,format_date,Todo,"""Function with push, mov, cmp, and jmp"""
+40D10D,ctime_format,Todo,"""localtime function"""
+40D325,file_sparseness,Todo,"""Function to Divide Two Numbers"""
+40D3B4,checked_fprintf,Todo,Function with variable arguments.
+40D4C1,checked_print_quoted,Todo,Function Prologue.
+40D52E,checked_fwrite,Todo,"""Function with Stack Manipulation"""
+40D592,checked_fflush,Todo,Function Prologue
+40D5D4,mode_to_filetype,Todo,"""Set Variable and Check Values"""
+40E319,pred_fprintf,Todo,Function Prologue
+40E4EA,free_file_system_list,Todo,Function with Memory Deallocation.
+40E56C,filesystem_type,Todo,"""Function Setup"""
+40E5EE,set_fstype_devno,Todo,"Function name: ""Stack Variable Initialization"""
+40E68F,must_read_fs_list,Todo,"""Function with push, move and call instructions"""
+40E6D9,file_system_type_uncached,Todo,Function setup or Function initialization.
+40E7C5,get_mounted_filesystems,Todo,Function initialization.
+40E8DB,get_mounted_devices,Todo,Function initialization or Stack setup function.
+40E9F7,fallback_getfilecon,Todo,Function to Handle Errno Location and Error Codes
+40EA3A,optionh_getfilecon,Todo,Function Prologue
+40EAAA,optionl_getfilecon,Todo,"""Function with Push and Move Instructions."""
+40EAF9,optionp_getfilecon,Todo,"""Function Prologue"" or ""Function Setup"""
+40EB23,check_option_combinations,Todo,"""Function with Local Variables"""
+40EBBC,get_noop,Todo,Set Global Variable from Register
+40EC27,get_stat_Ytime,Todo,Function Prologue
+40ED06,set_follow_state,Todo,"""Set Variable and Branch Function"""
+40ED9D,parse_begin_user_args,Todo,Function prologue with parameters.
+40EDBE,parse_end_user_args,Todo,Function Prologue or Stack Frame Setup
+40EDD4,should_issue_warnings,Todo,Function name: CheckCsByteAndReturnOrZero
+40EDF3,found_parser,Todo,Function name: error_handling_function
+40EE8E,find_parser,Todo,Function with strncmp and strcmp
+40EF62,estimate_file_age_success_rate,Todo,"""Check Floating Point Value against Constants"""
+40EFC2,estimate_timestamp_success_rate,Todo,"""Timer Calculation"""
+40F010,collect_arg_nonconst,Todo,"""Function Name: Mov and Compare"""
+40F08F,collect_arg,Todo,"""Function Prologue"""
+40F0F1,collect_arg_stat_info,Todo,Function with Push and Move Operations
+40F1A1,parse_and,Todo,Function setup and initialization.
+40F204,parse_anewer,Todo,Function with variable initialization.
+40F309,parse_closeparen,Todo,Function setup and initialization.
+40F36C,parse_cnewer,Todo,Function Prologue
+40F471,parse_comma,Todo,"""Function Setup and Initialization"""
+40F4E5,parse_daystart,Todo,"""Timer Update Function"""
+40F5C4,parse_delete,Todo,Function Setup/Initialization
+40F635,parse_depth,Todo,Function prologue.
+40F670,AdjustVarHandles,Todo,Function Setup or Error Handling Function
+40F6C7,parse_empty,Todo,Stack Allocation and Function Call
+40F703,parse_exec,Todo,Function setup or Function initialization.
+40F732,parse_execdir,Todo,Function Prologue with Call
+40F761,insert_false,Todo,Function to Set Register Values and Clear Memory
+40F7C9,parse_false,Todo,Function Prologue
+40F7E4,insert_fls,Todo,"""Function with Variable Initialization"""
+40F863,parse_fls,Todo,Function Prologue.
+40F8E9,parse_follow,Todo,Function Prologue.
+40F920,parse_fprint,Todo,Function Initialization
+40F9ED,insert_fprint,Todo,Function Setup or Function Initialization.
+40FA8A,parse_fprint0,Todo,Function initialization or Stack setup function.
+40FB10,estimate_fstype_success_rate,Todo,"""Function Entry Setup"""
+40FBC8,is_used_fs_type,Todo,"""Function with String Comparison"""
+40FC54,parse_fstype,Todo,Function with Stack Initialization.
+40FD42,parse_gid,Todo,Function with Local Variables
+40FDBE,parse_group,Todo,Function Prologue
+40FFE6,parse_help,Todo,"""Display Text Message Function"""
+4100AD,estimate_pattern_match_rate,Todo,"""String search and comparison"""
+410102,parse_ilname,Todo,Function Prologue.
+4101B3,fnmatch_sanitycheck,Todo,"""Check File Name and Print Error"""
+410245,check_name_arg,Todo,"""Stack Frame Setup and Error Handling"""
+4102DB,parse_iname,Todo,Stack initialization or Function prologue.
+4103AB,parse_inum,Todo,"""Function with var_XX variables"""
+410427,parse_iregex,Todo,Function Prologue.
+41045E,parse_links,Todo,Function with Local Variable Initialization.
+410504,parse_lname,Todo,Initialize Variables and Calculate Result.
+4105BA,parse_ls,Todo,Function prologue.
+4105E1,insert_depthspec,Todo,Function Prologue
+41071D,parse_maxdepth,Todo,Function Prologue
+41074C,parse_mindepth,Todo,"""Function with Local Variables"""
+41077B,do_parse_xmin,Todo,Function Prologue.
+4108A0,parse_amin,Todo,Function Entry Prologue.
+4108CF,parse_cmin,Todo,Function with 7 local variables.
+4108FE,parse_mmin,Todo,Function prologue.
+41092D,parse_name,Todo,Function Setup or Stack Setup.
+410A13,parse_negate,Todo,"""Stack allocation and initialization"""
+410A7B,parse_newer,Todo,"Function with Push, Mov, Sub, and Call Instructions."
+410B80,parse_newerXY,Todo,Function Prologue.
+41115F,parse_noleaf,Todo,Function Initialization or Function Entry
+411193,parse_nogroup,Todo,Function Initialization.
+4111D4,parse_nouser,Todo,"""Function for Initializing Variables"""
+411210,parse_nowarn,Todo,Function setup or Function initialization.
+411244,parse_ok,Todo,Function Prologue or Stack Frame Initialization.
+411273,parse_okdir,Todo,"""Function with Stack Allocation and Call"""
+4112A2,parse_openparen,Todo,Function Setup or Memory Allocation Setup.
+41130A,parse_or,Todo,Function initialization or Variable assignment.
+41136D,is_feasible_path_argument,Todo,"""String Processing Function"""
+4113D4,insert_path_check,Todo,Function Set Error Message or Handle Error
+41151E,parse_path,Todo,"""Function with Parameter Initialization"""
+411553,parse_wholename,Todo,Setup Function.
+411588,parse_ipath,Todo,Function setup or Parameter initialization.
+4115BD,parse_iwholename,Todo,Function Setup or Variable Initialization
+4115F2,parse_perm,Todo,Function Prologue.
+411844,cache_host_lookup,Todo,Function initialization or Local variable initialization.
+4118AD,parse_print0,Todo,Function Setup or Parameter Initialization.
+4118D4,parse_printf,Todo,Function Prologue.
+411974,parse_fprintf,Todo,Function Prologue
+411A38,parse_prune,Todo,Initialize Local Variables and Return Value.
+411A98,parse_quit,Todo,Function setup and initialization.
+411AFB,parse_regextype,Todo,Function Prologue
+411B7F,parse_regex,Todo,Function prologue.
+411BAF,insert_regex,Todo,"""Function Setup"""
+411D37,parse_size,Todo,Function setup or Function initialization.
+412083,parse_samefile,Todo,Function prologue or function setup.
+412384,parse_true,Todo,Function Setup or Stack Setup.
+4123D7,parse_noop,Todo,Function setup or Function prologue.
+412408,parse_accesscheck,Todo,"""Function with Parameter Initialization"""
+412494,parse_type,Todo,Function Setup or Argument Setup.
+4124C3,parse_uid,Todo,"""Function with Local Variables"""
+41253F,parse_used,Todo,Function with Stack Setup and Error Handling.
+412697,parse_user,Todo,Function Entry or Function Prologue
+41282D,parse_version,Todo,"""Function with Various Print Statements"""
+412A7B,parse_xdev,Todo,Function Setup or Function Initialization.
+412AAF,parse_ignore_race,Todo,"""Function to Call Subroutine"""
+412AE3,parse_noignore_race,Todo,Function prologue
+412B17,parse_warn,Todo,Function Initialization
+412B4B,parse_xtype,Todo,Function Prologue.
+412B7A,insert_type,Todo,Function Prologue.
+412DBF,stream_is_tty,Todo,"""Stream file descriptor check function"""
+412DF8,check_path_safety,Todo,Function with Push and Env Variables
+41374E,get_relative_timestamp,Todo,"""Function with push and variable assignments"""
+41394E,parse_time,Todo,Function Entry or Initialization
+413C3C,get_comp_type,Todo,"""Check Sign and Increment"""
+413CAF,get_num,Todo,Function_initialize_vars
+413D47,insert_num,Todo,Function Initialization or Stack Setup.
+413EC9,open_output_file,Todo,Function with no name
+413FDD,open_stdout,Todo,Function with 7 lines of ASM code.
+413FFD,display_findutils_version,Todo,"""Print Error Message Function"""
+414080,print_num,Todo,Function with stack manipulation and conditional branching.
+414C03,print_name_without_quoting,Todo,Stream Output Function.
+414C34,print_name_with_quoting,Todo,"""Function Prologue"""
+414E0A,print_name,Todo,"Function Name: ""Push, Move, Compare, Call, Return"""
+414E44,decide_size,Todo,"""Variable Assignment and Comparison Function"""
+414E92,extendbuf,Todo,Function Name: sub_414E44
+414F97,xextendbuf,Todo,Function setup or Memory allocation function.
+414FE4,bc_args_complete,Todo,"""Function with Local Variables"""
+415029,bc_do_insert,Todo,"Function name: ""Copy String with Error Handling"""
+41521D,update_limit,Todo,Function Name: VarReadWrite
+415356,copy_args,Todo,"""Function Setup"""
+415474,bc_do_exec,Todo,Function name: sub_41525F
+415648,bc_argc_limit_reached,Todo,"""Function name not provided"""
+4156AA,bc_push_arg,Todo,"""Function Setup"""
+4159C1,bc_get_arg_max,Todo,"""System Configuration Check"" or ""Get System Configuration"""
+4159F0,cb_exec_noop,Todo,"""Function Prologue"" or ""Stack Frame Setup"""
+415A0A,bc_size_of_environment,Todo,Function with Variable Assignment
+415A58,bc_init_controlinfo,Todo,Function Initialization.
+415B9C,bc_use_sensible_arg_max,Todo,"""Copy and Check Range Limit"""
+415BF7,bc_init_state,Todo,Set up stack frame and variables.
+415CE2,bc_clear_args,Todo,"""Function to Initialize Variables"""
+415D26,exceeds,Todo,"""Function Name"""
+415DEA,bc_args_exceed_testing_limit,Todo,"Function Name: ""String Length Check"""
+415E6C,print_quoted,Todo,"""Stream format function"""
+416011,get_regex_type,Todo,"""Function with Push and Mov Instructions"""
+41615C,get_regex_type_name,Todo,"""check input value and retrieve result"""
+416182,get_regex_type_flags,Todo,"""Check Input Value and Retrieve Data"""
+4161A7,get_regex_type_context,Todo,"""Check for Valid Input"""
+4161CC,get_regex_type_synonym,Todo,"""Function Check Value Range"""
+416227,run_in_dir,Todo,Function prologue.
+416315,run_in_dirfd,Todo,Function Prologue.
+416422,get_proc_max_fd,Todo,"""Directory function"""
+4164EF,get_max_fd,Todo,"""Initialize Stack and Variables"""
+416580,visit_open_fds,Todo,"""Stack setup and poll implementation"""
+41672E,fd_is_cloexec,Todo,Function setup or Variable initialization.
+416758,remember_fd_if_non_cloexec,Todo,Function with local variable initialization
+416808,remember_non_cloexec_fds,Todo,Function Initialization.
+416894,find_first_leak_callback,Todo,Function with Local Variable Initialization
+416946,find_first_leaked_fd,Todo,Function initialization.
+4169CD,o_cloexec_works,Todo,"""Function with push, mov, sub, call"""
+416A18,open_cloexec,Todo,Function with Memory Allocation.
+416BA5,forget_non_cloexec_fds,Todo,Free Memory Function.
+416BD1,complain_about_leaky_fds,Todo,"""Function with assert statement"""
+416C51,safe_atoi,Todo,Push and strtol function.
+416E2E,field_length,Todo,Function prologue.
+416E85,splitstring,Todo,"""Function with local variable initialization"""
+416F36,to_uchar,Todo,"""Copy Parameter to Local Variable"""
+416F45,unibyte_qmark_chars,Todo,Function entry or function prologue
+416FC1,qmark_chars,Todo,"""Function with variable initialization"""
+4171B3,areadlinkat,Todo,Function setup or Stack setup.
+4171E8,careadlinkat,Todo,Function Prologue.
+41754F,set_cloexec_flag,Todo,Function name: sub_41755E
+4175CA,dup_cloexec,Todo,"""Function with Memory Allocation and Call"""
+4175F0,close_stdout_set_file_name,Todo,Function prologue/entry.
+417606,close_stdout_set_ignore_EPIPE,Todo,"""Func_StoreByte"""
+41761C,close_stdout,Todo,Function Prologue.
+417708,opendir_safer,Todo,Open Directory function
+4177C1,base_name,Todo,"""Function with stack allocation and calls"""
+417844,dir_len,Todo,"""Check for Forward Slash"""
+4178CE,mdir_name,Todo,Function with Memory Allocation and Copying.
+417965,last_component,Todo,"""String comparison function"""
+4179CE,base_len,Todo,"""Function with stack allocation and string manipulation"""
+417A1C,strip_trailing_slashes,Todo,Function prologue.
+417A81,open_safer,Todo,Function to open file.
+417BB9,ftypelet,Todo,"""Get Command Code Name Function"""
+417C64,strmode,Todo,Function Name: setVariableName
+417E30,filemodestring,Todo,"""Function with Stack Frame Setup"""
+417E58,fopen_safer,Todo,file open function
+417F44,hash_get_n_buckets,Todo,"""Get Value from struct"""
+417F56,hash_get_n_buckets_used,Todo,"""Function with Local Variable Retrieval"""
+417F68,hash_get_n_entries,Todo,Function Prologue or Variable Initialization.
+417F7A,hash_get_max_bucket_length,Todo,"""Function for Variable Initialization"""
+417FF8,hash_table_ok,Todo,"""Function Initialization"""
+418092,hash_print_statistics,Todo,Function with variable declarations and printf calls.
+4181BB,safe_hasher,Todo,Function Prologue
+418212,hash_lookup,Todo,"""Function with Stack Variables"""
+4182A5,hash_get_first,Todo,Function prologue.
+418301,hash_get_next,Todo,"""Function Setup"""
+41839B,hash_get_entries,Todo,"""Function Setup"""
+418437,hash_do_for_each,Todo,"""Function with Stack Variables"""
+4184CB,hash_string,Todo,"""Variable Calculation Function"""
+418521,is_prime,Todo,"""Square Calculation"""
+41858D,next_prime,Todo,"""Number Comparison and Manipulation"""
+4185D4,hash_reset_tuning,Todo,"""Initialize Float Array"" or ""Clear Float Array"""
+418626,raw_hasher,Todo,"""Function: Divide and Store Parameters"""
+41865D,raw_comparator,Todo,Function name: compare_two_variables
+418676,check_tuning,Todo,Check if value is valid.
+418773,compute_bucket_size,Todo,"""Function Prologue"" or ""Function Setup"""
+4188A1,hash_initialize,Todo,"""Function Setup"" or ""Variable Initialization"""
+418A0C,hash_clear,Todo,"""Function with stack manipulation and calls"""
+418B13,hash_free,Todo,"Function Name: ""Memory Allocation and Freeing"""
+418C3E,allocate_entry,Todo,"Function name: ""Allocate and Copy Memory Block"""
+418C89,free_entry,Todo,Function Prologue.
+418CBF,hash_find_entry,Todo,"""Function with Register Operations"""
+418E54,transfer_entries,Todo,Function Entry or Stack Setup.
+419024,hash_rehash,Todo,Function prologue
+41924B,hash_insert_if_absent,Todo,"""Function Setup/Initialization"""
+4195B8,hash_insert,Todo,Stack Frame Setup Function
+419624,hash_delete,Todo,Function prologue.
+419926,adjust_value,Todo,"""Check if number is negative"""
+419A0F,group_number,Todo,Function: memcpy with string length check
+41A5C5,default_block_size,Todo,"""getenv_check"""
+41A5E6,humblock,Todo,Function prologue.
+41A773,human_options,Todo,"""Function Setup and Data Initialization"""
+41A7C8,getuser,Todo,Function to Get User ID and Password
+41A8B1,getuidbyname,Todo,Function with no name/anonymous function.
+41AA04,getgroup,Todo,"""Initialize gid variable function"""
+41AAED,getgidbyname,Todo,Function name: push_rbp_sub_rsp_mov_mov_jmp_mov_mov_cmp_jnz_mov_lea_mov_mov_call_test_jnz_jmp_cmp_jnz_mov_cmp_jz_mov_call_mov_mov_add_mov_mov_jz_mov_mov_mov_jmp_mov_mov_leave_retn
+41AC40,knuth_morris_pratt,Todo,Function prologue.
+41BD7E,gnu_mbswidth,Todo,Function to Copy String and Return Modified String
+41BDB0,mbsnwidth,Todo,Function name not provided.
+41C038,mbuiter_multi_next,Todo,"""Function with Push and Mov Instructions"""
+41C224,mbuiter_multi_reloc,Todo,Function for adding two variables.
+41C24A,mbuiter_multi_copy,Todo,"""Function for Memory Manipulation"""
+41C2D1,octal_to_mode,Todo,"Function name: ""Function with Stack Frame and Argument Handling"""
+41C2DD,make_node_op_equals,Todo,Function initialization or Stack frame setup.
+41C339,mode_compile,Todo,Function setup or Function initialization.
+41C767,mode_create_from_ref,Todo,Function with filename parameter.
+41C7D4,mode_adjust,Todo,"""Assembly Function with Variable Manipulation"""
+41C96B,openat_save_fail,Todo,"""Error Handling Function"""
+41C99F,openat_restore_fail,Todo,Function name: errormsg_with_abort
+41C9D3,to_uchar_0,Todo,"""Function Prologue"""
+41C9E2,digits_to_date_time,Todo,Function Prologue
+41CC6B,apply_relative_time,Todo,Set Object Position.
+41CD89,set_hhmmss,Todo,Function prologue or Stack frame setup.
+41CDD4,yydestruct,Todo,Function prologue.
+41E8F4,time_zone_hhmm,Todo,"""Function with stack manipulation and comparisons"""
+41EA2A,to_hour,Todo,"""Function for variable comparison"" or ""Variable comparison function"""
+41EAB1,to_year,Todo,"""Variable comparison and calculation"""
+41EAF1,lookup_zone,Todo,"""Function with Push, Move and Compare Instructions"""
+41EBC2,lookup_word,Todo,Function prologue
+41EEE9,yylex,Todo,Function Name: Stack Allocation and Initialization
+41F3E3,yyerror,Todo,Function Prologue.
+41F3F6,mktime_ok,Todo,"""Check Time Equality"""
+41F4A3,get_tz,Todo,"""Memory copy function"""
+420545,set_program_name,Todo,Function Initialization or Error Handling.
+42062D,clone_quoting_options,Todo,"""Stack allocation and error handling"""
+420679,get_quoting_style,Todo,Function prologue with conditional return.
+420697,set_quoting_style,Todo,"""Function with Variable Initialization"""
+4206BC,set_char_quoting,Todo,"""Function with Variable Manipulation"""
+420744,set_quoting_flags,Todo,"""Save Parameters and Return"""
+420777,set_custom_quoting,Todo,"""Function Prologue"" or ""Stack Frame Setup"""
+4207D2,quoting_options_from_style,Todo,Function Initialization.
+42086A,gettext_quote,Todo,Function name: msgid_var_processing.
+42169F,quotearg_buffer,Todo,Function with Error Handling.
+421741,quotearg_alloc,Todo,Function Prologue in x86 Assembly.
+421773,quotearg_alloc_mem,Todo,"""Function with Stack Allocation"" or ""Stack Allocating Function"""
+42189F,quotearg_free,Todo,Function Initialization or Memory Management.
+42194B,quotearg_n_options,Todo,Function with Register and Memory Operations.
+421BF6,quotearg_n,Todo,Function with stack allocation and parameter setting.
+421C21,quotearg_n_mem,Todo,Function Prologue.
+421C4D,quotearg,Todo,"""Function Setup and Call"""
+421C6C,quotearg_mem,Todo,Function Prologue.
+421C93,quotearg_n_style,Todo,Function Prologue.
+421CF7,quotearg_n_style_mem,Todo,Function Prologue.
+421D59,quotearg_style,Todo,Function setup or Function initialization.
+421D7D,quotearg_style_mem,Todo,Function Setup or Variable Assignment
+421DA9,quotearg_char_mem,Todo,Function name: setup function or initialization function.
+421E60,quotearg_char,Todo,function name: None/Unknown (as it does not have a unique or descriptive operation)
+421E8A,quotearg_colon,Todo,function with variable assignment
+421EA9,quotearg_colon_mem,Todo,Function prologue with call
+421ED3,quotearg_n_style_colon,Todo,Function Setup or Setup Function.
+421F91,quotearg_n_custom,Todo,Function Prologue.
+421FC7,quotearg_n_custom_mem,Todo,Function prologue.
+422081,quotearg_custom,Todo,Function to call sub_421F91
+4220B0,quotearg_custom_mem,Todo,Function Setup or Variable Initialization
+4220EA,quote_n_mem,Todo,Function with Local Variables
+422116,quote_mem,Todo,"""Function with Stack Allocation and Call"""
+42213D,quote_n,Todo,Function prologue with argument initialization
+422166,quote,Todo,Function Prologue.
+422185,save_cwd,Todo,"""Function with stack allocation and directory handling"""
+422211,restore_cwd,Todo,"""Set Current Directory"""
+422248,free_cwd,Todo,"""Function for Closing and Freeing Memory"""
+42227E,get_stat_atime_ns,Todo,Function to retrieve a specific value.
+422290,get_stat_ctime_ns,Todo,"""ReadMemoryAtOffset"""
+4222A2,get_stat_mtime_ns,Todo,Function Prologue.
+4222B4,get_stat_birthtime_ns,Todo,Function Prologue.
+4222C3,get_stat_atime,Todo,Function prologue.
+4222D9,get_stat_ctime,Todo,"""Function to Retrieve 70h and 68h Values"""
+4222EF,get_stat_mtime,Todo,Function Prologue
+422305,get_stat_birthtime,Todo,Function Prologue or Function Setup.
+422327,strnlen1,Todo,"""Memory Comparison Function"""
+422371,dup_safer,Todo,Function start or subroutine prologue.
+422397,fd_safer,Todo,"""Function Name"" or ""File Close Function"""
+4223E7,version_etc_arn,Todo,"""Function Setup"""
+422956,version_etc_ar,Todo,"""Function Prologue"" or ""Stack Frame Setup"""
+4229C5,version_etc_va,Todo,"""Function Setup"""
+422AC7,version_etc,Todo,"""Function prologue"""
+422BA7,emit_bug_reporting_address,Todo,print menu options function.
+422C11,xnmalloc,Todo,"""Function Prologue"" or ""Stack Frame Setup"""
+422C7E,xnrealloc,Todo,Function Setup or Stack Initialization.
+422CF9,x2nrealloc,Todo,"""Function Initialization"""
+422DA8,xcharalloc,Todo,Function Setup or Function Prologue
+422DC2,xmalloc,Todo,Function for memory allocation.
+422DF7,xrealloc,Todo,"""Alloc"""
+422E58,x2realloc,Todo,Function setup or Variable initialization.
+422E82,xzalloc,Todo,Function prologue with memset.
+422EB3,xcalloc,Todo,Function name: calloc_with_error_handling
+422EEC,xmemdup,Todo,"""Function to copy memory"""
+422F20,xstrdup,Todo,Function to Copy String
+422F4D,xalloc_die,Todo,gettext error and abort function.
+422F82,xstrndup,Todo,"""String Copy Function"""
+422FBB,xstrtod,Todo,Function prologue.
+42308F,bkm_scale,Todo,"""Integer division and assignment function"""
+4230EE,bkm_scale_by_power,Todo,Function setup and calculation.
+42312F,xstrtoul,Todo,"""Function with stack allocation"""
+423521,bkm_scale_0,Todo,"""Integer division function"""
+423580,bkm_scale_by_power_0,Todo,Function name: var_processing
+4235C1,xstrtoumax,Todo,"""Function with Stack Allocation"""
+4239B3,yesno,Todo,Function name: getline_rpmatch
+423A67,cdb_init,Todo,Function for Setting Value to Memory Location
+423A7C,cdb_fchdir,Todo,"""fchdir implementation"""
+423A97,cdb_free,Todo,"""Function to Close File Safely"""
+423AE9,cdb_advance_fd,Todo,"""File Open Function"""
+423B43,find_non_slash,Todo,Function name: string_search_and_offset
+423B71,chdir_long,Todo,"""Path Changer"" or ""Directory Setter"""
+423E8D,rpl_fcntl,Todo,Function Prologue
+424173,clear_ungetc_buffer_preserving_position,Todo,Function Prologue.
+4241A7,rpl_fflush,Todo,Function for Reading and Flushing a File.
+4241F2,rpl_fseeko,Todo,"""File Seek Function"""
+4242AC,AD_compare,Todo,register allocation function.
+424301,AD_hash,Todo,"""Divide function"" or ""Integer division function"""
+42432B,setup_dir,Todo,memory allocation function
+4243C5,enter_dir,Todo,Function opening or function prologue.
+4244D3,leave_dir,Todo,Function Init/Initialize/Initiate Stack Frame
+424604,free_dir,Todo,Initialize and Free Memory Function.
+424652,fd_ring_clear,Todo,"""Function with Stack Operations"""
+424695,fts_set_stat_required,Todo,"""Function with error checking"""
+4246D9,opendirat,Todo,Function with Memory Allocation
+424775,cwd_advance_fd,Todo,Function with variable initialization.
+424801,restore_initial_cwd,Todo,"""Function name not given."""
+4248AB,diropen,Todo,"""Function Name"""
+424D14,fts_load,Todo,"""Function Prologue"" or ""Stack Frame Setup"""
+424F5B,dirent_inode_sort_may_be_useful,Todo,"""File Stat Function"""
+424FD0,leaf_optimization_applies,Todo,initialize file descriptor (function)
+425054,LCO_hash,Todo,"""Divide and Store Function"""
+42507D,LCO_compare,Todo,Memory comparison function.
+4250AF,link_count_optimize_ok,Todo,Stack overflow check and allocation function.
+425AF9,fts_compare_ino,Todo,"""Comparison Function"""
+425B54,set_stat_type,Todo,Function Initialization.
+4265BF,fts_stat,Todo,Function prologue
+426782,fts_compar,Todo,Function Prologue with Call
+4267C3,fts_sort,Todo,"""Sort Function"""
+42692D,fts_alloc,Todo,Memory allocation function.
+4269E5,fts_lfree,Todo,"""Function prologue and epilogue"""
+426A21,fts_palloc,Todo,"""Dynamic Memory Allocation Function"""
+426AEE,fts_padjust,Todo,"""Stack frame initialization"""
+426C02,fts_maxarglen,Todo,Function to Count String Length
+426C58,fts_safe_changedir,Todo,Function with Memory Allocation and File Operations.
+426F1C,leapyear,Todo,"""Integer Division with Shift and Mask"""
+426FC4,isdst_differ,Todo,"""Input validation function"""
+426FFC,ydhms_diff,Todo,"""Initialize Stack Frame"""
+427206,time_t_avg,Todo,"""calc_avg_and_parity"""
+427236,time_t_add_ok,Todo,"""function with addition and comparison"" or ""add and compare function"""
+42726B,time_t_int_add_ok,Todo,"""Variable addition and comparison"""
+42729F,guess_time_tm,Todo,Function prologue or stack setup.
+4273B2,ranged_convert,Todo,Assembly function or function with no name
+4274C0,mktime_internal,Todo,Function Prologue
+427B6B,rpl_mktime,Todo,Function with variable initialization.
+427B8F,dev_from_mount_options,Todo,Function Entry Prologue.
+427BA0,unescape_tab,Todo,String Parser
+42863B,free_mount_entry,Todo,"""Free Memory Function"""
+4286A4,getfileconat,Todo,Function name: sub_4286E9
+42892E,lgetfileconat,Todo,"Function Name: ""fileDirectoryOperation"""
+428BB8,setfileconat,Todo,Function name: set_file_con_or_chdir
+428E42,lsetfileconat,Todo,"""File system operation function"""
+4290CC,__argmatch_die,Todo,"Function name: ""ExitWithDwordValueFromCs"""
+4290DD,argmatch,Todo,"""String Comparison Function"""
+42920C,argmatch_invalid,Todo,Function Prologue.
+429298,argmatch_valid,Todo,"""Error message display function"""
+4293DD,__xargmatch_internal,Todo,"""Function Setup"""
+429463,argmatch_to_argument,Todo,"""Function with Local Variables and Comparison"""
+4294EF,rotl64,Todo,"""Rotate with Variable Shift"""
+42950B,rotr64,Todo,"""Rotate Function"""
+429527,rotl32,Todo,"""Bitwise Rotation Function"""
+42953F,proclist,Todo,"""Variable assignment and rotation"""
+429557,rotl_sz,Todo,Bitwise Shift and OR Function
+42958E,rotr_sz,Todo,Bitwise Swap or Bit Swap
+4295C5,rotl16,Todo,"""Bitwise Shift and Or Function"""
+4295F7,rotr16,Todo,"""Variable Arithmetic"" or ""Bit Manipulation"""
+429629,rotl8,Todo,Bitwise Shift and OR Function.
+42965A,rotr8,Todo,"""Variable Initialization Function"""
+42968B,c_isalnum,Todo,Hexadecimal Conversion Function
+4296BF,c_isalpha,Todo,"""AlphaNumericChecker"""
+4296E9,c_isascii,Todo,Check_Edi_Value.
+429709,c_isblank,Todo,"""Check Input Range"" or ""Validate Input Size"""
+42972D,c_iscntrl,Todo,"""Check Input Range Function"""
+429753,c_isdigit,Todo,"""Check Input Range Function"""
+429773,c_isgraph,Todo,Comparison and Return Function.
+429793,c_islower,Todo,"""Check Valid Input Range"""
+4297B3,c_isprint,Todo,Check Range of Value Function.
+4297D3,c_ispunct,Todo,Range validation checker.
+429811,c_isspace,Todo,"""Validate_Input"""
+429838,c_isupper,Todo,"""Compare and Return Function"" or ""Range Check Function"""
+429858,c_isxdigit,Todo,Function with variable input comparison.
+429884,c_tolower,Todo,Function with local variable and comparison.
+4298A3,c_toupper,Todo,"""Function with local variable manipulation"""
+4298C2,c_strcasecmp,Todo,"""Compare and swap function"""
+42993A,close_stream,Todo,Function to Check and Close File.
+4299C5,is_zero_or_power_of_two,Todo,"""Check Input Value"" or ""Verify Input Value"""
+4299E1,cycle_check_init,Todo,Function with Memory Assignment and Initialization
+429A03,cycle_check,Todo,Function for Asserting and Testing Memory Operations.
+429AD7,gettime,Todo,"""Initialize Time Variables"""
+429B4F,i_ring_init,Todo,"""Data structure initialization."""
+429BA8,i_ring_empty,Todo,GetByteValueFromStruct
+429BBA,i_ring_push,Todo,Variable Initialization or Variable Setup.
+429C42,i_ring_pop,Todo,Function prologue.
+429CC4,get_charset_aliases,Todo,Function Prologue
+42A19E,locale_charset,Todo,"""Set Langinfo and Compare Strings"""
+42A26C,mmalloca,Todo,Allocate and initialize memory.
+42A32F,freea,Todo,"""Check Value Function"""
+42A408,large_int_to_string,Todo,"""Function with Push and Call"""
+42A43F,mb_copy,Todo,"""Memory Copy Function"""
+42A4E1,is_basic,Todo,"""Shift and Test Function"""
+42A517,mbslen,Todo,"""Function Prologue"" or ""Stack Frame Setup"""
+42A5E3,openat_safer,Todo,"""File open function"" or ""open file"""
+42A71D,map_to_failure,Todo,Function prologue.
+42A793,rpl_getfilecon,Todo,"""File Access Function"""
+42A7CC,rpl_lgetfilecon,Todo,"""File Context Retrieval"""
+42A805,rpl_fgetfilecon,Todo,Function to Get File Context
+42A83B,openat_proc_name,Todo,Function Prologue
+42AA10,atexit,Todo,Function with atexit call.
+42AA40,stat_0,Todo,xstat function call.
+42AA50,fstat,Todo,"""File Stat Shortcut"""
+42AA60,lstat,Todo,"""File Stat Request"""
+42AA70,fstatat,Todo,Function to set file attributes.
+401190,sub_401190,Todo,"""Function to Jump to Memory Address"""
+401510,deregister_tm_clones,Todo,Function to jump or return.
+401590,__do_global_dtors_aux,Todo,CheckAndSetFlag
+4015B0,frame_dummy,Todo,"""Memory Comparator Function"""
+4015D6,put_short,Todo,"""Push RBP and Assert Fail Function"""
+401668,prefix_length,Todo,"""Function with Memory Operations"""
+4016C3,usage,Todo,print error message function
+40171F,get_seclevel,Todo,nptr_error_check
+401864,outerr,Todo,gettext error function.
+401CC4,display_findutils_version,Todo,display_error_message
+401D47,close_stdout_set_file_name,Todo,Save Argument and Return Address.
+401D5D,close_stdout_set_ignore_EPIPE,Todo,Function prologue.
+401D73,close_stdout,Todo,Function Prologue.
+401E5F,set_program_name,Todo,"Function Name: ""abort_if_error_str_returned"""
+401F47,clone_quoting_options,Todo,"""Push and errno retrieval"""
+401F93,get_quoting_style,Todo,"""Function to check non-zero value"""
+401FB1,set_quoting_style,Todo,Function Prologue
+401FD6,set_char_quoting,Todo,"""Variable Assignment and Manipulation"""
+40205E,set_quoting_flags,Todo,"""Variable Initialization Function"""
+402091,set_custom_quoting,Todo,Function setup or Variable initialization.
+4020EC,quoting_options_from_style,Todo,"""Function Setup"" or ""Setup Procedure"""
+402184,gettext_quote,Todo,msgID retrieval and comparison function
+402FB9,quotearg_buffer,Todo,Function Prologue.
+40305B,quotearg_alloc,Todo,Function prologue with callee-save register preservation.
+40308D,quotearg_alloc_mem,Todo,Function with local variable initialization.
+4031B9,quotearg_free,Todo,Stack allocation and freeing function.
+403265,quotearg_n_options,Todo,"""Function with Push and Mov Instructions"""
+403510,quotearg_n,Todo,Function Setup or Stack Setup.
+40353B,quotearg_n_mem,Todo,Function Prologue
+403567,quotearg,Todo,function_init
+403586,quotearg_mem,Todo,Function Prologue.
+4035AD,quotearg_n_style,Todo,Function Prologue.
+403611,quotearg_n_style_mem,Todo,Function Prologue
+403673,quotearg_style,Todo,Function Prologue or Stack Frame Set-Up.
+403697,quotearg_style_mem,Todo,"""Function Prologue"""
+4036C3,quotearg_char_mem,Todo,Function prologue.
+40377A,quotearg_char,Todo,Function Prologue.
+4037A4,quotearg_colon,Todo,"""Function with Memory Allocation"""
+4037C3,quotearg_colon_mem,Todo,"""Function with Variable Initialization"""
+4037ED,quotearg_n_style_colon,Todo,Function Prologue
+4038AB,quotearg_n_custom,Todo,Function Entry or Function Prologue
+4038E1,quotearg_n_custom_mem,Todo,"""Function Setup"""
+40399B,quotearg_custom,Todo,"""Function Setup and Call"""
+4039CA,quotearg_custom_mem,Todo,Function Prologue.
+403A04,quote_n_mem,Todo,Function with variable initialization.
+403A30,quote_mem,Todo,Function setup and call.
+403A57,quote_n,Todo,Function Prologue.
+403A80,quote,Todo,Function prologue.
+403A9F,version_etc_arn,Todo,Function prologue.
+40400E,version_etc_ar,Todo,Function prologue.
+40407D,version_etc_va,Todo,"""Stack Setup Assembly Function"""
+40417F,version_etc,Todo,Function Prologue.
+40425F,emit_bug_reporting_address,Todo,Print Hello World in C
+4042C9,xnmalloc,Todo,"""Function Prologue"" or ""Stack Setup Prologue"""
+404336,xnrealloc,Todo,Function Prologue.
+4043B1,x2nrealloc,Todo,"""Function Setup"" or ""Variable Initialization""."
+404460,xcharalloc,Todo,Function Prologue.
+40447A,xmalloc,Todo,Function to allocate memory and check for errors.
+4044AF,xrealloc,Todo,Function name: allocate_or_free_ptr
+404510,x2realloc,Todo,Function prologue.
+40453A,parse_num,Todo,Function Prologue.
+40456B,xcalloc,Todo,alloc_mem
+4045A4,xmemdup,Todo,"""Function for Memory Copying"""
+4045D8,xstrdup,Todo,String Length Calculation and Manipulation.
+404605,xalloc_die,Todo,_translate_error_and_abort
+40463A,clear_ungetc_buffer_preserving_position,Todo,Push and Retrieve Flags
+40466E,rpl_fflush,Todo,"""Function Setup"""
+4046B9,rpl_fseeko,Todo,File seeking function.
+404773,c_strcasecmp,Todo,"""Comparison and subtraction function"""
+4047EB,close_stream,Todo,Function for Closing File and Checking for Errors
+404876,get_charset_aliases,Todo,Function Prologue
+404D50,locale_charset,Todo,Langinfo String Comparison Function
+404E1E,c_isalnum,Todo,"""Check if input is alphanumeric"""
+404E52,c_isalpha,Todo,ASCII character check function.
+404E7C,c_isascii,Todo,CheckValue
+404E9C,c_isblank,Todo,Function with integer comparison and return statement.
+404EC0,c_iscntrl,Todo,"""Check Input Range Function"""
+404EE6,c_isdigit,Todo,"""Check Value Range"""
+404F06,c_isgraph,Todo,"""Comparison Function"""
+404F26,c_islower,Todo,Function to check value range.
+404F46,c_isprint,Todo,Function with Comparison and Return Value.
+404F66,c_ispunct,Todo,Comparison and branching function.
+404FA4,c_isspace,Todo,"""Integer Range Checker"""
+404FCB,c_isupper,Todo,Compare Input Value to Range Function.
+404FEB,c_isxdigit,Todo,"""Check Range Function"""
+405017,c_tolower,Todo,"""Function with Local Variable Check"""
+405036,c_toupper,Todo,"""Subtract and Compare Function"""
+4050E0,atexit,Todo,"""atexit function with data pointer"""
+401B50,.puts,Todo,"""Jump to Address in Memory"""
+402190,.strchr,Todo,Compare and Jump Function
+402210,.siglongjmp,Todo,Set flag and call subroutine.
+402230,.__assert_fail,Todo,"""Memory Initialization and Function Jump"""
+402256,set_max_db_age,Todo,Function Start or Error Handling Function.
+4023A5,get_short,Todo,parse_input_stream
+4023E0,.fileno,Todo,strpbrk_judge or search_char_in_str.
+402413,locate_read_str,Todo,"""getdelim function"""
+40253C,visit,Todo,"""Function with Push and Mov Instructions"""
+40259E,process_simple,Todo,Function prologue.
+4025C9,process_or,Todo,"""Function Entry Setup"""
+402645,process_and,Todo,"""Function Prologue"""
+4026C1,add_visitor,Todo,"""Function Initialization"""
+402746,visit_justprint_quoted,Todo,"""Function with Push and Putchar"""
+40279A,visit_justprint_unquoted,Todo,"""Print function"""
+4027D8,toolong,Todo,Initialize-error-function.
+402819,extend,Todo,Variable Assignment and Comparison.
+4028A1,visit_old_format,Todo,"Function Name: ""process_input"""
+402B03,visit_locate02_format,Todo,"""Process Input Function"""
+402D3D,visit_basename,Todo,"""Function setup and call"""
+402D6F,visit_existing_follow,Todo,"Function name: ""sub_40D970"""
+402DDA,visit_non_existing_follow,Todo,Function Entry or Stack Setup or Stack Frame Initialization.
+402E45,visit_existing_nofollow,Todo,Stack Error Detection and Handling
+402EB0,EvalParen,Todo,Function Prologue or Stack Frame Setup.
+402F1B,visit_substring_match_nocasefold_wide,Todo,Function to call sub_408BFB with test and return.
+402F5D,visit_substring_match_nocasefold_narrow,Todo,"""String search and compare"""
+402FC3,visit_substring_match_casefold_wide,Todo,Function Setup or Function Initialization.
+403005,visit_substring_match_casefold_narrow,Todo,"""String Search Function"""
+40306B,visit_globmatch_nofold,Todo,"""Function to Perform Pattern Matching"""
+4030B1,visit_globmatch_casefold,Todo,"""Function to match patterns"""
+4030F7,visit_regex,Todo,"""String Search"""
+403168,visit_stats,Todo,Function Name: Stack Frame Initialization
+40329F,visit_limit,Todo,Function Prologue.
+4032E9,visit_count,Todo,"""Function to Increment Value in Structure"""
+403318,print_stats,Todo,print date and time functions
+403776,looking_at_gnu_locatedb,Todo,"""Compare and Return Function"""
+4037BC,looking_at_slocate_locatedb,Todo,Function Prologue
+4038D1,i_am_little_endian,Todo,"""Stack Safety Check Function"""
+404386,usage,Todo,Print Function
+4043E2,drop_privs,Todo,"""Set User ID and Group ID function"""
+404539,opendb,Todo,"""File Open and Close"" or ""File Operations"""
+404597,cleanup_quote_opts,Todo,Free Memory Function.
+4050F8,open_secure_db,Todo,Function Prologue
+4051C1,__bswap_32,Todo,Swap Endianess (function swaps byte order)
+4051CF,decode_value,Todo,"Function Name: ""Process Error Handling and Cleanup"""
+4052C3,getword,Todo,"""Read File Function"""
+4053E4,putword,Todo,"""Function with Assert and File Output"""
+40545E,display_findutils_version,Todo,"""Function Prologue"""
+4054E1,print_quoted,Todo,Function: print_stream
+405686,get_regex_type,Todo,"""function with memory operations"""
+4057D1,get_regex_type_name,Todo,"""Check and Retrieve Value"""
+4057F7,get_regex_type_flags,Todo,"""Function Name: Check Value"""
+40581C,get_regex_type_context,Todo,"""Integer Array Lookup Function"""
+405841,get_regex_type_synonym,Todo,"""Check for Valid Input"""
+40589C,field_length,Todo,Function with string manipulation
+4058F3,splitstring,Todo,"""Function to Set Variable Values"""
+4059A4,to_uchar,Todo,Function prologue and epilogue.
+4059B3,unibyte_qmark_chars,Todo,Function Prologue
+405A2F,qmark_chars,Todo,Function with Local Variables
+405C21,close_stdout_set_file_name,Todo,Function Prologue.
+405C37,close_stdout_set_ignore_EPIPE,Todo,"""Function with Variable Assignment"""
+405C4D,close_stdout,Todo,Function name not specified.
+405D39,last_component,Todo,"""Parse Path Function"""
+405DA2,base_len,Todo,"""String Processing"""
+405DF0,adjust_value,Todo,"""Stack manipulation and comparison"""
+405ED9,group_number,Todo,Function name: string copy and length calculation.
+406A8F,default_block_size,Todo,"""Check Environment Variable and Return Value"""
+406AB0,humblock,Todo,"""Function Setup"" or ""Function Initialization""."
+406C3D,human_options,Todo,Function initialization or memory allocation.
+406C92,knuth_morris_pratt,Todo,_init function
+40819B,mbslen,Todo,Stack frame initialization function.
+408267,knuth_morris_pratt_0,Todo,Function prologue
+4093A5,quotearg_n,Todo,Function name: parse_input_string
+409591,mbuiter_multi_reloc,Todo,"""Function to Add Two Variables"""
+4095B7,mbuiter_multi_copy,Todo,"""Function Initialization"""
+40963E,set_program_name,Todo,Function with Stack Allocation
+409726,clone_quoting_options,Todo,Function Name: errno_location_cmp
+409772,get_quoting_style,Todo,"""Function with Local Variable and Condition Check"""
+409790,set_quoting_style,Todo,"""Function with parameter storage and return"""
+4097B5,set_char_quoting,Todo,"""Function with Variable Manipulation"""
+40983D,set_quoting_flags,Todo,"""Set parameters and return value"""
+409870,set_custom_quoting,Todo,"""Function prologue"" or ""Stack setup"""
+4098CB,quoting_options_from_style,Todo,Function Prologue.
+409963,gettext_quote,Todo,"""Message processing function"""
+40A798,quotearg_buffer,Todo,Function prologue.
+40A83A,quotearg_alloc,Todo,Function Entry Point.
+40A86C,quotearg_alloc_mem,Todo,"""Function with Memory Allocation"""
+40A998,quotearg_free,Todo,"""Free Memory Function"""
+40AA44,quotearg_n_options,Todo,Function name: initialize/initialize_variables.
+40ACEF,quotearg_n,Todo,Function prologue.
+40AD1A,quotearg_n_mem,Todo,Function initialization or Stack frame initialization.
+40AD46,quotearg,Todo,Function Prologue.
+40AD65,quotearg_mem,Todo,Function Setup or Stack Setup.
+40AD8C,quotearg_n_style,Todo,Starting Function or Stack Setup
+40ADF0,quotearg_n_style_mem,Todo,Function prologue.
+40AE52,quotearg_style,Todo,Function initialization or stack frame setup.
+40AE76,quotearg_style_mem,Todo,Function Prologue
+40AEA2,quotearg_char_mem,Todo,Initialization Function
+40AF59,quotearg_char,Todo,Function setup and call
+40AF83,quotearg_colon,Todo,Function Setup.
+40AFA2,quotearg_colon_mem,Todo,Function Prologue.
+40AFCC,quotearg_n_style_colon,Todo,Function Setup or Stack Setup.
+40B08A,quotearg_n_custom,Todo,"""Function Entry"" or ""Stack Frame Setup"""
+40B0C0,quotearg_n_custom_mem,Todo,Function Prologue
+40B17A,quotearg_custom,Todo,Function with parameter passing.
+40B1A9,quotearg_custom_mem,Todo,Function Setup or Function Initialization.
+40B1E3,quote_n_mem,Todo,Function Prologue
+40B20F,quote_mem,Todo,Function Prologue.
+40B236,quote_n,Todo,Function prologue
+40B25F,quote,Todo,Function Entry Setup or Stack Frame Initialization.
+40B27E,get_stat_atime_ns,Todo,Function Prologue Retrieval
+40B290,get_stat_ctime_ns,Todo,Function: GetObjectNameFromPointer
+40B2A2,get_stat_mtime_ns,Todo,"""Get PE Header Offset"""
+40B2B4,get_stat_birthtime_ns,Todo,"Function name: ""initializeVar"""
+40B2C3,get_stat_atime,Todo,Function with stack frame and object access.
+40B2D9,get_stat_ctime,Todo,Function Prologue.
+40B2EF,get_stat_mtime,Todo,Function Prologue
+40B305,get_stat_birthtime,Todo,Function Prologue.
+40B327,strnlen1,Todo,"""Copy and compare function"""
+40B371,version_etc_arn,Todo,Function Prologue.
+40B8E0,version_etc_ar,Todo,Function with Stack Allocation
+40B94F,version_etc_va,Todo,Function prologue.
+40BA51,version_etc,Todo,"""Function Prologue"""
+40BB31,emit_bug_reporting_address,Todo,"""Print message function"""
+40BB9B,unpack,Todo,Subtract and Multiply Function.
+40BC08,xnrealloc,Todo,Function prologue.
+40BC83,x2nrealloc,Todo,"""Function with Stack Allocation"""
+40BD32,xcharalloc,Todo,Function prologue.
+40BD4C,xmalloc,Todo,"""Allocate Memory Function"""
+40BD81,xrealloc,Todo,"""Memcopy with error handling"""
+40BDE2,x2realloc,Todo,Function setup or Variable initialization.
+40BE0C,xzalloc,Todo,"""Memory Allocation and Initialization"""
+40BE3D,xcalloc,Todo,"""Allocate Memory Function"""
+40BE76,xmemdup,Todo,Function with memcpy and push.
+40BEAA,xstrdup,Todo,"""String Length Calculation"""
+40BED7,xalloc_die,Todo,_translate and error handling function_
+40BF0C,xstrtol_error,Todo,Function Initialization.
+40C010,xstrtol_fatal,Todo,Stack setup and function call.
+40C056,bkm_scale,Todo,"""Integer Division and Store Function"""
+40C0B5,bkm_scale_by_power,Todo,"""Stack-based function setup"""
+40C0F6,xstrtoumax,Todo,Function name: parse_input_parameters.
+40C4E8,rpl_fcntl,Todo,Function name cannot be determined from code fragment.
+40C7CE,clear_ungetc_buffer_preserving_position,Todo,"""Function with Stack Manipulation and Conditional Jump"""
+40C802,rpl_fflush,Todo,"""Stream reading function"""
+40C84D,rpl_fseeko,Todo,"""File Seek Function"""
+40C907,__argmatch_die,Todo,"""Exit with Status Retrieval"""
+40C918,argmatch,Todo,rbp function or stack frame setup
+40CA47,argmatch_invalid,Todo,"""Function Prologue and Epilogue"""
+40CAD3,argmatch_valid,Todo,Function with Memory Comparison and Error Handling.
+40CC18,__xargmatch_internal,Todo,Function name is not provided.
+40CC9E,argmatch_to_argument,Todo,"""Memory Comparison Function"""
+40CD2A,c_strcasecmp,Todo,Function Name: compare_two_strings
+40CDA2,close_stream,Todo,"""File error handling function"""
+40CE2D,get_charset_aliases,Todo,"""Function Initialization"""
+40D307,locale_charset,Todo,"""Langinfo Initialization"""
+40D3D5,mmalloca,Todo,Function Initialization.
+40D498,freea,Todo,"""Function with PUSH and MOV instructions"""
+40D571,mb_width_aux,Todo,"""Set Character Width and Control Check Function"""
+40D5A8,mb_copy,Todo,Stack allocation and memcpy function
+40D64A,is_basic,Todo,"""Bitwise Shift and Test"""
+40D680,c_isalnum,Todo,"""Character validation function"""
+40D6B4,c_isalpha,Todo,"""ValidateLetterInRange"""
+40D6DE,c_isascii,Todo,Function with integer comparison and return.
+40D6FE,c_isblank,Todo,"""Check input value"""
+40D722,c_iscntrl,Todo,"""Check if input is valid"""
+40D748,c_isdigit,Todo,CheckHexDigit
+40D768,c_isgraph,Todo,CheckValue.
+40D788,c_islower,Todo,"""Check Input Range Function"" or ""Input Validation Function"""
+40D7A8,c_isprint,Todo,"""Check Input Range Function"""
+40D7C8,c_ispunct,Todo,"""Character validation function"""
+40D806,c_isspace,Todo,Variable input validity check.
+40D82D,c_isupper,Todo,Subtract and Compare Function
+40D84D,c_isxdigit,Todo,Function with variable initialization and jump.
+40D879,c_tolower,Todo,"""Check Range Function"""
+40D898,c_toupper,Todo,Function with variable arithmetic operations.
+40D940,atexit,Todo,"""Function using unk_613328"""
+40D970,stat_0,Todo,"""File_Exist_Check"""
+40D980,fstat,Todo,"""FileStat Function"""
+40D990,lstat,Todo,"""File Access Check Jump"""
+401970,.sigemptyset,Todo,"""Jump to Stored Address"""
+401F00,.memcpy,Todo,Calculation or Comparison Function.
+401F80,.putchar,Todo,set_flag_or_jump_if_flag_set
+401FA0,.localtime,Todo,"""Memory comparison and function call"""
+401FC6,get_char_oct_or_hex_escape,Todo,Function Name: strtoul_conversion
+4021A8,get_input_delimiter,Todo,Push RBP function
+402274,noop,Todo,"""Function Prologue and Epilogue"" or ""Stack Frame Setup and Teardown"""
+40227B,fail_due_to_env_size,Todo,_translate_error_message
+4022A3,smaller_of,Todo,"""Variable comparison and return"""
+4022C5,fopen_cloexec_for_read_only,Todo,"""Function Setup"" or ""File Initialization"""
+403163,read_line,Todo,Function Prologue.
+40373B,read_string,Todo,Function Name: Push RBP and Move RSP
+403917,print_args,Todo,Function Name: Unknown/Unspecified
+403AEC,extract_interval,Todo,"""Set Environment Variable"""
+403C1E,prep_child_for_exec,Todo,Function with File I/O and Error Handling
+403CE9,xargs_do_exec,Todo,Function Prologue
+404049,exec_if_possible,Todo,"""Function Prologue"""
+404095,add_proc,Todo,Function Setup.
+404198,wait_for_proc,Todo,Function Prologue.
+404470,wait_for_proc_all,Todo,"""Check Process Status and Exit Function"""
+4044E6,increment_proc_max,Todo,Function Prologue and Epilogue
+404516,decrement_proc_max,Todo,"""Decrease Counter Function"""
+40453A,parse_num,Todo,Stack Overflow Handler Function
+4046D7,usage,Todo,"""print message function"""
+40499B,display_findutils_version,Todo,Function for Writing to Error Message.
+404A1E,bc_args_complete,Todo,"""Function with Stack Allocation"""
+404A63,bc_do_insert,Todo,Function prologue.
+404C57,update_limit,Todo,"""Function to manipulate variables"""
+404D90,copy_args,Todo,Function Prologue
+404EAE,bc_do_exec,Todo,func_push_rbp_sub_rsp_var_assign_call_mov_jz_test_jmp_leave_retn
+405082,bc_argc_limit_reached,Todo,"""Check Var and Return"""
+4050E4,bc_push_arg,Todo,Function Prologue or Stack Frame Initialization.
+4053FB,bc_get_arg_max,Todo,"""System Configuration Retrieval Function"""
+40542A,cb_exec_noop,Todo,Function Prologue
+405444,bc_size_of_environment,Todo,Function name: env_var_length
+405492,bc_init_controlinfo,Todo,"""Function initialization"""
+4055D6,bc_use_sensible_arg_max,Todo,"""Bounds Check Function"""
+405631,bc_init_state,Todo,Function initialization or Array Initialization.
+40571C,bc_clear_args,Todo,"""Save Arguments and Clear Memory"""
+405760,exceeds,Todo,set_env_var
+405824,bc_args_exceed_testing_limit,Todo,"""Push, move and compare"""
+4058A6,get_proc_max_fd,Todo,function_init
+405973,get_max_fd,Todo,"""Function Setup"" or ""Stack Frame Initialization"""
+405A04,visit_open_fds,Todo,"""Function with push, mov, sub"""
+405BB2,fd_is_cloexec,Todo,Function with Arithmetic Calculation.
+405BDC,remember_fd_if_non_cloexec,Todo,Function with Stack Variables and Array Access.
+405C8C,remember_non_cloexec_fds,Todo,Function prologue.
+405D18,find_first_leak_callback,Todo,Function Set Variable and Check
+405DCA,find_first_leaked_fd,Todo,Function with Memory Allocation
+405E51,o_cloexec_works,Todo,Initialize file and check for error.
+405E9C,open_cloexec,Todo,Function Prologue
+406029,forget_non_cloexec_fds,Todo,"""Memory deallocation function"""
+406055,complain_about_leaky_fds,Todo,Function Entry or Error Handler.
+4060D5,safe_atoi,Todo,"""Convert string to integer"""
+4062B2,decide_size,Todo,"""Variable Assignment and Comparison"""
+406300,extendbuf,Todo,Stack Allocation and Memory Management
+406405,xextendbuf,Todo,Function prologue.
+406452,set_cloexec_flag,Todo,Function with Multiple Operations
+4064CD,dup_cloexec,Todo,Function with Variable Initialization.
+4064F3,close_stdin_set_file_name,Todo,Save argument and return address.
+406509,close_stdin,Todo,"""Input Validation Function"""
+406614,close_stdout_set_file_name,Todo,"""Save Parameter to Memory"""
+40662A,close_stdout_set_ignore_EPIPE,Todo,"Function Name: ""Save_and_Return"""
+406640,close_stdout,Todo,Function Prologue.
+40672C,opendir_safer,Todo,dir_open
+4067E5,open_safer,Todo,"""File open function"""
+40691D,knuth_morris_pratt,Todo,Function prologue.
+407A5B,mbuiter_multi_next,Todo,"""Function Prologue"""
+407C47,mbuiter_multi_reloc,Todo,"""Addition function"""
+407C6D,mbuiter_multi_copy,Todo,"""Function Setup"""
+407CF4,set_program_name,Todo,Function for String Manipulation
+407DDC,clone_quoting_options,Todo,"""Function with Error Handling"""
+407E28,get_quoting_style,Todo,Function prologue with conditional return.
+407E46,set_quoting_style,Todo,Function prologue with assignments.
+407E6B,set_char_quoting,Todo,"""Function name not specified"""
+407EF3,set_quoting_flags,Todo,"""Function to Set a Variable"""
+407F26,rootunit,Todo,"""Function Setup"""
+407F81,quoting_options_from_style,Todo,"""Function Initialization"" or ""Stack Frame Setup"""
+408019,gettext_quote,Todo,gettext function parameter initialization and comparison
+408E4E,quotearg_buffer,Todo,Function Prologue.
+408EF0,quotearg_alloc,Todo,"""Function with stack variables"""
+408F22,quotearg_alloc_mem,Todo,Function with Variable Initialization.
+40904E,quotearg_free,Todo,"""Free Memory Function"""
+4090FA,quotearg_n_options,Todo,Function Prologue.
+4093A5,quotearg_n,Todo,Function prologue.
+4093D0,quotearg_n_mem,Todo,Function Prologue
+4093FC,quotearg,Todo,Function Prologue
+40941B,quotearg_mem,Todo,Function setup and call.
+409442,quotearg_n_style,Todo,Stack Setup Function.
+4094A6,quotearg_n_style_mem,Todo,"""Function prologue"""
+409508,quotearg_style,Todo,Function prologue.
+40952C,quotearg_style_mem,Todo,Function setup with variable initialization.
+409558,quotearg_char_mem,Todo,Function Prologue
+40960F,quotearg_char,Todo,"""Function Prologue"""
+409639,quotearg_colon,Todo,"""Function with Push, Move, Call"""
+409658,quotearg_colon_mem,Todo,"""Function with local variables and function call"""
+409682,quotearg_n_style_colon,Todo,Function setup prologue.
+409740,quotearg_n_custom,Todo,"""Function Setup"""
+409776,quotearg_n_custom_mem,Todo,Function Name: Init Stack Frame with Variables.
+409830,quotearg_custom,Todo,Function Prologue.
+40985F,quotearg_custom_mem,Todo,Function setup or function prologue.
+409899,quote_n_mem,Todo,Function prologue.
+4098C5,quote_mem,Todo,Function Setup.
+4098EC,quote_n,Todo,Function Prologue.
+409915,quote,Todo,Function name: sub_4098EC_wrapper
+409934,safe_read,Todo,read file function or file input function
+4099A4,strnlen1,Todo,"""Initiate Memory Comparison Function"""
+4099EE,dup_safer,Todo,Function to Call with Arguments
+409A14,fd_safer,Todo,Function to close file descriptor.
+409A64,version_etc_arn,Todo,Function Prologue
+409FD3,version_etc_ar,Todo,Function Prologue
+40A042,version_etc_va,Todo,Stack Frame Initialization.
+40A144,version_etc,Todo,Function prologue.
+40A224,emit_bug_reporting_address,Todo,print message function
+40A28E,xnmalloc,Todo,"Function Name: ""mul_and_handle_errors"""
+40A2FB,xnrealloc,Todo,"Function name: ""Multiplies and Calls Subroutine"""
+40A376,x2nrealloc,Todo,"""Function Setup"""
+40A425,xcharalloc,Todo,Function Prologue.
+40A43F,xmalloc,Todo,"""Allocate Memory Function"""
+40A474,xrealloc,Todo,"""Function with memory allocation and deallocation"""
+40A4D5,x2realloc,Todo,Function prologue.
+40A4FF,xzalloc,Todo,Function Name: setMemoryToZero
+40A530,xcalloc,Todo,Allocate memory function.
+40A569,xmemdup,Todo,Function name: copy_data_from_src_to_dest.
+40A59D,xstrdup,Todo,Function with String Manipulation.
+40A5CA,xalloc_die,Todo,"""Display Error and Abort Function"""
+40A5FF,bkm_scale,Todo,Signed Integer Division and Modulus
+40A65E,bkm_scale_by_power,Todo,"""Function to Perform Task X"""
+40A69F,xstrtoul,Todo,Function name: parse_input_params
+40AA91,rpl_fcntl,Todo,Function setup or Entry function setup.
+40AD77,clear_ungetc_buffer_preserving_position,Todo,"""Function with stack allocation"""
+40ADAB,rpl_fflush,Todo,"""Function with File I/O Operations"""
+40ADF6,freadahead,Todo,"""Check if value is valid"""
+40AE64,rpl_fseeko,Todo,"""File Seek Function"""
+40AF1E,c_strcasecmp,Todo,"""Function Prologue"" or ""Stack Setup"""
+40AF96,close_stream,Todo,"""File operations function"""
+40B021,get_charset_aliases,Todo,"""Function Prologue"""
+40B4FB,locale_charset,Todo,"""langinfo initialization function"""
+40B5C9,mmalloca,Todo,Set Variable and Allocate Memory.
+40B68C,freea,Todo,"""Function Entry"""
+40B765,mb_width_aux,Todo,"""Push-Sub-Wcwidth"""
+40B79C,mb_copy,Todo,Function for copying memory or data.
+40B83E,is_basic,Todo,"""shift register bit check"""
+40B874,mbslen,Todo,"""Function Name"""
+40B940,c_isalnum,Todo,Hexadecimal Conversion Function
+40B974,c_isalpha,Todo,"""Character validation"""
+40B99E,c_isascii,Todo,Function to check integer value limit.
+40B9BE,c_isblank,Todo,Input validation function.
+40B9E2,c_iscntrl,Todo,Function name: check_value_range
+40BA08,c_isdigit,Todo,"""Check input validity function"""
+40BA28,c_isgraph,Todo,"""Check Value Range Function"""
+40BA48,c_islower,Todo,"""Subtract and Compare Function"""
+40BA68,c_isprint,Todo,"""Check Valid Input Range"""
+40BA88,c_ispunct,Todo,"""Compare and Modify Integer Value"""
+40BAC6,c_isspace,Todo,Function to check input value range.
+40BAED,c_isupper,Todo,"""Check if Value is in Range"""
+40BB0D,c_isxdigit,Todo,"""VarCompare"" or ""VarCheck"" or ""VarValidation"""
+40BB39,c_tolower,Todo,"""Subtract and Compare Function"""
+40BB58,c_toupper,Todo,Function Prolog
+40BC00,atexit,Todo,Function using atexit and unknown address.
+401A80,.perror,Todo,Jump to Memory Address.
+402030,.qsort,Todo,"""Compare and Jump Function"""
+4020B0,.textdomain,Todo,Set flag and call function.
+4020D0,.fclose,Todo,"""Memory Comparison and Function Call"""
+4020F6,banner,Todo,"""Function Setup"""
+40234B,bind_F12,Todo,Function Prologue
+4023C3,getch_fl,Todo,Terminal Input Function.
+402638,wait_user,Todo,"""Screen clear function"""
+40279D,display_speed,Todo,Function Prologue
+402D62,do_keybind,Todo,Function Name: sub_402D90
+402ED0,do_tutorial,Todo,"""Stream Printing Function"""
+402FEA,do_instruction,Todo,"""Prints Screen Content"""
+4030DD,is_error_too_high,Todo,Function with Push and Sprintf/Sscanf
+404621,do_clear,Todo,"""Clear Screen Function"""
+404686,do_goto,Todo,"""String Manipulation Function"""
+40472D,do_query_repeat,Todo,"""Console Print Function"""
+4049D8,do_query_simple,Todo,"Function Name: ""ClearLine"""
+404B62,do_query,Todo,Function to clear console screen and print text.
+404DC1,do_error_max_set,Todo,"Function Name: ""string_compare_and_convert"""
+40520A,do_on_failure_label_set,Todo,Function Name: Assembly_Subroutine
+405436,parse_file,Todo,Function Name: stream_operations
+405714,indent_to,Todo,Function Prologue.
+40574B,print_usage_item,Todo,parse_input_function
+405A83,print_help,Todo,Function Prologue.
+405DDE,parse_cmdline,Todo,Function arguments initialization.
+40641F,open_script,Todo,"""File Open function"""
+406E2B,do_bell,Todo,"""Print and clean up function"""
+406E4B,get_best_speed,Todo,Function Setup or Memory Allocation Function
+40717C,put_best_speed,Todo,"""Function with File I/O"""
+40737F,node_new,Todo,Allocate Memory Function
+4073C0,node_delete,Todo,"""Allocate and free memory function"""
+4073F6,append_menu_history,Todo,"""Function Prologue"""
+407566,prepare_to_go_back,Todo,Stream Initialization Function.
+408199,__update_last_label,Todo,"""Function with string manipulation and memory allocation"""
+408208,hash_label,Todo,"""Function"""
+40824E,line_is_empty,Todo,"""Push RBP function"""
+4082A2,check_script_file_with_current_encoding,Todo,"""Function Setup"""
+408346,build_label_index,Todo,Initiate file stream.
+4086EE,get_script_line,Todo,parse_input_stream
+4088DF,buffer_command,Todo,"""Function Prologue"""
+408A07,seek_label,Todo,Stream opening function.
+408B86,do_exit,Todo,"""File Close and Screen Clear Function"""
+408C26,fatal_error,Todo,Function to Clear and Print Error Messages.
+408CF2,widen,Todo,Function setup or String conversion function.
+408D6E,convertUTF8ToCurrentEncoding,Todo,_init_iconv_function
+408F1E,convertFromUTF8,Todo,"Function name: ""allocate_and_copy_string"""
+408FE6,mvwideaddstr,Todo,"""Function to Move Cursor and Call Subroutine"""
+40901E,wideaddstr,Todo,"""Function name not provided"""
+40908B,wideaddstr_rev,Todo,Function name: set_screen_highlight
+4090D8,wideaddch,Todo,Function with no specific name or too specific to determine.
+409194,wideaddch_rev,Todo,"""wattr_on/off function"""
+4091DE,utf8len,Todo,"""Function Start"" or ""Stack Frame Setup"""
+40923C,iswideupper,Todo,"""Stack frame setup and character check"""
+40927E,towideupper,Todo,Function with Local Variable Initialization
+4092AB,get_widech,Todo,process_input or handle_input.
+401650,sub_401650,Todo,"""Jump to and Push CS Address"""
+401B70,deregister_tm_clones,Todo,CheckValueInRange
+401BF0,.init_proc,Todo,Compare and set byte function
+401C10,sub_401C10,Todo,"""Memory Check and Function Execution"""
+401C36,bi_init,Todo,Set Value and Check for Non-Negative.
+401C72,send_bits,Todo,"""Function with Push and Mov instructions"""
+401DDB,bi_reverse,Todo,"""Bit Counting Function"""
+401E09,bi_windup,Todo,"""Push and Move Function"""
+401F24,copy_block,Todo,"""Push RBP and Variable Manipulation"""
+4020E6,lm_init,Todo,"""Function Prologue"""
+402294,longest_match,Todo,"""Function Prologue"""
+4024DC,fill_window,Todo,"""Memory Allocation Function"""
+4027C9,deflate_fast,Todo,Function #1
+402BB6,deflate,Todo,Function name not provided.
+403172,try_help,Todo,Function that prints error message.
+4031A0,help,Todo,Function with printf and puts
+4031F1,license,Todo,Print and Compare Function
+403249,version,Todo,Function prologue and epilogue.
+403269,progerror,Todo,Function with error reporting.
+403A9B,input_eof,Todo,"""Function with Push and Move Instructions"""
+403AFE,treat_stdin,Todo,"""Function with Push and Mov Instructions"""
+403E12,atdir_eq,Todo,"""Memory Comparison Function"""
+403E74,atdir_set,Todo,"""Function initialization"" or ""File operation setup"""
+4047E7,create_outfile,Todo,Function Initialization or Process Initialization.
+4049E6,get_suffix,Todo,Function prologue
+404BE2,open_and_stat,Todo,"""Function with variable initialization"""
+404CCE,open_input_file,Todo,Function Initialization or Initializing Function
+404F21,make_ofname,Todo,Function Name: Push_RBP_SubESP_Call_Strcpy
+40513B,discard_input_bytes,Todo,Function prologue
+405E2F,do_list,Todo,"""Function Prologue"""
+406315,shorten_name,Todo,"""Function"" or ""String Manipulation Function"""
+4064CE,check_ofname,Todo,"""Initialize program stack"""
+4065D0,do_chown,Todo,Function for changing file ownership.
+4065FD,copy_stat,Todo,Function Setup or Stack Setup.
+406849,treat_dir,Todo,"""Directory listing function"""
+406AC5,install_signal_handlers,Todo,"""sigaction function"""
+406CB8,do_exit,Todo,"""Function setup and execution"""
+406D05,finish_out,Todo,Function setup and call.
+406D2B,remove_output_file,Todo,"""Function Setup"""
+406DC4,abort_gzip,Todo,"""Function Call with Parameter Setting"""
+406DD7,abort_gzip_signal,Todo,"""Function with Signal Handling"""
+407575,huft_free,Todo,Function name: free_and_return
+407B2D,inflate_stored,Todo,"""Function Prologue"""
+407CFD,inflate_fixed,Todo,"""Function with stack allocation and loops"""
+408777,inflate_block,Todo,Function Setup.
+4088AB,inflate,Todo,Function prologue
+40897E,lzw,Todo,"""Stack initialization and error handling"""
+4089DE,ct_init,Todo,Function Entry Prologue
+408CC0,init_block,Todo,"""Initialize Array Function"""
+408D82,pqdownheap,Todo,"""var_18 to var_8 updates"""
+408F60,gen_bitlen,Todo,"""Stack Frame Initialization"""
+4092F2,gen_codes,Todo,"""Function Prologue"""
+4093EB,build_tree,Todo,"""Function with Stack Manipulation"""
+409771,scan_tree,Todo,Function to set variable values
+409914,send_tree,Todo,Function Prologue or Stack Frame Set-Up.
+409B1E,build_bl_tree,Todo,"""Function with Memory Manipulation"""
+409BB0,send_all_trees,Todo,"""Function with Memory Allocation"""
+409C5D,flush_block,Todo,FunctionSetup
+409EAA,ct_tally,Todo,"""Function Prologue"""
+40A0C7,compress_block,Todo,"""Function Prologue"""
+40A2FF,set_file_type,Todo,"""Init and Loop Function"""
+40A39A,fillbuf,Todo,"""Move and modify stack"" or ""Stack manipulation"""
+40A48F,getbits,Todo,"""Function with Push and Mov Instructions"""
+40A4C8,init_getbits,Todo,"""Initialize variables"""
+40A4F6,make_table,Todo,"""Function Setup"""
+40A9C5,read_pt_len,Todo,Function x (or sub_x)
+40AB3D,read_c_len,Todo,Function Push Rbp Mov Rsp
+40AD06,decode_c,Todo,"""setup stack and variables"""
+40AE0A,decode_p,Todo,"""Process Input Function"""
+40AECD,huf_decode_start,Todo,"""Function_Setup"""
+40AEE3,decode_start,Todo,Function prologue with call and initialization.
+40AF03,decode,Todo,"""Function Prologue with Variables Initialization"""
+40B056,unlzh,Todo,"""Function Setup"""
+40B86C,read_byte,Todo,"""Initiate Stack and Variables"""
+40B8C3,read_tree,Todo,Function Initialization
+40BA81,build_tree_0,Todo,"""Push RBP Function"""
+40BB9B,unpack,Todo,Function prologue.
+40BDC0,check_zipfile,Todo,"""stack frame initialization"""
+40BFC1,unzip,Todo,Function Prologue.
+40C61F,copy,Todo,Function with Memory Allocation and Error Handling.
+40C6F1,updcrc,Todo,Function Name: Push RBX and XOR Operation
+40C764,clear_bufs,Todo,"""Initialize Memory"""
+40C7A4,fill_inbuf,Todo,Function setup or Prologue
+40C875,read_buffer,Todo,"""Buffered Input Function"" or ""Read Input Function"""
+40C931,write_buffer,Todo,"""Function with Push and Write"""
+40C967,flush_outbuf,Todo,"""Function Prologue and Epilogue"""
+40C9B5,flush_window,Todo,"""Function Prologue"""
+40CA1F,write_buf,Todo,Function Prologue
+40CA6D,strlwr,Todo,"""Stack Frame Initialization Function"""
+40CAE0,WriteIncludes,Todo,Function prologue.
+40CB02,xunlink,Todo,Function to Delete a File.
+40CB22,make_simple_name,Todo,"""String manipulation"""
+40CB7F,add_envopt,Todo,"""Function with Environmental Variables Parsing"""
+40CD07,gzip_error,Todo,"""Print Error Message Function"""
+40CD44,xalloc_die,Todo,print_error_message
+40CD6D,warning,Todo,Function with Stack Allocation and Error Output.
+40CDC6,read_error,Todo,"""Error Printing Function"""
+40CE3A,write_error,Todo,"""Error Handling Function"""
+40CE88,display_ratio,Todo,"""Stream Conversion Function"""
+40CEF5,fprint_off,Todo,"""ASCII to Decimal Conversion Function"""
+40D7E5,file_read,Todo,"Function Name: ""Sub_Routine_Name"""
+40D855,last_component,Todo,"""String Parsing"" or ""Path Parser"""
+40D8BE,base_len,Todo,"""Stack Setup and String Check"""
+40D90C,open_safer,Todo,"""File Open Function"""
+40DA44,gettime,Todo,"""Stack Timing Function"""
+40DABC,openat_safer,Todo,File Open Function.
+40DBF6,direntry_cmp_name,Todo,Function Name: Compare Two Strings
+40DC31,streamsavedir,Todo,Function initialization or Directory reading.
+40DF90,savedir,Todo,"""Directory function"""
+40E012,get_stat_atime_ns,Todo,Function Prologue.
+40E024,get_stat_ctime_ns,Todo,Function Prologue or Stack Frame Setup.
+40E036,get_stat_mtime_ns,Todo,"""Get PE Header Address Function"""
+40E048,get_stat_birthtime_ns,Todo,"""Function with local variable initialization"""
+40E057,get_stat_atime,Todo,Function name: getDataFromStruct.
+40E06D,get_stat_ctime,Todo,"""Get Object Offset"""
+40E083,get_stat_mtime,Todo,"""Function Prologue"""
+40E099,get_stat_birthtime,Todo,Function Prologue
+40E0BB,stat_time_normalize,Todo,"""Function with Local Variables"""
+40E0CB,fd_safer,Todo,"""Function to Close File Descriptor"""
+40E11B,validate_timespec,Todo,"""Check Input Validity Function"""
+40E281,update_timespec,Todo,"""Function with Push, Mov, Sub, and Jmp"""
+40E3AA,fdutimens,Todo,Function with File Timestamps Editing.
+40E9F2,utimens,Todo,Function Prologue.
+40EA19,lutimens,Todo,"""RBX initialization function"""
+40ECF6,xnmalloc,Todo,Function for Multiplication with Stack Check
+40ED6D,xnrealloc,Todo,"""Function setup and calculation"""
+40EDF2,x2nrealloc,Todo,Function prologue.
+40EEF3,xcharalloc,Todo,Function prologue.
+40EF0D,xmalloc,Todo,"""Memory Allocation Function"" or ""Malloc Wrapper"""
+40EF42,xrealloc,Todo,"""Memory Allocation Function"""
+40EFA3,x2realloc,Todo,Function Setup or Variable Initialization.
+40EFCD,xzalloc,Todo,"""Function to Initialize Memory Block"""
+40EFFE,xcalloc,Todo,"""Allocate Memory Function"""
+40F086,xmemdup,Todo,Function with Memory Copy and Stack Allocation.
+40F0BA,xstrdup,Todo,Function with string operation.
+40F0E7,yesno,Todo,"""Input validation function"""
+40F132,rpl_fclose,Todo,"""File Error Handling Function"""
+40F1EA,rpl_fcntl,Todo,"""Function Prologue"""
+40F4D0,clear_ungetc_buffer_preserving_position,Todo,Function Name: checkFlag.
+40F504,rpl_fflush,Todo,"""File Input/Output Function"""
+40F54F,rpl_fseeko,Todo,"""File seek function"" or ""File position seek"""
+40F609,opendir_safer,Todo,"""Open Directory Function"""
+40F6D9,dup_safer,Todo,Function with Memory Allocation and Call to sub_40F1EA.
+40F780,stat_0,Todo,"""file_stat_function"""
+40F790,fstat,Todo,"""FileStat Function"""
+40F7A0,lstat,Todo,"""File Stat Request"""
